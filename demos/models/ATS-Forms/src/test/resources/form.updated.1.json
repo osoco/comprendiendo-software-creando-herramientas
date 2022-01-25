@@ -1,0 +1,742 @@
+{
+  "body": {
+    "sections": [
+      {
+        "i18n": [
+          {
+            "text": "Contact Information",
+            "lang": "EN"
+          },
+          {
+            "text": "Información de Contacto",
+            "lang": "ES"
+          }
+        ],
+        "id": "reg-contact",
+        "questions": [
+          {
+            "required": true,
+            "text": [
+              {
+                "text": "Name",
+                "lang": "EN"
+              },
+              {
+                "text": "Nombre",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-name",
+            "type": "TEXT"
+          },
+          {
+            "required": true,
+            "text": [
+              {
+                "text": "Family name",
+                "lang": "EN"
+              },
+              {
+                "text": "Apellido",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-family-name",
+            "type": "TEXT"
+          },
+          {
+            "required": true,
+            "key": "APPLICANT_KEY",
+            "id": "reg-email",
+            "type": "EMAIL",
+            "text": [
+              {
+                "text": "Contact email",
+                "lang": "EN"
+              },
+              {
+                "text": "Email de contacto",
+                "lang": "ES"
+              }
+            ]
+          },
+          {
+            "required": true,
+            "text": [
+              {
+                "text": "Phone number (with country code)",
+                "lang": "EN"
+              },
+              {
+                "text": "Número de teléfono (con el código de país)",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-phone",
+            "type": "TEXT"
+          }
+        ]
+      },
+      {
+        "i18n": [
+          {
+            "text": "Participant Information",
+            "lang": "EN"
+          },
+          {
+            "text": "Información del Participante",
+            "lang": "ES"
+          }
+        ],
+        "id": "reg-participant",
+        "questions": [
+          {
+            "responses": {
+              "options": [
+                {
+                  "text": [
+                    {
+                      "text": "Individual",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "Individual",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "fe8a10bb-fffc-4bac-9b7a-82915019f07d"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "Grupo",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "Group",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "fb55e4b8-ad69-496b-8d70-6bf557a0199b"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "Compañía",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "Company",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "ede34919-935e-4c85-8475-b247f7b6b8ff"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "Universidad",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "University",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "88a7100d-4ec5-4e39-a7ac-32016a9c6110"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "Otro",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "Other",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "43ec79f4-4da7-4385-8581-a6254ea3ed90"
+                }
+              ],
+              "type": "TEXT"
+            },
+            "required": true,
+            "id": "reg-participation-type",
+            "type": "SELECT",
+            "text": [
+              {
+                "text": "Participation type",
+                "lang": "EN"
+              },
+              {
+                "text": "Tipo de participación",
+                "lang": "ES"
+              }
+            ]
+          },
+          {
+            "required": true,
+            "text": [
+              {
+                "text": "Team name",
+                "lang": "EN"
+              },
+              {
+                "text": "Nombre del equipo",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-team-name",
+            "type": "TEXT"
+          },
+          {
+            "cols": 12,
+            "required": false,
+            "id": "reg-linkedin",
+            "type": "LINK",
+            "text": [
+              {
+                "text": "LinkedIn (team members)",
+                "lang": "EN"
+              },
+              {
+                "text": "LinkedIn (miembros del equipo)",
+                "lang": "ES"
+              }
+            ]
+          },
+          {
+            "responses": {
+              "options": [
+                {
+                  "text": [
+                    {
+                      "text": "Estudiante",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "Student",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "4074bd92-d429-4adc-a756-8b90c203f74e"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "Académico/Investigador",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "Academic/Investigator",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "b0ae46a8-7cdf-46cb-8fd0-76bd3eb3ec0b"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "Profesional",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "Working Professional",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "9530bff8-5ada-440c-98fd-12426a1745fc"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "Retirado",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "Retired",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "78d13ae9-cc31-4942-b18e-62c8bf8f1a7e"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "Otro",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "Other",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "22342cf2-d564-445f-9b86-c9d9760786b6"
+                }
+              ],
+              "type": "TEXT"
+            },
+            "required": false,
+            "id": "reg-profile",
+            "type": "MULTISELECT",
+            "text": [
+              {
+                "text": "Profile",
+                "lang": "EN"
+              },
+              {
+                "text": "Perfil",
+                "lang": "ES"
+              }
+            ]
+          },
+          {
+            "responses": {
+              "options": [
+                {
+                  "text": [
+                    {
+                      "text": "Arquitectura",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "Architecture",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "49ba96ca-5704-4ea0-ab71-470ce11c1b6a"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "Arte",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "Arts",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "c7e46e39-4d7b-44b5-94d8-d24e31a45829"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "Banca y Finanzas",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "Banking & Finance",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "87845622-cd2c-42da-a4d5-dd18f499d7c1"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "Communicación",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "Communication",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "5b83bd2e-b191-49b0-90a5-7ca1aed201f8"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "Educación",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "Education",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "ac332a3e-cf5e-42fb-8c9f-04bce9bef6c1"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "Ingeniería",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "Engineering",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "5d815dd8-6c69-4ead-8c88-07f24f3fce31"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "Salud",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "Health Care",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "94a9aa6e-7fc1-4baa-bef0-279b871e9bb1"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "IT",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "IT",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "91d86bd5-ade4-4568-94f6-77c027d686d5"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "Legal",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "Law",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "c59c51f7-83db-4d26-a211-974110a7217c"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "Servicios Públicos",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "Public Services",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "8d5a7c89-f3fe-4dce-8eb1-2b7948fe88db"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "Ciencias",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "Science",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "def6a33e-5e18-4eea-9142-8e63cedcb8cb"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "Otros",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "Other",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "0d4e10fe-df01-4e65-bf0d-a578e58df79e"
+                }
+              ],
+              "type": "TEXT"
+            },
+            "required": false,
+            "id": "reg-sector",
+            "type": "SELECT",
+            "text": [
+              {
+                "text": "Sector",
+                "lang": "EN"
+              },
+              {
+                "text": "Sector",
+                "lang": "ES"
+              }
+            ]
+          },
+          {
+            "required": true,
+            "text": [
+              {
+                "text": "Country",
+                "lang": "EN"
+              },
+              {
+                "text": "País",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-country",
+            "type": "COUNTRY"
+          },
+          {
+            "required": true,
+            "text": [
+              {
+                "text": "City",
+                "lang": "EN"
+              },
+              {
+                "text": "Ciudad",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-city",
+            "type": "TEXT"
+          },
+          {
+            "responses": {
+              "options": [
+                {
+                  "text": [
+                    {
+                      "text": "<18",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "<18",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "fd1cb5d6-0a43-471e-84b6-dbc24dfc85c9"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "18-25",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "18-25",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "a5c71f8e-f474-46e5-8b50-071c2b4effcc"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "26-35",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "26-35",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "5877dbcd-b250-4b36-b077-ea813f301ec8"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "36-45",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "36-45",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "975da636-70bc-440a-8433-eb4f837bdf61"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "46-55",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "46-55",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "0d44f695-553b-4b7a-8f42-ad028a2313d6"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "56-65",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "56-65",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "5085dece-d9e5-4f1d-ab3f-fe0e89043a70"
+                },
+                {
+                  "text": [
+                    {
+                      "text": "66<",
+                      "lang": "ES"
+                    },
+                    {
+                      "text": "66<",
+                      "lang": "EN"
+                    }
+                  ],
+                  "value": "7fdd4310-3a61-4c36-bdb7-a7567280ab69"
+                }
+              ],
+              "type": "TEXT"
+            },
+            "required": false,
+            "id": "reg-age",
+            "type": "SELECT",
+            "text": [
+              {
+                "text": "Age",
+                "lang": "EN"
+              },
+              {
+                "text": "Edad",
+                "lang": "ES"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "i18n": [
+          {
+            "text": "About Your Solution",
+            "lang": "EN"
+          },
+          {
+            "text": "Sobre to Solución",
+            "lang": "ES"
+          }
+        ],
+        "id": "reg-solution",
+        "questions": [
+          {
+            "required": true,
+            "cols": 12,
+            "key": "APPLICATION_KEY",
+            "id": "reg-title",
+            "type": "TEXT",
+            "text": [
+              {
+                "text": "Solution title",
+                "lang": "EN"
+              },
+              {
+                "text": "Título de la solución",
+                "lang": "ES"
+              }
+            ]
+          },
+          {
+            "required": true,
+            "maxLength": 200,
+            "id": "reg-description",
+            "type": "TEXT",
+            "text": [
+              {
+                "text": "Brief description",
+                "lang": "EN"
+              },
+              {
+                "text": "Breve descripción",
+                "lang": "ES"
+              }
+            ]
+          },
+          {
+            "cols": 12,
+            "required": true,
+            "id": "reg-link",
+            "type": "LINK",
+            "text": [
+              {
+                "text": "Link to the project (uploaded in ...)",
+                "lang": "EN"
+              },
+              {
+                "text": "Link al proyecto (subido en ...)",
+                "lang": "ES"
+              }
+            ]
+          },
+          {
+            "required": false,
+            "text": [
+              {
+                "text": "Any other document? (URL)",
+                "lang": "EN"
+              },
+              {
+                "text": "Documentación adicional (URL)",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-document",
+            "type": "LINK"
+          },
+          {
+            "required": false,
+            "text": [
+              {
+                "text": "Any other video? (URL)",
+                "lang": "EN"
+              },
+              {
+                "text": "Video adicional (URL)",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-video",
+            "type": "LINK"
+          }
+        ]
+      }
+    ],
+    "summarySentence": null,
+    "version": 1,
+    "accountId": null,
+    "recoveryZone": null,
+    "defaultLanguage": "en",
+    "contestKey": "Open Challenge Regional",
+    "gdpr": null,
+    "id": "41f1bf30-ca12-0d00-9971-99130e29ea98",
+    "legalConditions": null,
+    "canSaveDraft": true,
+    "confirmationMessage": null,
+    "sendingDataMessage": null,
+    "formKey": "Open Challenge Regional",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "delete": false,
+    "contestId": "9547f320-ca12-0d00-996f-e5670e29ea98",
+    "timeoutErrorMessage": null,
+    "aggregateRootVersion": 1,
+    "contestName": "Open Challenge Regional",
+    "legalConditionsLink": null,
+    "showAllowShareDataCheck": null,
+    "dateCreated": "2019-01-11T11:41:33+00:00"
+  },
+  "meta": {
+    "delete": false,
+    "version": 2,
+    "timestamp": "2019-01-11T11:41:33+00:00",
+    "id": "df06e3e9-8e3b-0d00-895b-ceeb0088296c",
+    "correlationId": "0100badd-47ae-4f77-a0f5-10f4512ed91d",
+    "type": "FORM_UPDATED"
+  }
+}

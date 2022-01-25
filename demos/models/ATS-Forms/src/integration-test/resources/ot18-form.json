@@ -1,0 +1,5042 @@
+{
+  "meta": {
+    "id": "0100badd-47ae-4f77-a0f5-10f4512ed91d",
+    "version": 2,
+    "timestamp": "1970-01-01T00:00:00",
+    "correlationId": "0",
+    "type": "FORM_UPDATED",
+    "aggregate": "Form"
+  },
+  "body": {
+    "id": "ot18-form-1",
+    "contestId": "contest-id-1",
+    "contestKey": "BBVA Open Talent 2018",
+    "formKey": "BBVA Open Talent 2018",
+    "contestName": "Open Talent 2018",
+    "legalConditions": {
+      "link": [
+        {
+          "lang": "ES",
+          "text": "https://openmarketplace.bbva.com/es/terms"
+        },
+        {
+          "lang": "EN",
+          "text": "https://openmarketplace.bbva.com/en/terms"
+        }
+      ],
+      "text": [
+        {
+          "lang": "ES",
+          "text": "He leído y acepto"
+        },
+        {
+          "lang": "EN",
+          "text": "I have read and accept the"
+        }
+      ],
+      "linkText": [
+        {
+          "lang": "ES",
+          "text": "términos legales y condiciones"
+        },
+        {
+          "lang": "EN",
+          "text": "legal terms & conditions"
+        }
+      ]
+    },
+    "canSaveDraft": true,
+    "languages": [
+      "en"
+    ],
+    "defaultLanguage": "en",
+    "showAllowShareDataCheck": true,
+    "recoveryZone": null,
+    "sendingDataMessage": [
+      {
+        "lang": "ES",
+        "text": "Enviando información, espere por favor..."
+      },
+      {
+        "lang": "EN",
+        "text": "Sending data, wait a minute..."
+      }
+    ],
+    "confirmationMessage": {
+      "header": [
+        {
+          "lang": "ES",
+          "text": "Hecho!"
+        },
+        {
+          "lang": "EN",
+          "text": "Done!"
+        }
+      ],
+      "body": [
+        {
+          "lang": "ES",
+          "text": "Has registrado una nueva startup en Open Marketplace."
+        },
+        {
+          "lang": "EN",
+          "text": "You have just registered a new Startup in the Open Marketplace."
+        }
+      ]
+    },
+    "timeoutErrorMessage": {
+      "header": [
+        {
+          "lang": "ES",
+          "text": "Error de conexión"
+        },
+        {
+          "lang": "EN",
+          "text": "Connection error"
+        }
+      ],
+      "body": [
+        {
+          "lang": "ES",
+          "text": "Error de tiempo de conexión"
+        },
+        {
+          "lang": "EN",
+          "text": "There was a connection error, please try again in a few minutes. If this error continues to occurs, please contact the platform administrators to help you resolve the problem."
+        }
+      ]
+    },
+    "gdpr": {
+      "link": [
+        {
+          "lang": "ES",
+          "text": "https://opentalent.bbva.com/politica-de-privacidad/"
+        },
+        {
+          "lang": "EN",
+          "text": "https://opentalent.bbva.com/en/privacy-policy/"
+        }
+      ],
+      "text": [
+        {
+          "lang": "ES",
+          "text": "He leído y entiendo"
+        },
+        {
+          "lang": "EN",
+          "text": "I have read and understand the"
+        }
+      ],
+      "linkText": [
+        {
+          "lang": "ES",
+          "text": "el tratamiento personal de los datos"
+        },
+        {
+          "lang": "EN",
+          "text": "Personal Data Treatment"
+        }
+      ]
+    },
+    "summarySentence": [
+      {
+        "text": [
+          {
+            "lang": "ES",
+            "text": "My startup "
+          },
+          {
+            "lang": "EN",
+            "text": "My startup "
+          }
+        ]
+      },
+      {
+        "questionId": "omp-0-1",
+        "text": [
+          {
+            "lang": "ES",
+            "text": ", operates in the "
+          },
+          {
+            "lang": "EN",
+            "text": ", operates in the "
+          }
+        ]
+      },
+      {
+        "questionId": "omp-3-1",
+        "text": [
+          {
+            "lang": "ES",
+            "text": " sector, in the "
+          },
+          {
+            "lang": "EN",
+            "text": " sector, in the "
+          }
+        ]
+      },
+      {
+        "questionId": "omp-3-3",
+        "text": [
+          {
+            "lang": "ES",
+            "text": " regions, has "
+          },
+          {
+            "lang": "EN",
+            "text": " regions, has "
+          }
+        ]
+      },
+      {
+        "questionId": "omp-3-12",
+        "text": [
+          {
+            "lang": "ES",
+            "text": " as a target audience, and offers a solution for the "
+          },
+          {
+            "lang": "EN",
+            "text": " as a target audience, and offers a solution for the "
+          }
+        ]
+      },
+      {
+        "questionId": "omp-4-1",
+        "text": [
+          {
+            "lang": "ES",
+            "text": " area in BBVA, using a "
+          },
+          {
+            "lang": "EN",
+            "text": " area in BBVA, using a "
+          }
+        ]
+      },
+      {
+        "questionId": "omp-4-3",
+        "text": [
+          {
+            "lang": "ES",
+            "text": " technology."
+          },
+          {
+            "lang": "EN",
+            "text": " technology."
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "ot18-0",
+        "i18n": [
+          {
+            "text": "Registro",
+            "lang": "ES"
+          },
+          {
+            "text": "Registration",
+            "lang": "EN"
+          }
+        ],
+        "questions": [
+          {
+            "id": "ot18-0-1",
+            "required": true,
+            "type": "TEXT",
+            "text": [
+              {
+                "text": "Nombre comercial de la compa\u00f1\u00eda",
+                "lang": "ES"
+              },
+              {
+                "text": "Company commercial brand name",
+                "lang": "EN"
+              }
+            ],
+            "key": "APPLICATION_KEY"
+          },
+          {
+            "id": "ot18-0-2",
+            "required": true,
+            "type": "EMAIL",
+            "text": [
+              {
+                "text": "Email de contacto principal",
+                "lang": "ES"
+              },
+              {
+                "text": "Main contact email",
+                "lang": "EN"
+              }
+            ],
+            "key": "APPLICANT_KEY"
+          },
+          {
+            "id": "ot18-summary",
+            "required": false,
+            "type": "LONGTEXT",
+            "summary": true,
+            "text": [
+              {
+                "text": null,
+                "lang": "ES"
+              },
+              {
+                "text": null,
+                "lang": "EN"
+              }
+            ]
+          },
+          {
+            "id": "ot18-shareData",
+            "required": false,
+            "type": "TEXT",
+            "shareData": true,
+            "text": [
+              {
+                "text": null,
+                "lang": "ES"
+              },
+              {
+                "text": null,
+                "lang": "EN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ot18-1",
+        "i18n": [
+          {
+            "text": "La Compa\u00f1\u00eda",
+            "lang": "ES"
+          },
+          {
+            "text": "Your Company",
+            "lang": "EN"
+          }
+        ],
+        "questions": [
+          {
+            "id": "ot18-1-2",
+            "required": true,
+            "type": "TEXT",
+            "text": [
+              {
+                "text": "Nombre registrado",
+                "lang": "ES"
+              },
+              {
+                "text": "Registered name",
+                "lang": "EN"
+              }
+            ]
+          },
+          {
+            "id": "ot18-1-3",
+            "required": true,
+            "type": "FILE",
+            "subType": "image",
+            "label": [
+              {
+                "text": "Logo",
+                "lang": "ES"
+              },
+              {
+                "text": "Logo",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Logo",
+                "lang": "ES"
+              },
+              {
+                "text": "Logo",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "lang": "ES",
+                "text": "Upload image in JPEG or PNG format and a maximum size of 2MB"
+              },
+              {
+                "lang": "EN",
+                "text": "Upload image in JPEG or PNG format and a maximum size of 2MB"
+              }
+            ],
+            "maxsize": 2097152,
+            "accept": [
+              "image/png",
+              "image/jpeg"
+            ]
+          },
+          {
+            "id": "ot18-1-4",
+            "required": true,
+            "type": "LINK",
+            "subType": "web",
+            "text": [
+              {
+                "text": "P\u00e1gina web",
+                "lang": "ES"
+              },
+              {
+                "text": "Website",
+                "lang": "EN"
+              }
+            ]
+          },
+          {
+            "id": "ot18-1-5",
+            "required": true,
+            "type": "PHONE",
+            "label": [
+              {
+                "text": "Phone Number (with country code)",
+                "lang": "ES"
+              },
+              {
+                "text": "Phone Number (with country code)",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "N\u00famero de tel\u00e9fono",
+                "lang": "ES"
+              },
+              {
+                "text": "Phone Number",
+                "lang": "EN"
+              }
+            ],
+            "preferredCountries": [
+              "es",
+              "us",
+              "gb"
+            ]
+          },
+          {
+            "id": "ot18-1-6",
+            "required": false,
+            "type": "TEXT",
+            "text": [
+              {
+                "text": "ID de Twitter",
+                "lang": "ES"
+              },
+              {
+                "text": "Twitter ID",
+                "lang": "EN"
+              }
+            ],
+            "hint": "@twitter"
+          },
+          {
+            "id": "ot18-1-7",
+            "required": false,
+            "type": "LINK",
+            "subType": "linkedin",
+            "text": [
+              {
+                "text": "LinkedIn",
+                "lang": "ES"
+              },
+              {
+                "text": "LinkedIn",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "lang": "ES",
+                "text": "Add link to the company's LinkedIn profile"
+              },
+              {
+                "lang": "EN",
+                "text": "Add link to the company's LinkedIn profile"
+              }
+            ]
+          },
+          {
+            "id": "ot18-1-8",
+            "required": true,
+            "type": "TEXT",
+            "text": [
+              {
+                "text": "Ciudad de constituci\u00f3n legal",
+                "lang": "ES"
+              },
+              {
+                "text": "City of legal formation",
+                "lang": "EN"
+              }
+            ]
+          },
+          {
+            "id": "ot18-1-9",
+            "required": true,
+            "type": "COUNTRY",
+            "text": [
+              {
+                "text": "Pa\u00eds de constituci\u00f3n legal",
+                "lang": "ES"
+              },
+              {
+                "text": "Country of legal formation",
+                "lang": "EN"
+              }
+            ]
+          },
+          {
+            "id": "ot18-1-10",
+            "required": true,
+            "type": "DATE",
+            "text": [
+              {
+                "text": "Fecha de constituci\u00f3n legal",
+                "lang": "ES"
+              },
+              {
+                "text": "Date of legal formation",
+                "lang": "EN"
+              }
+            ]
+          },
+          {
+            "id": "ot18-1-11",
+            "required": true,
+            "type": "COUNTRY",
+            "label": [
+              {
+                "text": "In which country does the company have its headquarters?",
+                "lang": "ES"
+              },
+              {
+                "text": "In which country does the company have its headquarters?",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Selecciona un pa\u00eds",
+                "lang": "ES"
+              },
+              {
+                "text": "Select country",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "lang": "ES",
+                "text": "From where the company usually operates"
+              },
+              {
+                "lang": "EN",
+                "text": "From where the company usually operates"
+              }
+            ],
+            "key": "REGION_KEY"
+          },
+          {
+            "id": "ot18-1-12",
+            "required": true,
+            "type": "SELECT",
+            "text": [
+              {
+                "text": "N\u00famero de empleados",
+                "lang": "ES"
+              },
+              {
+                "text": "Number of employees",
+                "lang": "EN"
+              }
+            ],
+            "responses": {
+              "type": "TEXT",
+              "options": [
+                {
+                  "value": "afa178e3-ed54-4278-abf8-1aa274548901",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "1-5"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "1-5"
+                    }
+                  ]
+                },
+                {
+                  "value": "865e69bd-1d5f-44a0-80df-2a51ea6b5cb2",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "6-15"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "6-15"
+                    }
+                  ]
+                },
+                {
+                  "value": "aa0da059-32a5-4e75-ba5d-504c30a5e565",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "16-30"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "16-30"
+                    }
+                  ]
+                },
+                {
+                  "value": "5a0bca4b-d0c8-4d65-95a4-cc6fef342c18",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "31-50"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "31-50"
+                    }
+                  ]
+                },
+                {
+                  "value": "08502dbe-9875-4692-96b6-3d91febad385",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": ">50"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": ">50"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "ot18-2",
+        "i18n": [
+          {
+            "text": "Datos del Equipo",
+            "lang": "ES"
+          },
+          {
+            "text": "Team member information",
+            "lang": "EN"
+          }
+        ],
+        "type": "multitab",
+        "tabs": [
+          {
+            "text": [
+              {
+                "lang": "ES",
+                "text": "Main"
+              },
+              {
+                "lang": "EN",
+                "text": "Main"
+              }
+            ],
+            "questions": [
+              {
+                "id": "ot18-2-1-1",
+                "required": true,
+                "type": "TEXT",
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "Name"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Name"
+                  }
+                ]
+              },
+              {
+                "id": "ot18-2-1-2",
+                "required": true,
+                "type": "TEXT",
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "Surname"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Surname"
+                  }
+                ]
+              },
+              {
+                "id": "ot18-2-1-3",
+                "required": true,
+                "type": "DATE",
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "Date of birth"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Date of birth"
+                  }
+                ],
+                "helpText": [
+                  {
+                    "lang": "ES",
+                    "text": "We will only use it to verify that you are of legal age"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "We will only use it to verify that you are of legal age"
+                  }
+                ]
+              },
+              {
+                "id": "ot18-2-1-5",
+                "required": true,
+                "type": "SELECT",
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "Company role"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Company role"
+                  }
+                ],
+                "responses": {
+                  "type": "TEXT",
+                  "options": [
+                    {
+                      "value": "1f334be9-6379-40b5-9d31-02271dd6ddd1",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "CEO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "CEO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "404e9923-6266-41e3-af64-0ef8804d607b",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "CTO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "CTO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "e4cacd10-0e68-4c0b-9c66-f24bbfa5d967",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "COO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "COO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "56be08fb-6869-4c92-95cb-4e0f26f997f4",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "CMO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "CMO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "ba076085-a6c3-4d20-bc3b-45803aa1d838",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "CIO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "CIO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "89a26c15-9e7b-4318-8973-fa3669443ceb",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Data Scientist"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Data Scientist"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "fd6b3f25-11a0-4d05-864d-4a4a8229bd05",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Designer"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Designer"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "728cecde-2ec1-4e15-9ab5-fed4764870a7",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Advisor"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Advisor"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "2c297725-19c1-4f1d-a1b2-00b3c7a2acd8",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Developer"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Developer"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "cf15930d-b10d-458f-99ec-8d34af062d11",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Other"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Other"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "ot18-2-1-6",
+                "required": false,
+                "type": "LINK",
+                "subType": "linkedin",
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "LinkedIn"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "LinkedIn"
+                  }
+                ],
+                "helpText": [
+                  {
+                    "lang": "ES",
+                    "text": "Add link to their LinkedIn profile"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Add link to their LinkedIn profile"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              {
+                "lang": "ES",
+                "text": "2"
+              },
+              {
+                "lang": "EN",
+                "text": "2"
+              }
+            ],
+            "questions": [
+              {
+                "id": "ot18-2-2-1",
+                "type": "TEXT",
+                "required": false,
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "Name"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Name"
+                  }
+                ]
+              },
+              {
+                "id": "ot18-2-2-2",
+                "type": "TEXT",
+                "required": false,
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "Surname"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Surname"
+                  }
+                ]
+              },
+              {
+                "id": "ot18-2-2-4",
+                "type": "EMAIL",
+                "required": false,
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "Contact email"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Contact email"
+                  }
+                ],
+                "hint": "example@email.com"
+              },
+              {
+                "id": "ot18-2-2-5",
+                "type": "SELECT",
+                "required": false,
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "Company role"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Company role"
+                  }
+                ],
+                "responses": {
+                  "type": "TEXT",
+                  "options": [
+                    {
+                      "value": "59c42478-5f40-4863-bc12-927f76bce27c",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "CEO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "CEO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "ddca7411-b4a5-4385-8493-494773160c09",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "CTO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "CTO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "6d5ceee1-4656-45b6-8303-2cb1b635bf31",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "COO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "COO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "44b84fea-db5f-4f68-98a6-3b139d85ae06",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "CMO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "CMO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "1cd4eecd-5159-4e1b-85f9-b6e62f61633c",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "CIO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "CIO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "b55c662d-408a-4925-8b21-b1590356f3d1",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Data Scientist"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Data Scientist"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "a24957e1-3dff-41d7-a92a-02ac2e67f107",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Designer"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Designer"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "b5d8d894-188f-497b-bf0c-2cc6fd758329",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Advisor"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Advisor"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "2d80395d-c100-4327-8803-3546f6e7a089",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Developer"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Developer"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "0c45d034-62a7-48e1-95ef-df672832f425",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Other"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Other"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "ot18-2-2-6",
+                "type": "LINK",
+                "subType": "linkedin",
+                "required": false,
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "LinkedIn"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "LinkedIn"
+                  }
+                ],
+                "helpText": [
+                  {
+                    "lang": "ES",
+                    "text": "Add link to their LinkedIn profile"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Add link to their LinkedIn profile"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              {
+                "lang": "ES",
+                "text": "3"
+              },
+              {
+                "lang": "EN",
+                "text": "3"
+              }
+            ],
+            "questions": [
+              {
+                "id": "ot18-2-3-1",
+                "type": "TEXT",
+                "required": false,
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "Name"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Name"
+                  }
+                ]
+              },
+              {
+                "id": "ot18-2-3-2",
+                "type": "TEXT",
+                "required": false,
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "Surname"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Surname"
+                  }
+                ]
+              },
+              {
+                "id": "ot18-2-3-4",
+                "type": "EMAIL",
+                "required": false,
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "Contact email"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Contact email"
+                  }
+                ],
+                "hint": "example@email.com"
+              },
+              {
+                "id": "ot18-2-3-5",
+                "type": "SELECT",
+                "required": false,
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "Company role"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Company role"
+                  }
+                ],
+                "responses": {
+                  "type": "TEXT",
+                  "options": [
+                    {
+                      "value": "dea68ca9-f990-4733-9fa8-41eb265b9494",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "CEO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "CEO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "3ce13fb1-7870-477f-a333-ba13e99cb2ce",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "CTO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "CTO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "01d9fb77-9466-4d45-b9e3-073b05b923ab",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "COO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "COO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "c154fcb7-7311-4e39-bdd6-4321412fd66e",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "CMO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "CMO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "097b7b77-15fc-48e0-ab36-55175e52c370",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "CIO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "CIO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "cb7e2169-620e-4851-b197-f4a6eb0ea05b",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Data Scientist"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Data Scientist"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "b833194c-508c-4fe1-aa98-2c3428d9d7b5",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Designer"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Designer"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "9bcdac6a-6ebd-4c00-9cf2-2b7b7ba340ad",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Advisor"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Advisor"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "13716a04-fdc8-4ecc-b049-42f1af191c50",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Developer"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Developer"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "9b42d430-b58f-41b5-971a-8978697bc892",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Other"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Other"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "ot18-2-3-6",
+                "type": "LINK",
+                "subType": "linkedin",
+                "required": false,
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "LinkedIn"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "LinkedIn"
+                  }
+                ],
+                "helpText": [
+                  {
+                    "lang": "ES",
+                    "text": "Add link to their LinkedIn profile"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Add link to their LinkedIn profile"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              {
+                "lang": "ES",
+                "text": "4"
+              },
+              {
+                "lang": "EN",
+                "text": "4"
+              }
+            ],
+            "questions": [
+              {
+                "id": "ot18-2-4-1",
+                "type": "TEXT",
+                "required": false,
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "Name"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Name"
+                  }
+                ]
+              },
+              {
+                "id": "ot18-2-4-2",
+                "type": "TEXT",
+                "required": false,
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "Surname"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Surname"
+                  }
+                ]
+              },
+              {
+                "id": "ot18-2-4-4",
+                "type": "EMAIL",
+                "required": false,
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "Contact email"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Contact email"
+                  }
+                ],
+                "hint": "example@email.com"
+              },
+              {
+                "id": "ot18-2-4-5",
+                "type": "SELECT",
+                "required": false,
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "Company role"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Company role"
+                  }
+                ],
+                "responses": {
+                  "type": "TEXT",
+                  "options": [
+                    {
+                      "value": "8ebd3b49-e515-4737-b8af-dd87062b5d7e",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "CEO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "CEO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "d74faf08-db8d-4e19-8147-fb5d38060377",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "CTO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "CTO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "b705c84c-d2d7-490c-9f96-ef4ae10ef053",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "COO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "COO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "f0d13e68-4502-4fc6-af9a-febf426d3e50",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "CMO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "CMO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "6083874c-02b7-461a-b872-254e1a505eca",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "CIO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "CIO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "e75ceec2-f429-4143-809b-8678e6af971d",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Data Scientist"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Data Scientist"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "b9180a96-25ba-482e-8684-fdfcc9505306",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Designer"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Designer"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "9fa2e9be-8ae1-44ce-be28-3b8b723b7cf9",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Advisor"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Advisor"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "d8d09d80-a28a-427d-9d8a-56644ad308a7",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Developer"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Developer"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "0d086d19-d977-4bb0-af14-5f5a76da75ed",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Other"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Other"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "ot18-2-4-6",
+                "type": "LINK",
+                "subType": "linkedin",
+                "required": false,
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "LinkedIn"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "LinkedIn"
+                  }
+                ],
+                "helpText": [
+                  {
+                    "lang": "ES",
+                    "text": "Add link to their LinkedIn profile"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Add link to their LinkedIn profile"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": [
+              {
+                "lang": "ES",
+                "text": "5"
+              },
+              {
+                "lang": "EN",
+                "text": "5"
+              }
+            ],
+            "questions": [
+              {
+                "id": "ot18-2-5-1",
+                "type": "TEXT",
+                "required": false,
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "Name"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Name"
+                  }
+                ]
+              },
+              {
+                "id": "ot18-2-5-2",
+                "type": "TEXT",
+                "required": false,
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "Surname"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Surname"
+                  }
+                ]
+              },
+              {
+                "id": "ot18-2-5-4",
+                "type": "EMAIL",
+                "required": false,
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "Contact email"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Contact email"
+                  }
+                ],
+                "hint": "example@email.com"
+              },
+              {
+                "id": "ot18-2-5-5",
+                "type": "SELECT",
+                "required": false,
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "Company role"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Company role"
+                  }
+                ],
+                "responses": {
+                  "type": "TEXT",
+                  "options": [
+                    {
+                      "value": "1155ceae-12b9-4210-bf4e-7bac6ada2723",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "CEO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "CEO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "cd9cc12f-2ab3-4f42-9179-c8c9bbf618dd",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "CTO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "CTO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "59e0bedf-f7aa-46ab-ac8c-64ecd093190d",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "COO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "COO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "b6fa20c4-a79c-4d9b-84c5-aa83da057191",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "CMO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "CMO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "65cd3e73-0ae8-42e6-b829-a42e7241243b",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "CIO"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "CIO"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "376943c3-a7c2-440b-a645-988ae60be26e",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Data Scientist"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Data Scientist"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "888df799-7740-4bbd-a8f3-a11093aafe8f",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Designer"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Designer"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "801cb4f9-b86d-4465-828c-54f9640f4e5c",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Advisor"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Advisor"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "8b5f79f5-4451-49c4-b90a-687f1e46069d",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Developer"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Developer"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "a3916eb4-8402-435e-9ce5-eb79fa068943",
+                      "text": [
+                        {
+                          "lang": "ES",
+                          "text": "Other"
+                        },
+                        {
+                          "lang": "EN",
+                          "text": "Other"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "ot18-2-5-6",
+                "type": "LINK",
+                "subType": "linkedin",
+                "required": false,
+                "text": [
+                  {
+                    "lang": "ES",
+                    "text": "LinkedIn"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "LinkedIn"
+                  }
+                ],
+                "helpText": [
+                  {
+                    "lang": "ES",
+                    "text": "Add link to their LinkedIn profile"
+                  },
+                  {
+                    "lang": "EN",
+                    "text": "Add link to their LinkedIn profile"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "questions": []
+      },
+      {
+        "id": "ot18-3",
+        "i18n": [
+          {
+            "text": "Tu Negocio",
+            "lang": "ES"
+          },
+          {
+            "text": "Your Business",
+            "lang": "EN"
+          }
+        ],
+        "questions": [
+          {
+            "id": "ot18-3-1",
+            "required": true,
+            "type": "MULTISELECT",
+            "showExpanded": false,
+            "label": [
+              {
+                "text": "Define your product/service depending on the following list",
+                "lang": "ES"
+              },
+              {
+                "text": "Define your product/service depending on the following list",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Selecciona una o varias",
+                "lang": "ES"
+              },
+              {
+                "text": "Choose one or more",
+                "lang": "EN"
+              }
+            ],
+            "responses": {
+              "type": "TEXT",
+              "options": [
+                {
+                  "value": "9f8d0a98-143d-42c6-b031-2a8aecfd42a0",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Alternative Lending"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Alternative Lending"
+                    }
+                  ]
+                },
+                {
+                  "value": "a348f75a-075a-48e0-a6b5-9d61cf0ea5f7",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Anti Money Laundering"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Anti Money Laundering"
+                    }
+                  ]
+                },
+                {
+                  "value": "af35862f-ac46-4bc8-b77a-d9a58e7898fd",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Antifraud"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Antifraud"
+                    }
+                  ]
+                },
+                {
+                  "value": "08276010-7143-454c-b407-91ac44b6e2dc",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Antivirus"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Antivirus"
+                    }
+                  ]
+                },
+                {
+                  "value": "1358b2ee-dced-4106-9922-57a78c268cd4",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Automatization"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Automatization"
+                    }
+                  ]
+                },
+                {
+                  "value": "fe29ee80-2f7c-491c-824d-f14ad99f4db9",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Biling / Cards /Payment Methods"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Biling / Cards /Payment Methods"
+                    }
+                  ]
+                },
+                {
+                  "value": "611dde6f-58bb-4f15-9835-711665923157",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "ChatBot"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "ChatBot"
+                    }
+                  ]
+                },
+                {
+                  "value": "f1bec612-6133-45a1-b63d-1798ba59af24",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Commerce / ecommerce"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Commerce / ecommerce"
+                    }
+                  ]
+                },
+                {
+                  "value": "7f4df448-18de-455e-8942-bab1e94e7f19",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Crowdfunding"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Crowdfunding"
+                    }
+                  ]
+                },
+                {
+                  "value": "d9bc6e74-11d1-485c-8c98-5ed48ee5a875",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Cryptocurrencies"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Cryptocurrencies"
+                    }
+                  ]
+                },
+                {
+                  "value": "3c3a7522-815d-42df-a5e1-38d696aa3ed5",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Data Encryption"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Data Encryption"
+                    }
+                  ]
+                },
+                {
+                  "value": "00ccde18-690c-4de5-a812-f32dd3c78b89",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Data Visualization"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Data Visualization"
+                    }
+                  ]
+                },
+                {
+                  "value": "f3cb31f7-a810-477d-9ef0-07a77a72fd9b",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Education / Learning"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Education / Learning"
+                    }
+                  ]
+                },
+                {
+                  "value": "1f89ac84-44e7-4444-9850-baf4d6de3faa",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "EFM (Enterprise Finance Management)"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "EFM (Enterprise Finance Management)"
+                    }
+                  ]
+                },
+                {
+                  "value": "a5309ab3-192d-42f4-b220-ccd55f325751",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Gamification"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Gamification"
+                    }
+                  ]
+                },
+                {
+                  "value": "01ab7695-d11a-4dde-a840-881ac8e0f1ea",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "ICO"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "ICO"
+                    }
+                  ]
+                },
+                {
+                  "value": "c09032ec-c1f9-4249-a2d6-fa6e37c549a0",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Identity / Onboarding"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Identity / Onboarding"
+                    }
+                  ]
+                },
+                {
+                  "value": "3ea35515-216b-4f08-8842-f5ad570c0603",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Lending"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Lending"
+                    }
+                  ]
+                },
+                {
+                  "value": "36fe6087-f174-4327-acca-92d365f253bb",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Logistics"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Logistics"
+                    }
+                  ]
+                },
+                {
+                  "value": "225369ce-5478-440b-8af6-968ada463476",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Loyalty"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Loyalty"
+                    }
+                  ]
+                },
+                {
+                  "value": "2703582c-8950-4d65-bb8a-35fc56209baa",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Microfinance"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Microfinance"
+                    }
+                  ]
+                },
+                {
+                  "value": "f93c29db-dc14-4f5a-ba39-bab099f661eb",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Mobile Apps"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Mobile Apps"
+                    }
+                  ]
+                },
+                {
+                  "value": "66c99f9c-a6b3-4efa-b67c-da6a19df1417",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Mobile Point of Sale"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Mobile Point of Sale"
+                    }
+                  ]
+                },
+                {
+                  "value": "95dd60f9-4b8b-4657-bd49-9344e4bcf3e7",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Natural Language Processing"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Natural Language Processing"
+                    }
+                  ]
+                },
+                {
+                  "value": "7646a2c3-2416-448f-b281-2a550a84577c",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Neobank"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Neobank"
+                    }
+                  ]
+                },
+                {
+                  "value": "21b0901d-dba9-4c62-b432-188bf45eabe8",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Non Fintech"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Non Fintech"
+                    }
+                  ]
+                },
+                {
+                  "value": "6d432745-a6f1-4c7a-a998-20fba27ce1a4",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Peer 2 Peer Lending"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Peer 2 Peer Lending"
+                    }
+                  ]
+                },
+                {
+                  "value": "e6259979-4e90-4910-9520-acf08887d573",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "PFM (Personal Finance Management)"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "PFM (Personal Finance Management)"
+                    }
+                  ]
+                },
+                {
+                  "value": "eaee0e83-7a6b-403f-bee5-4046266860fa",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Physical Bank"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Physical Bank"
+                    }
+                  ]
+                },
+                {
+                  "value": "5ec973d5-7f05-45e2-aac8-2f6ca8d38cdb",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Pricing / Product Broker"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Pricing / Product Broker"
+                    }
+                  ]
+                },
+                {
+                  "value": "73d932dd-2775-4570-9343-2828770b0ac1",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Product / Service Aggregator"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Product / Service Aggregator"
+                    }
+                  ]
+                },
+                {
+                  "value": "8a70c311-b141-495d-93d7-b6433c5e3118",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Regtech"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Regtech"
+                    }
+                  ]
+                },
+                {
+                  "value": "2a30bdc8-12cf-4a25-a863-93bdf3213798",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Remittances"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Remittances"
+                    }
+                  ]
+                },
+                {
+                  "value": "c81730f4-d017-4d1f-8d6f-2cbf67327176",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Risk Analysis / Scoring"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Risk Analysis / Scoring"
+                    }
+                  ]
+                },
+                {
+                  "value": "9e87f0d6-2e32-4396-aa4d-42567789571d",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Robo Advisor"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Robo Advisor"
+                    }
+                  ]
+                },
+                {
+                  "value": "195ea433-656a-476f-8509-83ed444e2e6a",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "SDK"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "SDK"
+                    }
+                  ]
+                },
+                {
+                  "value": "46221956-586a-42e8-9e05-95b29593ddc2",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "SME Service"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "SME Service"
+                    }
+                  ]
+                },
+                {
+                  "value": "edf07bae-ca1e-4208-b2b4-164e81fd9432",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Solutions for PSD2"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Solutions for PSD2"
+                    }
+                  ]
+                },
+                {
+                  "value": "8a56a6c0-4aab-4e34-85ae-dc58572db124",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Supply Chain Finance"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Supply Chain Finance"
+                    }
+                  ]
+                },
+                {
+                  "value": "c6f445e7-213c-4c5a-9ff8-b1c2c37f3039",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Trade Finance"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Trade Finance"
+                    }
+                  ]
+                },
+                {
+                  "value": "7e3f96d5-4328-436e-80d4-bd327272d037",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Trade Life Cycle"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Trade Life Cycle"
+                    }
+                  ]
+                },
+                {
+                  "value": "61c4d82b-16a0-4486-9b30-f0b8908be47c",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Trading / Hedge Algorithm"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Trading / Hedge Algorithm"
+                    }
+                  ]
+                },
+                {
+                  "value": "78e3564c-55c7-4dc2-84ef-c7141cc5188c",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Trading & hedging"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Trading & hedging"
+                    }
+                  ]
+                },
+                {
+                  "value": "129d7349-e3fb-474c-bb40-07db3012af4e",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Wallet"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Wallet"
+                    }
+                  ]
+                },
+                {
+                  "value": "dae1abe0-a2f7-4287-92ad-f8b374f13529",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Wealth Management"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Wealth Management"
+                    }
+                  ]
+                },
+                {
+                  "value": "e2898d63-4205-4940-98af-c74053c5480e",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Others"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Others"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "ot18-3-2",
+            "required": false,
+            "type": "TEXT",
+            "label": [
+              {
+                "text": "If you chose \"Others\", indicate which ones",
+                "lang": "ES"
+              },
+              {
+                "text": "If you chose \"Others\", indicate which ones",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Otros",
+                "lang": "ES"
+              },
+              {
+                "text": "Others",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "lang": "ES",
+                "text": "Write any other TAGs not listed above, separated by a comma"
+              },
+              {
+                "lang": "EN",
+                "text": "Write any other TAGs not listed above, separated by a comma"
+              }
+            ]
+          },
+          {
+            "id": "ot18-3-3",
+            "required": false,
+            "type": "MULTISELECT",
+            "showExpanded": false,
+            "label": [
+              {
+                "text": "Regions where your company currently operates",
+                "lang": "ES"
+              },
+              {
+                "text": "Regions where your company currently operates",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Selecciona una o varias",
+                "lang": "ES"
+              },
+              {
+                "text": "Choose one or more",
+                "lang": "EN"
+              }
+            ],
+            "responses": {
+              "type": "TEXT",
+              "options": [
+                {
+                  "value": "ad56914c-35fc-4f6f-8a79-4486a62c14ec",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Africa"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Africa"
+                    }
+                  ]
+                },
+                {
+                  "value": "0fd178c8-7b38-4892-a010-b0ec5300e0d6",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Asia"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Asia"
+                    }
+                  ]
+                },
+                {
+                  "value": "a5c8071a-0d38-4c76-ad04-b8c21e7ff6f6",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Central America"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Central America"
+                    }
+                  ]
+                },
+                {
+                  "value": "1a1ea957-f102-456f-a7aa-686dffefa4d3",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Europe"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Europe"
+                    }
+                  ]
+                },
+                {
+                  "value": "8138ba8a-70a9-4c89-9552-2afecf5fa962",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Global"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Global"
+                    }
+                  ]
+                },
+                {
+                  "value": "ad528883-d04d-4c91-be39-caf563265a50",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "North America"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "North America"
+                    }
+                  ]
+                },
+                {
+                  "value": "552622fb-04df-4156-b57a-0235b5cc2389",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Oceania"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Oceania"
+                    }
+                  ]
+                },
+                {
+                  "value": "667f7889-7487-4247-9069-31bab7d7daaf",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "South America"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "South America"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "ot18-3-4",
+            "required": true,
+            "type": "LONGTEXT",
+            "maxLength": 140,
+            "label": [
+              {
+                "text": "Describe your business in 140 characters",
+                "lang": "ES"
+              },
+              {
+                "text": "Describe your business in 140 characters",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Tweet",
+                "lang": "ES"
+              },
+              {
+                "text": "Tweet",
+                "lang": "EN"
+              }
+            ],
+            "key": "SUMMARY_KEY"
+          },
+          {
+            "id": "ot18-3-5",
+            "required": true,
+            "type": "LONGTEXT",
+            "text": [
+              {
+                "text": "Describe tu negocio en profundidad",
+                "lang": "ES"
+              },
+              {
+                "text": "Describe your business in depth",
+                "lang": "EN"
+              }
+            ]
+          },
+          {
+            "id": "ot18-3-6",
+            "required": true,
+            "type": "LINK",
+            "subType": "video",
+            "regex": "^(http(s)?:\\/\\/)?((w){3}.)?((youtu(be|.be)?)|(vimeo))?(.com)?\\/.+",
+            "label": [
+              {
+                "text": "Explain your business in a 1 minute video (Elevator pitch)",
+                "lang": "ES"
+              },
+              {
+                "text": "Explain your business in a 1 minute video (Elevator pitch)",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Enlace al v\u00eddeo online / Subir v\u00eddeo",
+                "lang": "ES"
+              },
+              {
+                "text": "Link to online video / Upload video",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "lang": "ES",
+                "text": "The online video should be public and in YouTube or Vimeo. It's very important so that the BBVA Business Units can evaluate your business."
+              },
+              {
+                "lang": "EN",
+                "text": "The online video should be public and in YouTube or Vimeo. It's very important so that the BBVA Business Units can evaluate your business."
+              }
+            ]
+          },
+          {
+            "id": "ot18-3-7",
+            "required": true,
+            "type": "SELECT",
+            "label": [
+              {
+                "text": "What's your company’s development stage?",
+                "lang": "ES"
+              },
+              {
+                "text": "What's your company’s development stage?",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Selecciona una opci\u00f3n",
+                "lang": "ES"
+              },
+              {
+                "text": "Choose an option",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "lang": "ES",
+                "text": "Pre-Seed (idea) / Seed (working on product) / Early Stage (close to market or already launched) / Growth stage (raised money and scaling) / Mature business (Established company with revenues)"
+              },
+              {
+                "lang": "EN",
+                "text": "Pre-Seed (idea) / Seed (working on product) / Early Stage (close to market or already launched) / Growth stage (raised money and scaling) / Mature business (Established company with revenues)"
+              }
+            ],
+            "responses": {
+              "type": "TEXT",
+              "options": [
+                {
+                  "value": "1e92a126-37fd-47b4-8110-0e584641f9c2",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Pre-seed"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Pre-seed"
+                    }
+                  ]
+                },
+                {
+                  "value": "7d360589-8557-4715-b10c-c58252911c23",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Seed"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Seed"
+                    }
+                  ]
+                },
+                {
+                  "value": "3ea85f25-4ef2-4f73-bc99-a9f9faaaaf96",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Early stage"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Early stage"
+                    }
+                  ]
+                },
+                {
+                  "value": "6f069502-b7a6-419b-b2c0-f9bf74800876",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Growth"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Growth"
+                    }
+                  ]
+                },
+                {
+                  "value": "5661a84b-c2d8-4fad-8a74-044245a2d0f6",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Mature business"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Mature business"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "ot18-3-8",
+            "required": true,
+            "type": "SELECT",
+            "label": [
+              {
+                "text": "Has your startup worked or given service to any company?",
+                "lang": "ES"
+              },
+              {
+                "text": "Has your startup worked or given service to any company?",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Selecciona una opci\u00f3n",
+                "lang": "ES"
+              },
+              {
+                "text": "Choose an option",
+                "lang": "EN"
+              }
+            ],
+            "responses": {
+              "type": "TEXT",
+              "options": [
+                {
+                  "value": "a60f22ba-261e-451b-887c-79dc76c78f86",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Yes"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Yes"
+                    }
+                  ]
+                },
+                {
+                  "value": "d3cc00c6-4098-4b00-bfc5-945d2d8fbe9e",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "No"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "No"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "ot18-3-9",
+            "required": false,
+            "type": "MULTISELECT",
+            "showExpanded": false,
+            "label": [
+              {
+                "text": "What type of collaborations have you carried out with other companies?",
+                "lang": "ES"
+              },
+              {
+                "text": "What type of collaborations have you carried out with other companies?",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Selecciona una o varias",
+                "lang": "ES"
+              },
+              {
+                "text": "Choose one or more",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "lang": "ES",
+                "text": "Please, make sure that all the information you share is not confidential."
+              },
+              {
+                "lang": "EN",
+                "text": "Please, make sure that all the information you share is not confidential."
+              }
+            ],
+            "responses": {
+              "type": "TEXT",
+              "options": [
+                {
+                  "value": "276bebd5-f2b7-45ca-a7d2-67fd9dee2013",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Proof of Concept"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Proof of Concept"
+                    }
+                  ]
+                },
+                {
+                  "value": "38a96aa4-c715-49a0-8d9f-159787b2e8ab",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Pilot"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Pilot"
+                    }
+                  ]
+                },
+                {
+                  "value": "cfdb703a-3aa2-4354-9c09-458f083c0fc3",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Implementation"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Implementation"
+                    }
+                  ]
+                },
+                {
+                  "value": "6239a7e4-0d07-4d8f-84bb-605cb344b057",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Servicing"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Servicing"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "ot18-3-10",
+            "required": false,
+            "type": "TEXT",
+            "label": [
+              {
+                "text": "Please, indicate the names of the companies with which you have collaborated",
+                "lang": "ES"
+              },
+              {
+                "text": "Please, indicate the names of the companies with which you have collaborated",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Nombre de las empresas",
+                "lang": "ES"
+              },
+              {
+                "text": "Company names",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "lang": "ES",
+                "text": "Make sure you have the relevant authorizations to use here the trade names/brands of these companies."
+              },
+              {
+                "lang": "EN",
+                "text": "Make sure you have the relevant authorizations to use here the trade names/brands of these companies."
+              }
+            ]
+          },
+          {
+            "id": "ot18-3-11",
+            "required": true,
+            "type": "LONGTEXT",
+            "label": [
+              {
+                "text": "How do you make money? Explain your business model",
+                "lang": "ES"
+              },
+              {
+                "text": "How do you make money? Explain your business model",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Modelo de negocio",
+                "lang": "ES"
+              },
+              {
+                "text": "Business model",
+                "lang": "EN"
+              }
+            ]
+          },
+          {
+            "id": "ot18-3-12",
+            "required": true,
+            "type": "MULTISELECT",
+            "showExpanded": false,
+            "label": [
+              {
+                "text": "What's the market target group of your product/service?",
+                "lang": "ES"
+              },
+              {
+                "text": "What's the market target group of your product/service?",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Selecciona una o varias",
+                "lang": "ES"
+              },
+              {
+                "text": "Choose one or more",
+                "lang": "EN"
+              }
+            ],
+            "responses": {
+              "type": "TEXT",
+              "options": [
+                {
+                  "value": "0d99c312-f70f-4a6f-8227-5c46adefa29c",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Banks"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Banks"
+                    }
+                  ]
+                },
+                {
+                  "value": "cec03712-b437-419a-9931-83209268ee9e",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Corporates"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Corporates"
+                    }
+                  ]
+                },
+                {
+                  "value": "d3904dcd-9631-437a-b6ff-720bd9eced77",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Employees"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Employees"
+                    }
+                  ]
+                },
+                {
+                  "value": "456cb8f9-aebd-48a9-ba34-5b224b7fe382",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Individuals"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Individuals"
+                    }
+                  ]
+                },
+                {
+                  "value": "c3a09b92-0135-4d83-b965-a75da755a075",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Millennials + Gen Z"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Millennials + Gen Z"
+                    }
+                  ]
+                },
+                {
+                  "value": "80e2484c-e471-4f3f-9141-7d9f5ffcd2c2",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Retailers"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Retailers"
+                    }
+                  ]
+                },
+                {
+                  "value": "d5236645-2981-470d-b141-21e0d2c8daaa",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Seniors"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Seniors"
+                    }
+                  ]
+                },
+                {
+                  "value": "659609ba-3ea0-4d8f-95c4-093166ef278a",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "SMEs"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "SMEs"
+                    }
+                  ]
+                },
+                {
+                  "value": "cb6837cf-9880-4a3b-82a9-88d048838251",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Unbanked People"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Unbanked People"
+                    }
+                  ]
+                },
+                {
+                  "value": "5986b46c-b01e-4f50-8553-511b8782bcd3",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Unbanked SMEs"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Unbanked SMEs"
+                    }
+                  ]
+                },
+                {
+                  "value": "40c7c33f-e728-44f4-97bc-494d11c1b1b7",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Others"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Others"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "ot18-3-13",
+            "required": false,
+            "type": "TEXT",
+            "label": [
+              {
+                "text": "If you chose \"Others\", indicate which ones",
+                "lang": "ES"
+              },
+              {
+                "text": "If you chose \"Others\", indicate which ones",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Otros",
+                "lang": "ES"
+              },
+              {
+                "text": "Others",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "lang": "ES",
+                "text": "Write any other TAGs not listed above, separated by a comma"
+              },
+              {
+                "lang": "EN",
+                "text": "Write any other TAGs not listed above, separated by a comma"
+              }
+            ]
+          },
+          {
+            "id": "ot18-3-14",
+            "required": true,
+            "type": "LONGTEXT",
+            "text": [
+              {
+                "text": "\u00bfC\u00f3mo consigues llegar a nuevos clientes?",
+                "lang": "ES"
+              },
+              {
+                "text": "How do you reach new clients?",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "lang": "ES",
+                "text": "Describe your clients acquisition process"
+              },
+              {
+                "lang": "EN",
+                "text": "Describe your clients acquisition process"
+              }
+            ]
+          },
+          {
+            "id": "ot18-3-15",
+            "required": true,
+            "type": "LONGTEXT",
+            "label": [
+              {
+                "text": "Who are your main competitors?",
+                "lang": "ES"
+              },
+              {
+                "text": "Who are your main competitors?",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Principales competidores",
+                "lang": "ES"
+              },
+              {
+                "text": "Main competitors",
+                "lang": "EN"
+              }
+            ]
+          },
+          {
+            "id": "ot18-3-16",
+            "required": true,
+            "type": "NUMBER",
+            "text": [
+              {
+                "text": "\u00bfCu\u00e1ntos usuarios activos tienes?",
+                "lang": "ES"
+              },
+              {
+                "text": "How many active users do you have?",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "lang": "ES",
+                "text": "Enter the number of active users"
+              },
+              {
+                "lang": "EN",
+                "text": "Enter the number of active users"
+              }
+            ]
+          },
+          {
+            "id": "ot18-3-17",
+            "required": true,
+            "type": "SELECT",
+            "label": [
+              {
+                "text": "What was your revenue in 2017?",
+                "lang": "ES"
+              },
+              {
+                "text": "What was your revenue in 2017?",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Selecciona una opci\u00f3n",
+                "lang": "ES"
+              },
+              {
+                "text": "Choose an option",
+                "lang": "EN"
+              }
+            ],
+            "responses": {
+              "type": "TEXT",
+              "options": [
+                {
+                  "value": "54228fa9-e7a0-4496-9b16-b35768723b68",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "<25,000"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "<25,000"
+                    }
+                  ]
+                },
+                {
+                  "value": "fb8cba04-cb70-43a9-ace8-677f1618eed4",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "25,000 - 50,000"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "25,000 - 50,000"
+                    }
+                  ]
+                },
+                {
+                  "value": "af5573e6-1eb6-4db5-bfe0-3e781dbefbea",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "50,000 - 150,000"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "50,000 - 150,000"
+                    }
+                  ]
+                },
+                {
+                  "value": "6c46911b-1b4f-43bb-8841-ebee4e1c5613",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "150,000 - 300,000"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "150,000 - 300,000"
+                    }
+                  ]
+                },
+                {
+                  "value": "9b19bd25-e3d2-4008-a428-af7d33096820",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "300,000 - 500,000"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "300,000 - 500,000"
+                    }
+                  ]
+                },
+                {
+                  "value": "b639cee3-0087-4e4e-8879-cd61c65f02dd",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "500,000 - 1M"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "500,000 - 1M"
+                    }
+                  ]
+                },
+                {
+                  "value": "594fcbcd-f716-4d08-9669-276a3948e1d1",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "1M - 3M"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "1M - 3M"
+                    }
+                  ]
+                },
+                {
+                  "value": "3ece2fa1-3e34-4410-b8f1-1bd686033dad",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": ">3"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": ">3"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "ot18-3-18",
+            "required": true,
+            "type": "SELECT",
+            "label": [
+              {
+                "text": "What has been the accumulated financing since inception?",
+                "lang": "ES"
+              },
+              {
+                "text": "What has been the accumulated financing since inception?",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Selecciona una opci\u00f3n",
+                "lang": "ES"
+              },
+              {
+                "text": "Choose an option",
+                "lang": "EN"
+              }
+            ],
+            "responses": {
+              "type": "TEXT",
+              "options": [
+                {
+                  "value": "790c375e-ddac-4fbf-b415-3430ce0c8b60",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "<25,000"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "<25,000"
+                    }
+                  ]
+                },
+                {
+                  "value": "9131e842-aa2b-40eb-90ed-5fe9837d84ec",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "25,000 - 50,000"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "25,000 - 50,000"
+                    }
+                  ]
+                },
+                {
+                  "value": "6f3651d5-9f85-42aa-b7f5-ba2d136d8b52",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "50,000 - 150,000"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "50,000 - 150,000"
+                    }
+                  ]
+                },
+                {
+                  "value": "bd358002-790a-45df-8dbf-47e35afa9c14",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "150,000 - 300,000"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "150,000 - 300,000"
+                    }
+                  ]
+                },
+                {
+                  "value": "5afd0717-942d-491c-af3f-0f0ca480664b",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "300,000 - 500,000"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "300,000 - 500,000"
+                    }
+                  ]
+                },
+                {
+                  "value": "b4480df8-b73f-438a-a4f4-70bc9a319d5f",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "500,000 - 1M"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "500,000 - 1M"
+                    }
+                  ]
+                },
+                {
+                  "value": "11274e8c-b81f-4628-b39d-6aace180ed52",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "1M - 3M"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "1M - 3M"
+                    }
+                  ]
+                },
+                {
+                  "value": "1bf0849f-6e16-43e3-a6d6-308ca989d585",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": ">3"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": ">3"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "ot18-3-19",
+            "required": true,
+            "type": "SELECT",
+            "text": [
+              {
+                "text": "\u00bfTu startup busca inversi\u00f3n?",
+                "lang": "ES"
+              },
+              {
+                "text": "Does your startup seek investment?",
+                "lang": "EN"
+              }
+            ],
+            "responses": {
+              "type": "TEXT",
+              "options": [
+                {
+                  "value": "5d45f345-f083-4331-baf8-e502226e6957",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Yes"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Yes"
+                    }
+                  ]
+                },
+                {
+                  "value": "58313a2f-583a-4d84-b559-c8062cd086d9",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "No"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "No"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "ot18-3-20",
+            "required": false,
+            "type": "SELECT",
+            "text": [
+              {
+                "text": "\u00bfQu\u00e9 tipo de inversi\u00f3n busca?",
+                "lang": "ES"
+              },
+              {
+                "text": "What kind of investment do you seek?",
+                "lang": "EN"
+              }
+            ],
+            "responses": {
+              "type": "TEXT",
+              "options": [
+                {
+                  "value": "bb9cc96f-d4e8-4d27-b595-339057ad3409",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Seed"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Seed"
+                    }
+                  ]
+                },
+                {
+                  "value": "06c15f44-8df0-44c3-be36-b46a5ba82d9c",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Business Angels"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Business Angels"
+                    }
+                  ]
+                },
+                {
+                  "value": "1a293513-3756-4b4e-b091-7a97b6276b73",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Series A"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Series A"
+                    }
+                  ]
+                },
+                {
+                  "value": "e5e7ce21-8844-4f01-9a7e-45a4e0461f52",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Strategic investment"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Strategic investment"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "ot18-4",
+        "i18n": [
+          {
+            "text": "Tu Producto/Servicio",
+            "lang": "ES"
+          },
+          {
+            "text": "Your Product/Service",
+            "lang": "EN"
+          }
+        ],
+        "questions": [
+          {
+            "id": "ot18-4-1",
+            "required": true,
+            "type": "MULTISELECT",
+            "showExpanded": false,
+            "label": [
+              {
+                "text": "Which sectors or areas is your product/service focused on?",
+                "lang": "ES"
+              },
+              {
+                "text": "Which sectors or areas is your product/service focused on?",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Selecciona una o varias",
+                "lang": "ES"
+              },
+              {
+                "text": "Choose one or more",
+                "lang": "EN"
+              }
+            ],
+            "responses": {
+              "type": "TEXT",
+              "options": [
+                {
+                  "value": "6e0aebb4-c007-49b3-8a76-dda8e27b4b99",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Assets Management"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Assets Management"
+                    }
+                  ]
+                },
+                {
+                  "value": "52d1e2c0-cd9a-4518-88a9-ddc96f9347b8",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Compliance / RegTech"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Compliance / RegTech"
+                    }
+                  ]
+                },
+                {
+                  "value": "77d00a98-a602-4cde-b69e-4970df23ca02",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Digital Channels"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Digital Channels"
+                    }
+                  ]
+                },
+                {
+                  "value": "5ee69cc9-fae9-4f7e-9c58-d2b182d99df9",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Financial Inclusion"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Financial Inclusion"
+                    }
+                  ]
+                },
+                {
+                  "value": "c4b25bb5-1a7f-46d2-9dff-7a4d57a053bb",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Human Resources"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Human Resources"
+                    }
+                  ]
+                },
+                {
+                  "value": "c7c13010-889d-419f-8854-c50c06813082",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Insurance / InsurTech"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Insurance / InsurTech"
+                    }
+                  ]
+                },
+                {
+                  "value": "29888af7-60c4-4c39-bffd-2bd79dc405eb",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Investment Banking"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Investment Banking"
+                    }
+                  ]
+                },
+                {
+                  "value": "3882d43e-2ef0-4b48-a9e6-a9bb139c18e5",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Legal"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Legal"
+                    }
+                  ]
+                },
+                {
+                  "value": "b893e8f4-562b-442e-9202-49639ab069c7",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Loans"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Loans"
+                    }
+                  ]
+                },
+                {
+                  "value": "1500886c-c259-45bc-985b-ea089b740ea2",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Marketing"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Marketing"
+                    }
+                  ]
+                },
+                {
+                  "value": "347a3d6d-1d07-4364-b31a-c59e70d31bb1",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Markets (FX, Trading...)"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Markets (FX, Trading...)"
+                    }
+                  ]
+                },
+                {
+                  "value": "2cf5d1cd-bdf4-48a9-a9ae-854a892ba8eb",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Payments"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Payments"
+                    }
+                  ]
+                },
+                {
+                  "value": "7045fa38-5b00-4a45-8c0e-0f4f6803c199",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Physical (ATM, Branch)"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Physical (ATM, Branch)"
+                    }
+                  ]
+                },
+                {
+                  "value": "0967e785-94b6-4c1d-b9d3-54e72ff5d5d2",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Real Estate / PropTech"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Real Estate / PropTech"
+                    }
+                  ]
+                },
+                {
+                  "value": "df27c91e-d5a3-43ec-ac67-c16933bd4477",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Risk"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Risk"
+                    }
+                  ]
+                },
+                {
+                  "value": "63b0f0d7-b20e-4b45-bdad-0a7e6e473f7a",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Security"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Security"
+                    }
+                  ]
+                },
+                {
+                  "value": "dfae9e45-ab24-4515-9d28-5988d0dabc5d",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Wealth Management"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Wealth Management"
+                    }
+                  ]
+                },
+                {
+                  "value": "92b6ca9c-e272-4ee8-a3ae-15e605ef8555",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Others"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Others"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "ot18-4-2",
+            "required": false,
+            "type": "TEXT",
+            "label": [
+              {
+                "text": "If you chose \"Others\", indicate which ones",
+                "lang": "ES"
+              },
+              {
+                "text": "If you chose \"Others\", indicate which ones",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Otros",
+                "lang": "ES"
+              },
+              {
+                "text": "Others",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "lang": "ES",
+                "text": "Write any other TAGs not listed above, separated by a comma"
+              },
+              {
+                "lang": "EN",
+                "text": "Write any other TAGs not listed above, separated by a comma"
+              }
+            ]
+          },
+          {
+            "id": "ot18-4-3",
+            "required": true,
+            "type": "MULTISELECT",
+            "showExpanded": false,
+            "label": [
+              {
+                "text": "What technology does your product/service use?",
+                "lang": "ES"
+              },
+              {
+                "text": "What technology does your product/service use?",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Selecciona una o varias",
+                "lang": "ES"
+              },
+              {
+                "text": "Choose one or more",
+                "lang": "EN"
+              }
+            ],
+            "responses": {
+              "type": "TEXT",
+              "options": [
+                {
+                  "value": "1e1433d4-21df-46af-a4f1-40475f7b478e",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "AI"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "AI"
+                    }
+                  ]
+                },
+                {
+                  "value": "fe3a7f44-b293-4ddb-967f-51d729bd137c",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "API"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "API"
+                    }
+                  ]
+                },
+                {
+                  "value": "d3ba92a7-5be1-46c0-ade1-aa1fe6ef8ea6",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "BigData"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "BigData"
+                    }
+                  ]
+                },
+                {
+                  "value": "fec179b0-f7a7-4123-8d85-f38a16e5c861",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Biometrics"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Biometrics"
+                    }
+                  ]
+                },
+                {
+                  "value": "b8c94c6c-1899-41da-a0fa-f90ab899fe78",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Blockchain"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Blockchain"
+                    }
+                  ]
+                },
+                {
+                  "value": "ed963372-c847-4b9e-9d7f-128382934415",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Cloud"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Cloud"
+                    }
+                  ]
+                },
+                {
+                  "value": "ba073479-12a6-4e23-8a1e-f482ae505c2d",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Graphical User Interface (GUI)"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Graphical User Interface (GUI)"
+                    }
+                  ]
+                },
+                {
+                  "value": "7076c7e7-08d4-4289-8d6c-d2a605a41fb6",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "IaaS"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "IaaS"
+                    }
+                  ]
+                },
+                {
+                  "value": "591eab55-d0ae-4475-b2e4-7a18f5b52f55",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "IoT"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "IoT"
+                    }
+                  ]
+                },
+                {
+                  "value": "f5b4bf6d-ffe3-4985-a375-4f0707400bcf",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "PaaS"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "PaaS"
+                    }
+                  ]
+                },
+                {
+                  "value": "de92bdbf-94e3-47ab-8ba1-1a5a2d9e1fa6",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "SaaS"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "SaaS"
+                    }
+                  ]
+                },
+                {
+                  "value": "3ff1aba7-bf2d-41a0-9e44-7eba8ab0e50f",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Software"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Software"
+                    }
+                  ]
+                },
+                {
+                  "value": "cc394936-329b-4012-80c5-ffb4fa18f1b4",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Wireless Communications"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Wireless Communications"
+                    }
+                  ]
+                },
+                {
+                  "value": "f3e6ef81-b1a5-410b-a44b-5fb7cfeb11ed",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Others"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Others"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "ot18-4-4",
+            "required": false,
+            "type": "TEXT",
+            "label": [
+              {
+                "text": "If you chose \"Others\", indicate which ones",
+                "lang": "ES"
+              },
+              {
+                "text": "If you chose \"Others\", indicate which ones",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Otros",
+                "lang": "ES"
+              },
+              {
+                "text": "Others",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "lang": "ES",
+                "text": "Write any other TAGs not listed above, separated by a comma"
+              },
+              {
+                "lang": "EN",
+                "text": "Write any other TAGs not listed above, separated by a comma"
+              }
+            ]
+          },
+          {
+            "id": "ot18-4-5",
+            "required": true,
+            "type": "LONGTEXT",
+            "label": [
+              {
+                "text": "What technology does your product/service use?",
+                "lang": "ES"
+              },
+              {
+                "text": "What technology does your product/service use?",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Tecnolog\u00eda en profundidad",
+                "lang": "ES"
+              },
+              {
+                "text": "Technology in depth",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "lang": "ES",
+                "text": "Describe in detail infrastructure, tools, platforms, each of its layers and communication between them and third parties, security mechanisms as well as algorithmic techniques."
+              },
+              {
+                "lang": "EN",
+                "text": "Describe in detail infrastructure, tools, platforms, each of its layers and communication between them and third parties, security mechanisms as well as algorithmic techniques."
+              }
+            ]
+          },
+          {
+            "id": "ot18-4-12",
+            "required": true,
+            "type": "LONGTEXT",
+            "label": [
+              {
+                "text": "Describe in what measure are E2E practices implemented",
+                "lang": "ES"
+              },
+              {
+                "text": "Describe in what measure are E2E practices implemented",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Describe las pr\u00e1cticas E2E",
+                "lang": "ES"
+              },
+              {
+                "text": "E2E practices implemented",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "lang": "ES",
+                "text": "Is the solution modular, based on APIs for service consumption, highly automated in terms of infrastructure provisioning, development life cycle, deployment, testing, security and operation?"
+              },
+              {
+                "lang": "EN",
+                "text": "Is the solution modular, based on APIs for service consumption, highly automated in terms of infrastructure provisioning, development life cycle, deployment, testing, security and operation?"
+              }
+            ]
+          },
+          {
+            "id": "ot18-4-6",
+            "required": true,
+            "type": "LONGTEXT",
+            "label": [
+              {
+                "text": "How do you use data, with which objective and how do you capture new data?",
+                "lang": "ES"
+              },
+              {
+                "text": "How do you use data, with which objective and how do you capture new data?",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Uso de datos",
+                "lang": "ES"
+              },
+              {
+                "text": "Use of data",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "lang": "ES",
+                "text": "The data referred to must be aggregated, standardized and anonymized."
+              },
+              {
+                "lang": "EN",
+                "text": "The data referred to must be aggregated, standardized and anonymized."
+              }
+            ]
+          },
+          {
+            "id": "ot18-4-7",
+            "required": true,
+            "type": "SELECT",
+            "label": [
+              {
+                "text": "What is your product/service development stage?",
+                "lang": "ES"
+              },
+              {
+                "text": "What is your product/service development stage?",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Selecciona una opci\u00f3n",
+                "lang": "ES"
+              },
+              {
+                "text": "Choose an option",
+                "lang": "EN"
+              }
+            ],
+            "responses": {
+              "type": "TEXT",
+              "options": [
+                {
+                  "value": "76ca01b2-ff1f-425a-9efd-09cd9c156992",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Concept"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Concept"
+                    }
+                  ]
+                },
+                {
+                  "value": "8c0a7b57-df8d-44e1-9fbf-9ab0e5c61bc8",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Prototype"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Prototype"
+                    }
+                  ]
+                },
+                {
+                  "value": "55681058-b901-44df-b685-899f28b6a985",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Beta version"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Beta version"
+                    }
+                  ]
+                },
+                {
+                  "value": "91dde050-b2e9-43ce-b343-837d2b38e0fd",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Commercial version"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Commercial version"
+                    }
+                  ]
+                },
+                {
+                  "value": "c1c1512b-ff21-4280-9cdb-0dd16e9bf9f9",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Ready to scale"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Ready to scale"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "ot18-4-8",
+            "required": true,
+            "type": "LONGTEXT",
+            "label": [
+              {
+                "text": "Have you used any user-centric methodology?",
+                "lang": "ES"
+              },
+              {
+                "text": "Have you used any user-centric methodology?",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Describe en profundidad",
+                "lang": "ES"
+              },
+              {
+                "text": "Describe in depth",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "lang": "ES",
+                "text": "Explain if you have used any type of user-centric methodology such as Design Thinking, co-creation, etc"
+              },
+              {
+                "lang": "EN",
+                "text": "Explain if you have used any type of user-centric methodology such as Design Thinking, co-creation, etc"
+              }
+            ]
+          },
+          {
+            "id": "ot18-4-9",
+            "required": true,
+            "type": "LONGTEXT",
+            "label": [
+              {
+                "text": "Have you run any tests on the prototypes of your product or service with users?",
+                "lang": "ES"
+              },
+              {
+                "text": "Have you run any tests on the prototypes of your product or service with users?",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Describe en profundidad",
+                "lang": "ES"
+              },
+              {
+                "text": "Describe in depth",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "text": "Explain if you have created and tested a prototype",
+                "lang": "ES"
+              },
+              {
+                "text": "Explain if you have created and tested a prototype",
+                "lang": "EN"
+              }
+            ]
+          },
+          {
+            "id": "ot18-4-10",
+            "required": true,
+            "type": "LONGTEXT",
+            "label": [
+              {
+                "text": "Have you done any user testing of your product/service?",
+                "lang": "ES"
+              },
+              {
+                "text": "Have you done any user testing of your product/service?",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Describe en profundidad",
+                "lang": "ES"
+              },
+              {
+                "text": "Describe in depth",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "text": "Explain if you have run any test of your product with users.",
+                "lang": "ES"
+              },
+              {
+                "text": "Explain if you have run any test of your product with users.",
+                "lang": "EN"
+              }
+            ]
+          },
+          {
+            "id": "ot18-4-11",
+            "required": true,
+            "type": "LINK",
+            "subType": "web",
+            "label": [
+              {
+                "text": "Product web, product app, product demo etc.",
+                "lang": "ES"
+              },
+              {
+                "text": "Product web, product app, product demo etc.",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "URL",
+                "lang": "ES"
+              },
+              {
+                "text": "URL",
+                "lang": "EN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ot18-5",
+        "i18n": [
+          {
+            "text": "Informaci\u00f3n Adicional",
+            "lang": "ES"
+          },
+          {
+            "text": "Additional Information",
+            "lang": "EN"
+          }
+        ],
+        "questions": [
+          {
+            "id": "ot18-5-1",
+            "required": false,
+            "type": "LONGTEXT",
+            "label": [
+              {
+                "text": "What have been the most significant milestones (awards, number of users, validations, funding round...)?",
+                "lang": "ES"
+              },
+              {
+                "text": "What have been the most significant milestones (awards, number of users, validations, funding round...)?",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Logros de la compa\u00f1\u00eda",
+                "lang": "ES"
+              },
+              {
+                "text": "Milestones",
+                "lang": "EN"
+              }
+            ]
+          },
+          {
+            "id": "ot18-5-2",
+            "required": false,
+            "type": "LINK",
+            "subType": "video",
+            "regex": "^(http(s)?:\\/\\/)?((w){3}.)?((youtu(be|.be)?)|(vimeo))?(.com)?\\/.+",
+            "text": [
+              {
+                "text": "\u00bfAlg\u00fan otro v\u00eddeo que quieras compartir?",
+                "lang": "ES"
+              },
+              {
+                "text": "Any other video you would like to share?",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "text": "URL of the corporate video of the company",
+                "lang": "ES"
+              },
+              {
+                "text": "URL of the corporate video of the company",
+                "lang": "EN"
+              }
+            ]
+          },
+          {
+            "id": "ot18-5-3",
+            "required": false,
+            "type": "FILE",
+            "subType": "document",
+            "label": [
+              {
+                "text": "Any other document you would like to share?",
+                "lang": "ES"
+              },
+              {
+                "text": "Any other document you would like to share?",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Sube tu documento",
+                "lang": "ES"
+              },
+              {
+                "text": "Upload document",
+                "lang": "EN"
+              }
+            ],
+            "helpText": [
+              {
+                "text": "Upload document in PDF format and a maximum size of 10MB",
+                "lang": "ES"
+              },
+              {
+                "text": "Upload document in PDF format and a maximum size of 10MB",
+                "lang": "EN"
+              }
+            ],
+            "accept": [
+              "application/pdf"
+            ],
+            "maxsize": 10485760
+          },
+          {
+            "id": "ot18-5-4",
+            "required": false,
+            "type": "LONGTEXT",
+            "text": [
+              {
+                "text": "\u00bfAlguna otra informaci\u00f3n importante?",
+                "lang": "ES"
+              },
+              {
+                "text": "Any other relevant information you would like to share?",
+                "lang": "EN"
+              }
+            ]
+          },
+          {
+            "id": "ot18-5-5",
+            "required": true,
+            "type": "SELECT",
+            "label": [
+              {
+                "text": "How did you hear about BBVA Open Talent 2018?",
+                "lang": "ES"
+              },
+              {
+                "text": "How did you hear about BBVA Open Talent 2018?",
+                "lang": "EN"
+              }
+            ],
+            "text": [
+              {
+                "text": "Selecciona una opci\u00f3n",
+                "lang": "ES"
+              },
+              {
+                "text": "Choose an option",
+                "lang": "EN"
+              }
+            ],
+            "responses": {
+              "type": "TEXT",
+              "options": [
+                {
+                  "value": "057868e0-3d04-439c-9ce1-1334f2b4643d",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Alumni"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Alumni"
+                    }
+                  ]
+                },
+                {
+                  "value": "222cc4ec-a6ad-48f0-b5a8-c70b3dd340ac",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "BBVA"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "BBVA"
+                    }
+                  ]
+                },
+                {
+                  "value": "a67fcd8a-f417-49c9-ad53-835b2c247629",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "BBVA Open Talent web"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "BBVA Open Talent web"
+                    }
+                  ]
+                },
+                {
+                  "value": "e0e6848e-ea1a-4b55-94de-295f4ee025f8",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "BBVA Open Space web"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "BBVA Open Space web"
+                    }
+                  ]
+                },
+                {
+                  "value": "aa7d545c-872e-42fe-890e-c9534ea7a0e1",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "BBVA Bancomer"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "BBVA Bancomer"
+                    }
+                  ]
+                },
+                {
+                  "value": "1f96ef69-3517-4818-b8a3-6ee1fb1dc781",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Exec I/O"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Exec I/O"
+                    }
+                  ]
+                },
+                {
+                  "value": "4e69cfad-dae0-4f23-a0c9-9bd0fbe69ff2",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Finnovista"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Finnovista"
+                    }
+                  ]
+                },
+                {
+                  "value": "e3aceb05-bf47-45c5-a87f-df67228ff64e",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "FinTech Connect"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "FinTech Connect"
+                    }
+                  ]
+                },
+                {
+                  "value": "ca1511b5-466b-4e04-a958-a0c75c073145",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Innovate Finance"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Innovate Finance"
+                    }
+                  ]
+                },
+                {
+                  "value": "fcb663e5-0270-4b20-9cad-0a1204a54fb6",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "K(NO)W Identity"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "K(NO)W Identity"
+                    }
+                  ]
+                },
+                {
+                  "value": "bd1b63cf-b5e8-4a2a-8731-0922127cf255",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "MEDICI"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "MEDICI"
+                    }
+                  ]
+                },
+                {
+                  "value": "78e5289b-6cc8-47b8-b533-36878b0f7b85",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Money 20/20"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Money 20/20"
+                    }
+                  ]
+                },
+                {
+                  "value": "91e98aa9-7b5d-485c-9e5c-d8f42c30b41f",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Money Conf"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Money Conf"
+                    }
+                  ]
+                },
+                {
+                  "value": "88fa5b32-5705-4de1-9889-57463b174283",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Next Money"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Next Money"
+                    }
+                  ]
+                },
+                {
+                  "value": "853ea360-c439-455a-9099-1ad5e4fdf2a7",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Pioneers"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Pioneers"
+                    }
+                  ]
+                },
+                {
+                  "value": "f312f72b-f49b-4f74-8e15-09acf7e8bf27",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Seedstars"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Seedstars"
+                    }
+                  ]
+                },
+                {
+                  "value": "d517227a-b48f-49a6-8545-9c2aa4b742b2",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Social Media"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Social Media"
+                    }
+                  ]
+                },
+                {
+                  "value": "2db52848-bd85-4db2-b4fc-50b281b5b35a",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "SouthSummit"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "SouthSummit"
+                    }
+                  ]
+                },
+                {
+                  "value": "5c033772-e14d-4c39-8688-d04366579568",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "LendIT"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "LendIT"
+                    }
+                  ]
+                },
+                {
+                  "value": "6d41135c-99a0-442b-aec0-3297449910ce",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "4YFN"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "4YFN"
+                    }
+                  ]
+                },
+                {
+                  "value": "c5d2d7a4-7b45-4684-bba6-1297ee0b6638",
+                  "text": [
+                    {
+                      "lang": "ES",
+                      "text": "Other"
+                    },
+                    {
+                      "lang": "EN",
+                      "text": "Other"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

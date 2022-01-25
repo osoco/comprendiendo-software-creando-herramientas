@@ -1,0 +1,1 @@
+OmEntry {	#tags : {		#author : 'Unknown',		#time : DateAndTime [ '2022-01-24T23:06:37.257143+01:00' ],		#prior : OmReference [ 'Pharo8.0-SNAPSHOT-32bit-6b47e52.3erjl41mhx94vhuyec47khd6b', '7034' ],		#self : OmReference [ '1' ]	},	#content : EpSessionSnapshot {		#imageName : '/Users/rzamo/work/comprendiendo-software-creando-herramientas/demos-pharo/Fprime.image'	}}

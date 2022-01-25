@@ -1,0 +1,19 @@
+.asscache
+build/*
+classes
+.clover
+.DS_Store
+.gradle/*
+#Gradle
+gradle-local.properties
+*.groovy.rej
+.idea/
+*.iml
+#IntelliJ
+*.ipr
+*.iws
+*.java.rej
+#Mac OS
+.meghanada
+out/
+target/

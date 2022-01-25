@@ -1,0 +1,594 @@
+{
+  "contestId": "41c8e0aa-56a2-4ab0-a54b-86e93dee73fe",
+  "formId": "form-1",
+  "origin": "https://www.centrodeinnovacionbbva.com/en/opentalent/registro",
+  "applicantKey": "recoverlastapp@ot17.com",
+  "applicationKey": "RiskApp",
+  "status": "FINISHED",
+  "language": "en",
+  "recoveryKey": "17afed78-ee3a-431a-bd67-fca32f7a99dd",
+  "submissionDate": "2017-04-11T16:00:05",
+  "firstSubmissionDate": "2017-04-11T16:00:05",
+  "sections": [
+    {
+      "sectionId": "2",
+      "text": "Your Personal Data & Team",
+      "questions": [
+        {
+          "id": "20",
+          "required": true,
+          "type": "SELECT",
+          "text": "Are any of the founders or co-founders women? There is a Special Award 'Women in Fintech' that acknowledges the work of women in the Fintech industry*",
+          "choices": [
+            "No",
+            "Yes"
+          ]
+        },
+        {
+          "id": "19",
+          "required": true,
+          "type": "LONGTEXT",
+          "text": "Describe your team: position in the company and Linkedin of the most important members*"
+        },
+        {
+          "id": "13",
+          "required": true,
+          "type": "TEXT",
+          "text": "First name*"
+        },
+        {
+          "id": "16",
+          "required": true,
+          "key": "APPLICANT_KEY",
+          "type": "EMAIL",
+          "text": "Contact email*"
+        },
+        {
+          "id": "21",
+          "required": false,
+          "type": "TEXT",
+          "text": "LinkedIn of the person"
+        },
+        {
+          "id": "18",
+          "required": false,
+          "type": "TEXT",
+          "text": "LinkedIn of the company"
+        },
+        {
+          "id": "14",
+          "required": true,
+          "type": "TEXT",
+          "text": "Last name*"
+        },
+        {
+          "id": "17",
+          "required": true,
+          "type": "SELECT",
+          "text": "Role in the company*",
+          "choices": [
+            "Others",
+            "COO",
+            "CMO",
+            "CIO",
+            "Advisor",
+            "Developer",
+            "CEO",
+            "CTO"
+          ]
+        },
+        {
+          "id": "15",
+          "required": true,
+          "type": "DATE",
+          "text": "Date of birth*"
+        }
+      ]
+    },
+    {
+      "sectionId": "1",
+      "text": "Your Company",
+      "questions": [
+        {
+          "id": "9",
+          "required": true,
+          "type": "DATE",
+          "text": "Date of legal formation*"
+        },
+        {
+          "id": "12",
+          "required": true,
+          "type": "MULTISELECT",
+          "text": "Would you like to participate in any other competition, apart from Open Talent Global Trends?*",
+          "choices": [
+            "Financial Inclusion Special Award",
+            "Artificial Intelligence",
+            "LATAM - Regional",
+            "Identity",
+            "Women in Fintech Special Award",
+            "Fintech for Companies",
+            "Spain - Regional",
+            "Turkey - Regional"
+          ]
+        },
+        {
+          "id": "11",
+          "required": true,
+          "type": "TEXT",
+          "text": "Phone Number (with country code)*"
+        },
+        {
+          "id": "6",
+          "required": true,
+          "type": "TEXT",
+          "text": "City of legal formation*"
+        },
+        {
+          "id": "2",
+          "required": true,
+          "type": "TEXT",
+          "text": "Company registered name*"
+        },
+        {
+          "id": "10",
+          "required": true,
+          "type": "NUMBER",
+          "text": "Number of employees*"
+        },
+        {
+          "id": "7",
+          "required": true,
+          "type": "COUNTRY",
+          "text": "Country of legal formation*"
+        },
+        {
+          "id": "8",
+          "required": true,
+          "type": "COUNTRY",
+          "text": "In which country does your company have its headquarters?*"
+        },
+        {
+          "id": "3",
+          "required": true,
+          "type": "TEXT",
+          "text": "Company Website*"
+        },
+        {
+          "id": "5",
+          "required": false,
+          "type": "TEXT",
+          "text": "Company Twitter ID"
+        },
+        {
+          "id": "4",
+          "required": false,
+          "type": "FILE",
+          "text": "Company logo"
+        },
+        {
+          "id": "1",
+          "required": true,
+          "key": "APPLICATION_KEY",
+          "type": "TEXT",
+          "text": "Company commercial brand name*"
+        }
+      ]
+    },
+    {
+      "sectionId": "5",
+      "text": "Anything else?",
+      "questions": [
+        {
+          "id": "38",
+          "required": true,
+          "type": "SELECT",
+          "text": "How did you hear about Open Talent 2017?*",
+          "choices": [
+            "SouthSummit",
+            "Exec I/O",
+            "Let's Talk Payments",
+            "FinTech Connect",
+            "Social Media",
+            "AI Summit",
+            "K(NO)W Identity",
+            "NYPAY",
+            "Web BBVA Innovation Center",
+            "Pioneers",
+            "Start Us",
+            "Web BBVA Open Talent",
+            "Money 20/20",
+            "Finnovista",
+            "Innovate Finance",
+            "Money Conf",
+            "BBVA",
+            "BBVA Bancomer",
+            "Seedstars",
+            "Wired Money",
+            "Springwise",
+            "Next Money",
+            "Other"
+          ]
+        },
+        {
+          "id": "37",
+          "required": false,
+          "type": "LONGTEXT",
+          "text": "Any other relevant information we should know about?"
+        },
+        {
+          "id": "39",
+          "required": false,
+          "type": "TEXT",
+          "text": "Any other video you would like to share with us? (URL)"
+        },
+        {
+          "id": "36",
+          "required": false,
+          "type": "FILE",
+          "text": "Any other document you would like to share with us?"
+        }
+      ]
+    },
+    {
+      "sectionId": "3",
+      "text": "Your Business",
+      "questions": [
+        {
+          "id": "32",
+          "required": false,
+          "type": "LONGTEXT",
+          "text": "What have been the most significant milestones (awards, number of users, validations...)?"
+        },
+        {
+          "id": "29",
+          "required": true,
+          "type": "NUMBER",
+          "text": "What has been the accumulated financing since inception? (in USD or EUR)*"
+        },
+        {
+          "id": "26",
+          "required": true,
+          "type": "SELECT",
+          "text": "What is your company’s stage of development?*",
+          "choices": [
+            "Mature business",
+            "Growth",
+            "Pre-seed",
+            "Seed",
+            "Early stage"
+          ]
+        },
+        {
+          "id": "28",
+          "required": true,
+          "type": "LONGTEXT",
+          "text": "Who are your targeted customers and how do you reach them?*"
+        },
+        {
+          "id": "22",
+          "required": true,
+          "type": "MULTISELECT",
+          "text": "What industry/area does your company operate in?*",
+          "choices": [
+            "Lending",
+            "Compliance",
+            "Blockchain",
+            "SaaS",
+            "AI",
+            "Payments",
+            "Risk",
+            "HR",
+            "Security",
+            "IoT",
+            "Markets (FX, Trading...)",
+            "SME Service",
+            "Cryptocurrencies",
+            "eCommerce",
+            "Wealth Management",
+            "Insurance",
+            "Real Estate",
+            "Cloud",
+            "Financial Inclusion",
+            "BigData",
+            "API",
+            "Identity",
+            "Other"
+          ]
+        },
+        {
+          "id": "31",
+          "required": true,
+          "type": "LONGTEXT",
+          "text": "Who are your main competitors?*"
+        },
+        {
+          "id": "23",
+          "required": true,
+          "type": "LONGTEXT",
+          "text": "Tweet: describe your business in 140 characters*"
+        },
+        {
+          "id": "24",
+          "required": true,
+          "type": "LONGTEXT",
+          "text": "Describe your business in depth*"
+        },
+        {
+          "id": "30",
+          "required": true,
+          "type": "NUMBER",
+          "text": "What was your revenue in 2016? (in USD or EUR)*"
+        },
+        {
+          "id": "27",
+          "required": true,
+          "type": "LONGTEXT",
+          "text": "How do you make money? Explain your business model*"
+        },
+        {
+          "id": "25",
+          "required": false,
+          "type": "TEXT",
+          "text": "Elevator pitch: tell us about your business in a 1 minute video (URL)"
+        }
+      ]
+    },
+    {
+      "sectionId": "4",
+      "text": "Your Product/Service",
+      "questions": [
+        {
+          "id": "33",
+          "required": true,
+          "type": "LONGTEXT",
+          "text": "Describe your product/technology. What is the most innovative & disruptive?*"
+        },
+        {
+          "id": "35",
+          "required": true,
+          "type": "SELECT",
+          "text": "Your product development stage?*",
+          "choices": [
+            "Concept",
+            "Ready to scale",
+            "Prototype",
+            "Commercial version",
+            "Beta version"
+          ]
+        },
+        {
+          "id": "34",
+          "required": true,
+          "type": "TEXT",
+          "text": "URL of the product web, product app, product demo etc.*"
+        }
+      ]
+    }
+  ],
+  "answers": [
+    {
+      "questionId": "1",
+      "text": "RiskApp"
+    },
+    {
+      "questionId": "2",
+      "text": "RiskApp S.r.l."
+    },
+    {
+      "questionId": "3",
+      "text": "https://www.riskapp.it/"
+    },
+    {
+      "questionId": "4",
+      "text": "https://bbva-ats-opentalent-assets-pro.s3-eu-west-1.amazonaws.com/5f4e8c00-c1f2-4522-b0e9-e714cf552764_Logo_hiRes.jpg"
+    },
+    {
+      "questionId": "5",
+      "text": "@RiskApp_IT"
+    },
+    {
+      "questionId": "6",
+      "text": "Padova "
+    },
+    {
+      "questionId": "7",
+      "choices": [
+        {
+          "id":"italy",
+          "label":"Italy"
+        }
+      ]
+    },
+    {
+      "questionId": "8",
+      "choices": [
+        {
+          "id":"italy",
+          "label":"Italy"
+        }
+      ]
+    },
+    {
+      "questionId": "9",
+      "text": "2015-06-30T22:00:00.000Z"
+    },
+    {
+      "questionId": "10",
+      "text": "3"
+    },
+    {
+      "questionId": "11",
+      "text": "+39 348 9306808"
+    },
+    {
+      "questionId": "12",
+      "choices": [
+        {
+          "id": "finalcialinclusionspecialaward",
+          "label":"Financial Inclusion Special Award"
+        },
+        {
+          "id":"identity",
+          "label":"Identity"
+        },
+        {
+          "id":"fintechforcompanies",
+          "label":"Fintech for Companies"
+        }
+      ]
+    },
+    {
+      "questionId": "13",
+      "text": "Filippo"
+    },
+    {
+      "questionId": "14",
+      "text": "Cibin "
+    },
+    {
+      "questionId": "15",
+      "text": "1989-05-07T22:00:00.000Z"
+    },
+    {
+      "questionId": "16",
+      "text": "recoverlastapp@ot17.com"
+    },
+    {
+      "questionId": "17",
+      "choices": [
+        {
+          "id":"others",
+          "label":"Others"
+        }
+      ]
+    },
+    {
+      "questionId": "18",
+      "text": "https://www.linkedin.com/company/riskapp"
+    },
+    {
+      "questionId": "19",
+      "text": "We are a young, multicultural and dynamic team with a strong combination of years of experience encompassing different business areas from finance, marketing, sales to IT and technology. Some of our team members have worked in international work environments and have a successful track record working in the financial services industry including legal background and Mergers and Acquisitions (M&A). \nThe founders met 10+ years ago and they have been collaborating since then on different projects including the creation and development of an insurance claim management platform that successfully monitored and executed more than 1,500 claims for an international insurer.  Last year the team secured a regional financing for smart manufacturing similar to this project. As RiskApp we have been nominated as one out of  ten most promising startup to watch for 2017.\n\n- Pierpaolo Toniolo: CTO, linkedin.com/in/pierpaolotoniolo \n- Federico Carturan: CEO, linkedin.com/in/federicocarturan +39 348 9306808\n- Luca Bizzaro: Researcher and Engineer, linkedin.com/in/luca-bizzaro-2384aa95\n- Lorenzo Gambato: Business Development, linkedin.com/in/lorenzogambato\n- Filippo Cibin: Business Development Manager - Global, www.linkedin.com/in/filippo-cibin\n"
+    },
+    {
+      "questionId": "20",
+      "choices": [
+        {
+          "id":"no",
+          "label":"No"
+        }
+      ]
+    },
+    {
+      "questionId": "21",
+      "text": "www.linkedin.com/in/filippo-cibin"
+    },
+    {
+      "questionId": "22",
+      "choices": [
+        {
+          "id": "smeservice",
+          "label":"SME Service"
+        },
+        {
+          "id": "insurance",
+          "label":"Insurance"
+        },
+        {
+          "id": "saas",
+          "label":"SaaS"
+        },
+        {
+          "id": "bigdata",
+          "label":"BigData"
+        },
+        {
+          "id": "risk",
+          "label":"Risk"
+        },
+        {
+          "id": "iot",
+          "label":"IoT"
+        }]
+    },
+    {
+      "questionId": "23",
+      "text": "RiskApp offers an innovative solution, risk data and analytics, consultation and develops software to assess business risks."
+    },
+    {
+      "questionId": "24",
+      "text": "RiskApp serves the insurance industry by providing technological solutions for the sales, the underwriting and the technical aspects of the business process.\n\nRiskApp offers an innovative solution, risk data and analytics, consultation and develops software to assess business risks.\n\nInsurance underwriters, brokers and advisors use our tool to estimate the risk, consult their clients and to help clients to understand how well the business process, assets, revenues and earnings of their organization are protected compared to industry best practices to unlock value going forward.  Our solution gathers and collects data and thanks to a proprietary algorithm, estimates the value of risk in the value chain and express the economic losses that can arise from such risks.\n\nFounded in 2015, RiskApp collects, processes and represents risk data for the insurance industry of tomorrow. \n\nRiskApp: your passionate, innovative, risk assessment company.\n\nAreas of Expertise: \nData Analytics, Risk Assessment, Insurance Intelligence, Risk Modeling, Risk Underwriting, Business Interruption, Business Insurance, Insurance, Insurtech, Big Data, Risk Management"
+    },
+    {
+      "questionId": "25",
+      "text": "https://www.youtube.com/watch?v=D9c2MZrCTf8"
+    },
+    {
+      "questionId": "26",
+      "choices": [
+        {
+          "id": "earlystage",
+          "label": "Early stage"
+        }
+      ]
+    },
+    {
+      "questionId": "27",
+      "text": "We offer a solution that helps clients to understand how well the business process, assets, revenues and earnings of their organization are protected comparative to best practices to unlock value going forward. Our solution gathers and collects data, information for the valuation of risks to improve business processes and decisions for our international customers. We make money selling the access (license) of our software to our customer base composed by 3 target groups: 1) manufacturing companies, 2) insurance companies, 3) insurance agents and advisors."
+    },
+    {
+      "questionId": "28",
+      "text": "we have based our business model on software as a service SaaS so we provide platform access (license) to the 3 segments we have identified: 1) manufacturing companies, 2) insurance companies, 3) insurance brokers and advisors.\n\nWe plan to attract new users/customers through a focused digital campaign on relevant industry forums, social media, partnerships with large insurance brokers. The risk assessment product we offer answers to different customer needs: 1)  manufacturing companies:  “Data provides valuable information on the business at the moment and analytics on what to improve” 2) insurance companies: \"Data is money from an insurance perspective, it defines the risk, helps to improve profitability decreasing the loss ratio and improves underwriting decisions” 3) insurance brokers and due diligence advisors: “Data helps to approach a client and it provides support to the negotiation. It is a deal facilitator”"
+    },
+    {
+      "questionId": "29",
+      "text": "600000"
+    },
+    {
+      "questionId": "30",
+      "text": "250000"
+    },
+    {
+      "questionId": "31",
+      "text": "- ExSafe;\n- Advisen; \n- Risk Advisors; \n- Other Risk Data / Risk Management platforms "
+    },
+    {
+      "questionId": "32",
+      "text": "- 07/2015: RAI: RiskApp mentioned on national TV. \n- 09/2015: UNIPOL IDEAS: accelerator in Bologna, Italy. RiskApp won the first prize and a secured a financing of EUR 100k. \n- 10/2015: DELOITTE DIGITAL DISRUPTION: accelerator in Lisboa, Portugal. The main result was an integration, free consulting and a joint value proposition. ING: accelerator in Venice. RiskApp won the prize as best data processor. \n- 03/2016: MUNDILAB MUNICH RE: accelerator in Madrid, Spain. RiskApp won a strategic partnership with the insurer. \n- 05/2016: WORLD BANK 1st assignment. \n- 10/2016: CAPRISTARTUP: Spinup award in 2016. RiskApp won the first prize as Smart Manufacturing.\n- 2017: AWARDS AND PUBLICATIONS: RiskApp mentioned as one out of 10 startup to watch for 2017 in Italy and on other Insurtech publications.\n"
+    },
+    {
+      "questionId": "33",
+      "text": "RiskAPP! delivers a risk assessment tool for the insurance and banking industry.\n\nWe calculate the impact of business interruption and other business risks which are the top perceived risks for companies.\n\nThe most innovative/disruptive part of our product is for sure our proprietary algorithm, which is capable of estimating the value of risk in supply chain and in productive systems and express the economic losses that can arise from such risks. Insurers are using our tool to estimate the risk and consult their clients on the best policies to subscribe. They're also using our tool as an actuarial method to compute premiums for business interruption cover and contingent business interruption.\nThe algorithm has been conceived under the supervision of world renewed experts in risk modeling, and is continuously integrated with data from the field. "
+    },
+    {
+      "questionId": "34",
+      "text": "http://www.riskapp.it/"
+    },
+    {
+      "questionId": "35",
+      "choices": [
+        {"id": "comercialversion",
+        "label": "Commercial version"}
+      ]
+    },
+    {
+      "questionId": "36",
+      "text": "https://bbva-ats-opentalent-assets-pro.s3-eu-west-1.amazonaws.com/b176fe77-7144-4c28-9735-29a8051e65ca_paginapresentazioneRiskApp2.pdf"
+    },
+    {
+      "questionId": "37",
+      "text": "We believe BBVA program provides a lot of benefits and a strong added value for an Insurtech / Fintech startup like ours. We are applying because we believe it is one of the world most active program in an exciting young dynamic and international environment. We believe the program fits perfectly with our business idea, with our culture, our values, goals and objectives. We are sure RiskApp, given its experience in other similar programs, will be an excellent contributor to your event. "
+    },
+    {
+      "questionId": "38",
+      "choices": [{
+          "id": "webbbvaopentalent",
+          "label": "Web BBVA Open Talent"
+      }]
+    },
+    {
+      "questionId": "39",
+      "text": "https://www.youtube.com/watch?v=t1m5izrzO4o"
+    }
+  ]
+}

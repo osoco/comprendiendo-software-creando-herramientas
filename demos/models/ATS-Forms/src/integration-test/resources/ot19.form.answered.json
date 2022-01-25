@@ -1,0 +1,2073 @@
+{
+  "id": "2c008eba-af44-0d00-a7ee-5d4c0ee6adba",
+  "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+  "applicationKey": "jripoll company",
+  "submissionDate": "2019-05-07T15:43:37",
+  "language": "EN",
+  "origin": "https://s3-eu-west-1.amazonaws.com/pre-widget-form-json/index_en.html",
+  "formId": "96c1d9e5-0b44-0d00-a7ab-eec605efdd60",
+  "sections": [],
+  "answers": [
+    {
+      "tags": [
+        {
+          "id": "98613dbf-7624-0d00-aa41-845f0ebb35bb",
+          "version": 0,
+          "isDeleted": false,
+          "description": [
+            {
+              "text": "The management of assets. In the banking sector is an activity that consists of the responsible management of capital and guarantees of companies such as bonds and shares by administrative institutions (such as banks), to achieve the greatest benefits to investors.",
+              "lang": "EN"
+            }
+          ],
+          "contestIds": [
+            "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+            "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+            "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+            "e2644837-7a42-0d00-98df-937900b12e3b"
+          ],
+          "i18n": [
+            {
+              "text": "Assets Management",
+              "lang": "ES"
+            },
+            {
+              "text": "Assets Management",
+              "lang": "EN"
+            }
+          ],
+          "categories": [
+            {
+              "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+              "categoryId": "445cbd23-1837-0d00-b510-cb89043ce47c",
+              "categoryKey": "area",
+              "i18n": [
+                {
+                  "text": "area",
+                  "lang": "ES"
+                },
+                {
+                  "text": "area",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+              "categoryId": "50b4d023-1837-0d00-b51c-0da4043ce47c",
+              "categoryKey": "area",
+              "i18n": [
+                {
+                  "text": "area",
+                  "lang": "ES"
+                },
+                {
+                  "text": "area",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+              "categoryId": "30dbbce2-1838-0d00-a8ad-cdac0e8c9ade",
+              "categoryKey": "area",
+              "i18n": [
+                {
+                  "text": "area",
+                  "lang": "ES"
+                },
+                {
+                  "text": "area",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+              "categoryId": "6566fd99-8e42-0d00-98fc-306300b12e3b",
+              "categoryKey": "area",
+              "i18n": [
+                {
+                  "text": "area",
+                  "lang": "ES"
+                },
+                {
+                  "text": "area",
+                  "lang": "EN"
+                }
+              ]
+            }
+          ],
+          "key": "8157325234091778",
+          "skillTypes": []
+        },
+        {
+          "id": "adfa8b55-1937-0d00-aaa6-032a0f7a67d2",
+          "version": 0,
+          "isDeleted": false,
+          "contestIds": [
+            "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+            "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+            "e2644837-7a42-0d00-98df-937900b12e3b"
+          ],
+          "i18n": [
+            {
+              "text": "Corporate Finance",
+              "lang": "ES"
+            },
+            {
+              "text": "Corporate Finance",
+              "lang": "EN"
+            }
+          ],
+          "categories": [
+            {
+              "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+              "categoryId": "445cbd23-1837-0d00-b510-cb89043ce47c",
+              "categoryKey": "area",
+              "i18n": [
+                {
+                  "text": "area",
+                  "lang": "ES"
+                },
+                {
+                  "text": "area",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+              "categoryId": "30dbbce2-1838-0d00-a8ad-cdac0e8c9ade",
+              "categoryKey": "area",
+              "i18n": [
+                {
+                  "text": "area",
+                  "lang": "ES"
+                },
+                {
+                  "text": "area",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+              "categoryId": "6566fd99-8e42-0d00-98fc-306300b12e3b",
+              "categoryKey": "area",
+              "i18n": [
+                {
+                  "text": "area",
+                  "lang": "ES"
+                },
+                {
+                  "text": "area",
+                  "lang": "EN"
+                }
+              ]
+            }
+          ],
+          "key": "1242753652174097",
+          "skillTypes": []
+        },
+        {
+          "id": "4702b255-1937-0d00-aabe-a8bc0f7a67d2",
+          "version": 0,
+          "isDeleted": false,
+          "contestIds": [
+            "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+            "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+            "e2644837-7a42-0d00-98df-937900b12e3b"
+          ],
+          "i18n": [
+            {
+              "text": "Consumer Finance",
+              "lang": "ES"
+            },
+            {
+              "text": "Consumer Finance",
+              "lang": "EN"
+            }
+          ],
+          "categories": [
+            {
+              "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+              "categoryId": "445cbd23-1837-0d00-b510-cb89043ce47c",
+              "categoryKey": "area",
+              "i18n": [
+                {
+                  "text": "area",
+                  "lang": "ES"
+                },
+                {
+                  "text": "area",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+              "categoryId": "30dbbce2-1838-0d00-a8ad-cdac0e8c9ade",
+              "categoryKey": "area",
+              "i18n": [
+                {
+                  "text": "area",
+                  "lang": "ES"
+                },
+                {
+                  "text": "area",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+              "categoryId": "6566fd99-8e42-0d00-98fc-306300b12e3b",
+              "categoryKey": "area",
+              "i18n": [
+                {
+                  "text": "area",
+                  "lang": "ES"
+                },
+                {
+                  "text": "area",
+                  "lang": "EN"
+                }
+              ]
+            }
+          ],
+          "key": "4250100827016961",
+          "skillTypes": []
+        }
+      ],
+      "choices": [
+        {
+          "label": "Assets Management",
+          "id": "98613dbf-7624-0d00-aa41-845f0ebb35bb"
+        },
+        {
+          "label": "Corporate Finance",
+          "id": "adfa8b55-1937-0d00-aaa6-032a0f7a67d2"
+        },
+        {
+          "label": "Consumer Finance",
+          "id": "4702b255-1937-0d00-aabe-a8bc0f7a67d2"
+        }
+      ],
+      "questionId": "ot19-4-2"
+    },
+    {
+      "text": "contact name 5",
+      "questionId": "ot19-2-5-1"
+    },
+    {
+      "choices": [
+        {
+          "label": "Yes",
+          "id": "976edf8e-8093-4107-b59a-a06ec64ee9bd"
+        }
+      ],
+      "questionId": "ot19-3-5"
+    },
+    {
+      "text": "@jripollmoreno",
+      "questionId": "ot19-1-5"
+    },
+    {
+      "text": "contact2@ripollmoreno.com",
+      "questionId": "ot19-2-2-3"
+    },
+    {
+      "text": "contact5@ripollmoreno.com",
+      "questionId": "ot19-2-5-3"
+    },
+    {
+      "text": "contact surname 3",
+      "questionId": "ot19-2-3-2"
+    },
+    {
+      "choices": [
+        {
+          "label": "less than 25,000",
+          "id": "39570609-8048-4798-80e0-fc2477219539"
+        }
+      ],
+      "questionId": "ot19-3-11"
+    },
+    {
+      "choices": [
+        {
+          "label": "Growth",
+          "id": "d581dd7b-e250-472a-9df5-50dbfa3b3a34"
+        }
+      ],
+      "questionId": "ot19-3-4"
+    },
+    {
+      "text": "2018-05-08T22:00:00.000Z",
+      "questionId": "ot19-1-9"
+    },
+    {
+      "text": "42",
+      "questionId": "ot19-3-9"
+    },
+    {
+      "text": "https://bbva-ats-opentalent-assets-pre.s3-eu-west-1.amazonaws.com/4dc37806-5e18-476c-a148-95fd3d22bc98_logo-geb.png",
+      "questionId": "ot19-1-2"
+    },
+    {
+      "tags": [
+        {
+          "id": "d504db19-b123-0d00-819e-e21e0e226b2c",
+          "version": 0,
+          "isDeleted": false,
+          "description": [
+            {
+              "text": "The target of this startup are the employees of BBVA (or other banks/companies)",
+              "lang": "EN"
+            }
+          ],
+          "contestIds": [
+            "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+            "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+            "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+            "e2644837-7a42-0d00-98df-937900b12e3b"
+          ],
+          "i18n": [
+            {
+              "text": "Empleados",
+              "lang": "ES"
+            },
+            {
+              "text": "Employees",
+              "lang": "EN"
+            }
+          ],
+          "categories": [
+            {
+              "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+              "categoryId": "fdedb623-1837-0d00-b50c-4fb1043ce47c",
+              "categoryKey": "target",
+              "i18n": [
+                {
+                  "text": "objetivo",
+                  "lang": "ES"
+                },
+                {
+                  "text": "target",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+              "categoryId": "f539ca23-1837-0d00-b518-8ae1043ce47c",
+              "categoryKey": "target",
+              "i18n": [
+                {
+                  "text": "objetivo",
+                  "lang": "ES"
+                },
+                {
+                  "text": "target",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+              "categoryId": "5e81bbe2-1838-0d00-a8a7-68b80e8c9ade",
+              "categoryKey": "target",
+              "i18n": [
+                {
+                  "text": "objetivo",
+                  "lang": "ES"
+                },
+                {
+                  "text": "target",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+              "categoryId": "3327dfad-8e42-0d00-9904-431500b12e3b",
+              "categoryKey": "target",
+              "i18n": [
+                {
+                  "text": "objetivo",
+                  "lang": "ES"
+                },
+                {
+                  "text": "target",
+                  "lang": "EN"
+                }
+              ]
+            }
+          ],
+          "key": "2145517554964966",
+          "skillTypes": []
+        },
+        {
+          "id": "592cd019-b123-0d00-819a-91ed0e226b2c",
+          "version": 0,
+          "isDeleted": false,
+          "description": [
+            {
+              "text": "Retailers as the target of the startup",
+              "lang": "EN"
+            }
+          ],
+          "contestIds": [
+            "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+            "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+            "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+            "e2644837-7a42-0d00-98df-937900b12e3b"
+          ],
+          "i18n": [
+            {
+              "text": "Comercios",
+              "lang": "ES"
+            },
+            {
+              "text": "Retailers",
+              "lang": "EN"
+            }
+          ],
+          "categories": [
+            {
+              "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+              "categoryId": "fdedb623-1837-0d00-b50c-4fb1043ce47c",
+              "categoryKey": "target",
+              "i18n": [
+                {
+                  "text": "objetivo",
+                  "lang": "ES"
+                },
+                {
+                  "text": "target",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+              "categoryId": "f539ca23-1837-0d00-b518-8ae1043ce47c",
+              "categoryKey": "target",
+              "i18n": [
+                {
+                  "text": "objetivo",
+                  "lang": "ES"
+                },
+                {
+                  "text": "target",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+              "categoryId": "5e81bbe2-1838-0d00-a8a7-68b80e8c9ade",
+              "categoryKey": "target",
+              "i18n": [
+                {
+                  "text": "objetivo",
+                  "lang": "ES"
+                },
+                {
+                  "text": "target",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+              "categoryId": "3327dfad-8e42-0d00-9904-431500b12e3b",
+              "categoryKey": "target",
+              "i18n": [
+                {
+                  "text": "objetivo",
+                  "lang": "ES"
+                },
+                {
+                  "text": "target",
+                  "lang": "EN"
+                }
+              ]
+            }
+          ],
+          "key": "6425231854551535",
+          "skillTypes": []
+        },
+        {
+          "id": "97a6ae68-1937-0d00-ab07-c7240f7a67d2",
+          "version": 0,
+          "isDeleted": false,
+          "contestIds": [
+            "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+            "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+            "e2644837-7a42-0d00-98df-937900b12e3b"
+          ],
+          "i18n": [
+            {
+              "text": "Asset Managers",
+              "lang": "ES"
+            },
+            {
+              "text": "Asset Managers",
+              "lang": "EN"
+            }
+          ],
+          "categories": [
+            {
+              "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+              "categoryId": "fdedb623-1837-0d00-b50c-4fb1043ce47c",
+              "categoryKey": "target",
+              "i18n": [
+                {
+                  "text": "objetivo",
+                  "lang": "ES"
+                },
+                {
+                  "text": "target",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+              "categoryId": "5e81bbe2-1838-0d00-a8a7-68b80e8c9ade",
+              "categoryKey": "target",
+              "i18n": [
+                {
+                  "text": "objetivo",
+                  "lang": "ES"
+                },
+                {
+                  "text": "target",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+              "categoryId": "3327dfad-8e42-0d00-9904-431500b12e3b",
+              "categoryKey": "target",
+              "i18n": [
+                {
+                  "text": "objetivo",
+                  "lang": "ES"
+                },
+                {
+                  "text": "target",
+                  "lang": "EN"
+                }
+              ]
+            }
+          ],
+          "key": "8328792446001765",
+          "skillTypes": []
+        },
+        {
+          "id": "e847e019-b123-0d00-81a0-218a0e226b2c",
+          "version": 0,
+          "isDeleted": false,
+          "description": [
+            {
+              "text": "The target are individuals, not companies",
+              "lang": "EN"
+            }
+          ],
+          "contestIds": [
+            "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+            "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+            "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+            "e2644837-7a42-0d00-98df-937900b12e3b"
+          ],
+          "i18n": [
+            {
+              "text": "Individuos",
+              "lang": "ES"
+            },
+            {
+              "text": "Individuals",
+              "lang": "EN"
+            }
+          ],
+          "categories": [
+            {
+              "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+              "categoryId": "fdedb623-1837-0d00-b50c-4fb1043ce47c",
+              "categoryKey": "target",
+              "i18n": [
+                {
+                  "text": "objetivo",
+                  "lang": "ES"
+                },
+                {
+                  "text": "target",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+              "categoryId": "f539ca23-1837-0d00-b518-8ae1043ce47c",
+              "categoryKey": "target",
+              "i18n": [
+                {
+                  "text": "objetivo",
+                  "lang": "ES"
+                },
+                {
+                  "text": "target",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+              "categoryId": "5e81bbe2-1838-0d00-a8a7-68b80e8c9ade",
+              "categoryKey": "target",
+              "i18n": [
+                {
+                  "text": "objetivo",
+                  "lang": "ES"
+                },
+                {
+                  "text": "target",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+              "categoryId": "3327dfad-8e42-0d00-9904-431500b12e3b",
+              "categoryKey": "target",
+              "i18n": [
+                {
+                  "text": "objetivo",
+                  "lang": "ES"
+                },
+                {
+                  "text": "target",
+                  "lang": "EN"
+                }
+              ]
+            }
+          ],
+          "key": "2237564387726683",
+          "skillTypes": []
+        }
+      ],
+      "choices": [
+        {
+          "label": "Employees",
+          "id": "d504db19-b123-0d00-819e-e21e0e226b2c"
+        },
+        {
+          "label": "Retailers",
+          "id": "592cd019-b123-0d00-819a-91ed0e226b2c"
+        },
+        {
+          "label": "Asset Managers",
+          "id": "97a6ae68-1937-0d00-ab07-c7240f7a67d2"
+        },
+        {
+          "label": "Individuals",
+          "id": "e847e019-b123-0d00-81a0-218a0e226b2c"
+        }
+      ],
+      "questionId": "ot19-4-6"
+    },
+    {
+      "text": "https://www.linkedin.com/in/contact5",
+      "questionId": "ot19-2-5-4"
+    },
+    {
+      "text": "https://www.crunchbase.com/person/julio-ripoll",
+      "questionId": "ot19-1-7"
+    },
+    {
+      "text": "What have been the most significant milestones (awards, number of users, validations, funding round...)?\n",
+      "questionId": "ot19-5-1"
+    },
+    {
+      "text": "https://julio.ripollmoreno.com",
+      "questionId": "ot19-1-3"
+    },
+    {
+      "text": "true",
+      "questionId": "GDPR-checkbox"
+    },
+    {
+      "choices": [
+        {
+          "label": "Spain",
+          "id": "ESP"
+        }
+      ],
+      "questionId": "ot19-1-10"
+    },
+    {
+      "choices": [
+        {
+          "label": "Developer",
+          "id": "b1fb7435-13d8-48c6-ba60-d9bae0aa3eb8"
+        }
+      ],
+      "questionId": "ot19-2-1-5"
+    },
+    {
+      "text": "contact surname 2",
+      "questionId": "ot19-2-2-2"
+    },
+    {
+      "text": "Madrid",
+      "questionId": "ot19-1-11"
+    },
+    {
+      "choices": [
+        {
+          "label": "Yes",
+          "id": "976edf8e-8093-4107-b59a-a06ec64ee9bd"
+        }
+      ],
+      "questionId": "ot19-2-1-4"
+    },
+    {
+      "text": "https://www.linkedin.com/in/contact3",
+      "questionId": "ot19-2-3-4"
+    },
+    {
+      "text": "false",
+      "questionId": "allow-data-recovery"
+    },
+    {
+      "text": "Have you done any user testing of your product/service?",
+      "questionId": "ot19-4-10"
+    },
+    {
+      "text": "jripoll company",
+      "questionId": "ot19-0-1"
+    },
+    {
+      "text": "jripoll company S.L.",
+      "questionId": "ot19-1-1"
+    },
+    {
+      "text": "contact surname 4",
+      "questionId": "ot19-2-4-2"
+    },
+    {
+      "text": "Shibata S.L.",
+      "questionId": "ot19-3-6"
+    },
+    {
+      "text": "Describe in depth the technology used in your product/service *",
+      "questionId": "ot19-4-5"
+    },
+    {
+      "text": "contact name 3",
+      "questionId": "ot19-2-3-1"
+    },
+    {
+      "text": "https://www.youtube.com/watch?v=IhYMrxe7jDg",
+      "questionId": "ot19-3-3"
+    },
+    {
+      "text": "Ripoll",
+      "questionId": "ot19-2-1-2"
+    },
+    {
+      "choices": [
+        {
+          "label": "Yes",
+          "id": "04ed3d54-0cd0-413b-8080-7f1db4b78bf9"
+        }
+      ],
+      "questionId": "ot19-3-12"
+    },
+    {
+      "choices": [
+        {
+          "label": "Concept",
+          "id": "5efe55c0-cd71-4b18-8e03-87f435e73dc6"
+        }
+      ],
+      "questionId": "ot19-4-8"
+    },
+    {
+      "text": "https://julio.ripollmoreno.com/product",
+      "questionId": "ot19-4-9"
+    },
+    {
+      "tags": [
+        {
+          "id": "998ba468-1937-0d00-ab00-0e730f7a67d2",
+          "version": 0,
+          "isDeleted": false,
+          "description": [
+            {
+              "text": "Solutions to Optimize managment of recurring payments/collections, originate new/alternative ecommerce payment/collectons, optimize Treasury Managment, confirmation of payer/payee solutions and accounts data commercial explotation",
+              "lang": "EN"
+            }
+          ],
+          "contestIds": [
+            "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+            "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+            "e2644837-7a42-0d00-98df-937900b12e3b"
+          ],
+          "i18n": [
+            {
+              "text": "Account Services & Collections",
+              "lang": "ES"
+            },
+            {
+              "text": "Account Services & Collections",
+              "lang": "EN"
+            }
+          ],
+          "categories": [
+            {
+              "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+              "categoryId": "b95fb023-1837-0d00-b508-e9b3043ce47c",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+              "categoryId": "7b3abce2-1838-0d00-a8ab-f9900e8c9ade",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+              "categoryId": "085755ab-8e42-0d00-9902-80c000b12e3b",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            }
+          ],
+          "key": "7780840471385443",
+          "skillTypes": []
+        },
+        {
+          "id": "7cdbef18-b123-0d00-8148-de9f0e226b2c",
+          "version": 0,
+          "isDeleted": false,
+          "contestIds": [
+            "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+            "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+            "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+            "e2644837-7a42-0d00-98df-937900b12e3b"
+          ],
+          "i18n": [
+            {
+              "text": "Antifraude",
+              "lang": "ES"
+            },
+            {
+              "text": "Antifraud",
+              "lang": "EN"
+            }
+          ],
+          "categories": [
+            {
+              "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+              "categoryId": "b95fb023-1837-0d00-b508-e9b3043ce47c",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+              "categoryId": "aed6c323-1837-0d00-b514-9ca2043ce47c",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+              "categoryId": "7b3abce2-1838-0d00-a8ab-f9900e8c9ade",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+              "categoryId": "085755ab-8e42-0d00-9902-80c000b12e3b",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            }
+          ],
+          "key": "5900760818401783",
+          "skillTypes": []
+        },
+        {
+          "id": "22d6ea18-b123-0d00-8146-eccb0e226b2c",
+          "version": 0,
+          "isDeleted": false,
+          "description": [
+            {
+              "text": "Refers to a set of procedures, laws and regulations designed to stop the practice of generating income through illegal actions.",
+              "lang": "EN"
+            }
+          ],
+          "contestIds": [
+            "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+            "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+            "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+            "e2644837-7a42-0d00-98df-937900b12e3b"
+          ],
+          "i18n": [
+            {
+              "text": "Anti Lavado Dinero",
+              "lang": "ES"
+            },
+            {
+              "text": "Anti Money Laundering",
+              "lang": "EN"
+            }
+          ],
+          "categories": [
+            {
+              "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+              "categoryId": "b95fb023-1837-0d00-b508-e9b3043ce47c",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+              "categoryId": "aed6c323-1837-0d00-b514-9ca2043ce47c",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+              "categoryId": "7b3abce2-1838-0d00-a8ab-f9900e8c9ade",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+              "categoryId": "085755ab-8e42-0d00-9902-80c000b12e3b",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            }
+          ],
+          "key": "1270271367951446",
+          "skillTypes": []
+        },
+        {
+          "id": "4f21f518-b123-0d00-814a-f84d0e226b2c",
+          "version": 0,
+          "isDeleted": false,
+          "description": [
+            {
+              "text": "Software of app to prevent virus attacks",
+              "lang": "EN"
+            }
+          ],
+          "contestIds": [
+            "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+            "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+            "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+            "e2644837-7a42-0d00-98df-937900b12e3b"
+          ],
+          "i18n": [
+            {
+              "text": "Antivirus",
+              "lang": "ES"
+            },
+            {
+              "text": "Antivirus",
+              "lang": "EN"
+            }
+          ],
+          "categories": [
+            {
+              "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+              "categoryId": "b95fb023-1837-0d00-b508-e9b3043ce47c",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+              "categoryId": "aed6c323-1837-0d00-b514-9ca2043ce47c",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+              "categoryId": "7b3abce2-1838-0d00-a8ab-f9900e8c9ade",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+              "categoryId": "085755ab-8e42-0d00-9902-80c000b12e3b",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            }
+          ],
+          "key": "7357109093700885",
+          "skillTypes": []
+        },
+        {
+          "id": "13266568-1937-0d00-aad6-b2c60f7a67d2",
+          "version": 0,
+          "isDeleted": false,
+          "contestIds": [
+            "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+            "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+            "e2644837-7a42-0d00-98df-937900b12e3b"
+          ],
+          "i18n": [
+            {
+              "text": "API based Services / Products",
+              "lang": "ES"
+            },
+            {
+              "text": "API based Services / Products",
+              "lang": "EN"
+            }
+          ],
+          "categories": [
+            {
+              "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+              "categoryId": "b95fb023-1837-0d00-b508-e9b3043ce47c",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+              "categoryId": "7b3abce2-1838-0d00-a8ab-f9900e8c9ade",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+              "categoryId": "085755ab-8e42-0d00-9902-80c000b12e3b",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            }
+          ],
+          "key": "3076458926900564",
+          "skillTypes": []
+        },
+        {
+          "id": "b1afdf18-b123-0d00-8142-f06c0e226b2c",
+          "version": 0,
+          "isDeleted": false,
+          "description": [
+            {
+              "text": "Alternative lending refers to a growing industry of digitally based lending platforms for different borrowing needs, including consumer, small and medium enterprise(SME) , student loans and mortgages.",
+              "lang": "EN"
+            }
+          ],
+          "contestIds": [
+            "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+            "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+            "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+            "e2644837-7a42-0d00-98df-937900b12e3b"
+          ],
+          "i18n": [
+            {
+              "text": "Alternative Lending",
+              "lang": "ES"
+            },
+            {
+              "text": "Alternative Lending",
+              "lang": "EN"
+            }
+          ],
+          "categories": [
+            {
+              "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+              "categoryId": "b95fb023-1837-0d00-b508-e9b3043ce47c",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+              "categoryId": "aed6c323-1837-0d00-b514-9ca2043ce47c",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+              "categoryId": "7b3abce2-1838-0d00-a8ab-f9900e8c9ade",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+              "categoryId": "085755ab-8e42-0d00-9902-80c000b12e3b",
+              "categoryKey": "solution",
+              "i18n": [
+                {
+                  "text": "solución",
+                  "lang": "ES"
+                },
+                {
+                  "text": "solution",
+                  "lang": "EN"
+                }
+              ]
+            }
+          ],
+          "key": "8826189745903238",
+          "skillTypes": []
+        }
+      ],
+      "choices": [
+        {
+          "label": "Account Services & Collections",
+          "id": "998ba468-1937-0d00-ab00-0e730f7a67d2"
+        },
+        {
+          "label": "Antifraud",
+          "id": "7cdbef18-b123-0d00-8148-de9f0e226b2c"
+        },
+        {
+          "label": "Anti Money Laundering",
+          "id": "22d6ea18-b123-0d00-8146-eccb0e226b2c"
+        },
+        {
+          "label": "Antivirus",
+          "id": "4f21f518-b123-0d00-814a-f84d0e226b2c"
+        },
+        {
+          "label": "API based Services / Products",
+          "id": "13266568-1937-0d00-aad6-b2c60f7a67d2"
+        },
+        {
+          "label": "Alternative Lending",
+          "id": "b1afdf18-b123-0d00-8142-f06c0e226b2c"
+        }
+      ],
+      "questionId": "ot19-4-3"
+    },
+    {
+      "text": "Julio",
+      "questionId": "ot19-2-1-1"
+    },
+    {
+      "text": "contact3@ripollmoreno.com",
+      "questionId": "ot19-2-3-3"
+    },
+    {
+      "text": "contact4@ripollmoreno.com",
+      "questionId": "ot19-2-4-3"
+    },
+    {
+      "text": "https://www.linkedin.com/in/julioripollmoreno/",
+      "questionId": "ot19-2-1-6"
+    },
+    {
+      "text": "https://bbva-ats-opentalent-assets-pre.s3-eu-west-1.amazonaws.com/e51567c5-eb6e-428d-9aed-33d3eb80d5f6_manual_en.pdf",
+      "questionId": "ot19-5-3"
+    },
+    {
+      "text": "https://www.linkedin.com/in/julioripollmoreno/",
+      "questionId": "ot19-1-6"
+    },
+    {
+      "text": "Describe your business in depth",
+      "questionId": "ot19-3-2"
+    },
+    {
+      "text": "How do you make money? Explain your business model *",
+      "questionId": "ot19-3-7"
+    },
+    {
+      "text": "contact name 4",
+      "questionId": "ot19-2-4-1"
+    },
+    {
+      "tags": [
+        {
+          "id": "a44a8968-1937-0d00-aaee-aec50f7a67d2",
+          "version": 0,
+          "isDeleted": false,
+          "contestIds": [
+            "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+            "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+            "e2644837-7a42-0d00-98df-937900b12e3b"
+          ],
+          "i18n": [
+            {
+              "text": "Behavioural economics (UX)",
+              "lang": "ES"
+            },
+            {
+              "text": "Behavioural economics (UX)",
+              "lang": "EN"
+            }
+          ],
+          "categories": [
+            {
+              "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+              "categoryId": "271fba23-1837-0d00-b50e-ff63043ce47c",
+              "categoryKey": "technology",
+              "i18n": [
+                {
+                  "text": "tecnología",
+                  "lang": "ES"
+                },
+                {
+                  "text": "technology",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+              "categoryId": "ed84bde2-1838-0d00-a8b1-fa420e8c9ade",
+              "categoryKey": "technology",
+              "i18n": [
+                {
+                  "text": "tecnología",
+                  "lang": "ES"
+                },
+                {
+                  "text": "technology",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+              "categoryId": "0cb0efb8-8e42-0d00-9906-c48900b12e3b",
+              "categoryKey": "technology",
+              "i18n": [
+                {
+                  "text": "tecnología",
+                  "lang": "ES"
+                },
+                {
+                  "text": "technology",
+                  "lang": "EN"
+                }
+              ]
+            }
+          ],
+          "key": "5828343043314929",
+          "skillTypes": []
+        },
+        {
+          "id": "28a3011a-b123-0d00-81ac-feef0e226b2c",
+          "version": 0,
+          "isDeleted": false,
+          "description": [
+            {
+              "text": "Application Programming Interface - Startups that use or provide APIs (= methods of communication between various software components). Can be also Open API",
+              "lang": "EN"
+            }
+          ],
+          "contestIds": [
+            "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+            "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+            "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+            "e2644837-7a42-0d00-98df-937900b12e3b"
+          ],
+          "i18n": [
+            {
+              "text": "API",
+              "lang": "ES"
+            },
+            {
+              "text": "API",
+              "lang": "EN"
+            }
+          ],
+          "categories": [
+            {
+              "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+              "categoryId": "271fba23-1837-0d00-b50e-ff63043ce47c",
+              "categoryKey": "technology",
+              "i18n": [
+                {
+                  "text": "tecnología",
+                  "lang": "ES"
+                },
+                {
+                  "text": "technology",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+              "categoryId": "ec77cd23-1837-0d00-b51a-848b043ce47c",
+              "categoryKey": "technology",
+              "i18n": [
+                {
+                  "text": "tecnología",
+                  "lang": "ES"
+                },
+                {
+                  "text": "technology",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+              "categoryId": "ed84bde2-1838-0d00-a8b1-fa420e8c9ade",
+              "categoryKey": "technology",
+              "i18n": [
+                {
+                  "text": "tecnología",
+                  "lang": "ES"
+                },
+                {
+                  "text": "technology",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+              "categoryId": "0cb0efb8-8e42-0d00-9906-c48900b12e3b",
+              "categoryKey": "technology",
+              "i18n": [
+                {
+                  "text": "tecnología",
+                  "lang": "ES"
+                },
+                {
+                  "text": "technology",
+                  "lang": "EN"
+                }
+              ]
+            }
+          ],
+          "key": "6561432609940033",
+          "skillTypes": []
+        },
+        {
+          "id": "4adbab55-1937-0d00-aaba-ea700f7a67d2",
+          "version": 0,
+          "isDeleted": false,
+          "contestIds": [
+            "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+            "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+            "e2644837-7a42-0d00-98df-937900b12e3b"
+          ],
+          "i18n": [
+            {
+              "text": "BDD",
+              "lang": "ES"
+            },
+            {
+              "text": "BDD",
+              "lang": "EN"
+            }
+          ],
+          "categories": [
+            {
+              "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+              "categoryId": "271fba23-1837-0d00-b50e-ff63043ce47c",
+              "categoryKey": "technology",
+              "i18n": [
+                {
+                  "text": "tecnología",
+                  "lang": "ES"
+                },
+                {
+                  "text": "technology",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+              "categoryId": "ed84bde2-1838-0d00-a8b1-fa420e8c9ade",
+              "categoryKey": "technology",
+              "i18n": [
+                {
+                  "text": "tecnología",
+                  "lang": "ES"
+                },
+                {
+                  "text": "technology",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+              "categoryId": "0cb0efb8-8e42-0d00-9906-c48900b12e3b",
+              "categoryKey": "technology",
+              "i18n": [
+                {
+                  "text": "tecnología",
+                  "lang": "ES"
+                },
+                {
+                  "text": "technology",
+                  "lang": "EN"
+                }
+              ]
+            }
+          ],
+          "key": "3275886817073383",
+          "skillTypes": []
+        },
+        {
+          "id": "7f03231a-b123-0d00-81b8-f5ec0e226b2c",
+          "version": 0,
+          "isDeleted": false,
+          "description": [
+            {
+              "text": "AI = Imitation of human abilities (i.e: automatic face recognition, classification of pictures, listen&write, chatbot or imitation of conversation, interpret text and write it).",
+              "lang": "EN"
+            }
+          ],
+          "contestIds": [
+            "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+            "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+            "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+            "e2644837-7a42-0d00-98df-937900b12e3b"
+          ],
+          "i18n": [
+            {
+              "text": "IA",
+              "lang": "ES"
+            },
+            {
+              "text": "AI",
+              "lang": "EN"
+            }
+          ],
+          "categories": [
+            {
+              "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+              "categoryId": "271fba23-1837-0d00-b50e-ff63043ce47c",
+              "categoryKey": "technology",
+              "i18n": [
+                {
+                  "text": "tecnología",
+                  "lang": "ES"
+                },
+                {
+                  "text": "technology",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+              "categoryId": "ec77cd23-1837-0d00-b51a-848b043ce47c",
+              "categoryKey": "technology",
+              "i18n": [
+                {
+                  "text": "tecnología",
+                  "lang": "ES"
+                },
+                {
+                  "text": "technology",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+              "categoryId": "ed84bde2-1838-0d00-a8b1-fa420e8c9ade",
+              "categoryKey": "technology",
+              "i18n": [
+                {
+                  "text": "tecnología",
+                  "lang": "ES"
+                },
+                {
+                  "text": "technology",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+              "categoryId": "0cb0efb8-8e42-0d00-9906-c48900b12e3b",
+              "categoryKey": "technology",
+              "i18n": [
+                {
+                  "text": "tecnología",
+                  "lang": "ES"
+                },
+                {
+                  "text": "technology",
+                  "lang": "EN"
+                }
+              ]
+            }
+          ],
+          "key": "4598002975062748",
+          "skillTypes": []
+        },
+        {
+          "id": "f83e6b68-1937-0d00-aada-8aa80f7a67d2",
+          "version": 0,
+          "isDeleted": false,
+          "contestIds": [
+            "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+            "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+            "e2644837-7a42-0d00-98df-937900b12e3b"
+          ],
+          "i18n": [
+            {
+              "text": "Algorithms",
+              "lang": "ES"
+            },
+            {
+              "text": "Algorithms",
+              "lang": "EN"
+            }
+          ],
+          "categories": [
+            {
+              "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+              "categoryId": "271fba23-1837-0d00-b50e-ff63043ce47c",
+              "categoryKey": "technology",
+              "i18n": [
+                {
+                  "text": "tecnología",
+                  "lang": "ES"
+                },
+                {
+                  "text": "technology",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+              "categoryId": "ed84bde2-1838-0d00-a8b1-fa420e8c9ade",
+              "categoryKey": "technology",
+              "i18n": [
+                {
+                  "text": "tecnología",
+                  "lang": "ES"
+                },
+                {
+                  "text": "technology",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+              "categoryId": "0cb0efb8-8e42-0d00-9906-c48900b12e3b",
+              "categoryKey": "technology",
+              "i18n": [
+                {
+                  "text": "tecnología",
+                  "lang": "ES"
+                },
+                {
+                  "text": "technology",
+                  "lang": "EN"
+                }
+              ]
+            }
+          ],
+          "key": "4502408977358866",
+          "skillTypes": []
+        }
+      ],
+      "choices": [
+        {
+          "label": "Behavioural economics (UX)",
+          "id": "a44a8968-1937-0d00-aaee-aec50f7a67d2"
+        },
+        {
+          "label": "API",
+          "id": "28a3011a-b123-0d00-81ac-feef0e226b2c"
+        },
+        {
+          "label": "BDD",
+          "id": "4adbab55-1937-0d00-aaba-ea700f7a67d2"
+        },
+        {
+          "label": "AI",
+          "id": "7f03231a-b123-0d00-81b8-f5ec0e226b2c"
+        },
+        {
+          "label": "Algorithms",
+          "id": "f83e6b68-1937-0d00-aada-8aa80f7a67d2"
+        }
+      ],
+      "questionId": "ot19-4-4"
+    },
+    {
+      "text": "julio.ripoll@osoco.es",
+      "questionId": "ot19-0-2"
+    },
+    {
+      "text": "Any other relevant information you would like to share?",
+      "questionId": "ot19-5-4"
+    },
+    {
+      "text": "My startup jripoll company, operates in the Account Services & Collections, Anti Money Laundering, Antivirus, API based Services / Products, Antifraud and Alternative Lending sector, in the Africa and Europe regions, has Asset Managers, Employees, Retailers and Individuals as a target audience, and offers a solution for the Assets Management, Corporate Finance and Consumer Finance area in BBVA, using a AI, API, Algorithms, BDD and Behavioural economics (UX) technology.",
+      "questionId": "ot19-summary"
+    },
+    {
+      "text": "contact name 2",
+      "questionId": "ot19-2-2-1"
+    },
+    {
+      "text": "true",
+      "questionId": "ot19-shareData"
+    },
+    {
+      "tags": [
+        {
+          "id": "aa62aa18-b123-0d00-812e-94810e226b2c",
+          "version": 0,
+          "isDeleted": false,
+          "contestIds": [
+            "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+            "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+            "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+            "e2644837-7a42-0d00-98df-937900b12e3b"
+          ],
+          "i18n": [
+            {
+              "text": "África",
+              "lang": "ES"
+            },
+            {
+              "text": "Africa",
+              "lang": "EN"
+            }
+          ],
+          "categories": [
+            {
+              "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+              "categoryId": "18b8b323-1837-0d00-b50a-b9ce043ce47c",
+              "categoryKey": "region",
+              "i18n": [
+                {
+                  "text": "región",
+                  "lang": "ES"
+                },
+                {
+                  "text": "region",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+              "categoryId": "4a13c723-1837-0d00-b516-e92c043ce47c",
+              "categoryKey": "region",
+              "i18n": [
+                {
+                  "text": "región",
+                  "lang": "ES"
+                },
+                {
+                  "text": "region",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+              "categoryId": "16bebbe2-1838-0d00-a8a9-d4f20e8c9ade",
+              "categoryKey": "region",
+              "i18n": [
+                {
+                  "text": "región",
+                  "lang": "ES"
+                },
+                {
+                  "text": "region",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+              "categoryId": "2f2784a7-8e42-0d00-9900-924900b12e3b",
+              "categoryKey": "region",
+              "i18n": [
+                {
+                  "text": "región",
+                  "lang": "ES"
+                },
+                {
+                  "text": "region",
+                  "lang": "EN"
+                }
+              ]
+            }
+          ],
+          "key": "4032072827252436",
+          "skillTypes": []
+        },
+        {
+          "id": "a912bb18-b123-0d00-8134-d3200e226b2c",
+          "version": 0,
+          "isDeleted": false,
+          "contestIds": [
+            "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+            "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+            "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+            "e2644837-7a42-0d00-98df-937900b12e3b"
+          ],
+          "i18n": [
+            {
+              "text": "Europa",
+              "lang": "ES"
+            },
+            {
+              "text": "Europe",
+              "lang": "EN"
+            }
+          ],
+          "categories": [
+            {
+              "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+              "categoryId": "18b8b323-1837-0d00-b50a-b9ce043ce47c",
+              "categoryKey": "region",
+              "i18n": [
+                {
+                  "text": "región",
+                  "lang": "ES"
+                },
+                {
+                  "text": "region",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+              "categoryId": "4a13c723-1837-0d00-b516-e92c043ce47c",
+              "categoryKey": "region",
+              "i18n": [
+                {
+                  "text": "región",
+                  "lang": "ES"
+                },
+                {
+                  "text": "region",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "b6cfe9b3-1838-0d00-a89f-17710e8c9ade",
+              "categoryId": "16bebbe2-1838-0d00-a8a9-d4f20e8c9ade",
+              "categoryKey": "region",
+              "i18n": [
+                {
+                  "text": "región",
+                  "lang": "ES"
+                },
+                {
+                  "text": "region",
+                  "lang": "EN"
+                }
+              ]
+            },
+            {
+              "contestId": "e2644837-7a42-0d00-98df-937900b12e3b",
+              "categoryId": "2f2784a7-8e42-0d00-9900-924900b12e3b",
+              "categoryKey": "region",
+              "i18n": [
+                {
+                  "text": "región",
+                  "lang": "ES"
+                },
+                {
+                  "text": "region",
+                  "lang": "EN"
+                }
+              ]
+            }
+          ],
+          "key": "1027618324217899",
+          "skillTypes": []
+        }
+      ],
+      "choices": [
+        {
+          "label": "Africa",
+          "id": "aa62aa18-b123-0d00-812e-94810e226b2c"
+        },
+        {
+          "label": "Europe",
+          "id": "a912bb18-b123-0d00-8134-d3200e226b2c"
+        }
+      ],
+      "questionId": "ot19-4-7"
+    },
+    {
+      "text": "julio.ripoll@osoco.es",
+      "questionId": "ot19-2-1-3"
+    },
+    {
+      "text": "https://www.linkedin.com/in/contact4",
+      "questionId": "ot19-2-4-4"
+    },
+    {
+      "text": "666666666",
+      "questionId": "ot19-1-4"
+    },
+    {
+      "choices": [
+        {
+          "label": "Social Media",
+          "id": "718f037b-5e70-446b-98aa-365ac28e9a13"
+        }
+      ],
+      "questionId": "ot19-5-5"
+    },
+    {
+      "choices": [
+        {
+          "label": "Spain",
+          "id": "df2a69b7-d429-49e4-bf44-0a42107af754"
+        }
+      ],
+      "questionId": "ot19-1-8"
+    },
+    {
+      "text": "Who are your main competitors?",
+      "questionId": "ot19-3-8"
+    },
+    {
+      "choices": [
+        {
+          "label": "300,000 - 500,000",
+          "id": "95976a2a-c5ab-4ae9-9e77-0b95e247211a"
+        }
+      ],
+      "questionId": "ot19-3-10"
+    },
+    {
+      "choices": [
+        {
+          "label": "1-5",
+          "id": "4c0f9d7f-6fd6-4ae4-9d18-3f04e7b11a4a"
+        }
+      ],
+      "questionId": "ot19-1-12"
+    },
+    {
+      "text": "https://www.youtube.com/watch?v=IhYMrxe7jDg",
+      "questionId": "ot19-5-2"
+    },
+    {
+      "text": "Describe your business in 140 characters.",
+      "questionId": "ot19-3-1"
+    },
+    {
+      "text": "Describe your product/service in 140 characters",
+      "questionId": "ot19-4-1"
+    },
+    {
+      "text": "contact surname 5",
+      "questionId": "ot19-2-5-2"
+    },
+    {
+      "text": "https://www.linkedin.com/in/contact2",
+      "questionId": "ot19-2-2-4"
+    }
+  ],
+  "firstSubmissionDate": "2019-05-07T15:37:07",
+  "status": "FINISHED",
+  "recoveryKey": "ff8d2e2d-34bb-4f87-a08c-7b000d86d583",
+  "applicantKey": "julio.ripoll@osoco.es",
+  "applicantId": "d4ff8dba-af44-0d00-a7ed-55410ee6adba",
+  "tags": []
+}

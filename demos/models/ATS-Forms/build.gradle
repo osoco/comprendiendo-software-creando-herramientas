@@ -1,0 +1,215 @@
+import com.monochromeroad.gradle.plugin.aws.s3.S3Sync
+
+project.version = 'tengu'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'org.asciidoctor:asciidoctor-gradle-plugin:1.5.3'
+        classpath 'org.asciidoctor:asciidoctorj-pdf:1.5.0-alpha.9'
+        classpath 'com.github.cukedoctor:cukedoctor-main:1.0.6'
+        classpath "net.saliman:gradle-properties-plugin:1.4.5"
+        classpath "com.monochromeroad.gradle-plugins:gradle-aws-s3-sync:0.10"
+        classpath 'com.bmuschko:gradle-docker-plugin:3.0.3'
+        classpath 'com.bmuschko:gradle-clover-plugin:2.1.3'
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'org.asciidoctor.convert'
+apply plugin: net.saliman.gradle.plugin.properties.PropertiesPlugin
+apply from: 'integrationTest.gradle'
+apply from: "${project.projectDir}/gradle/clover.gradle"
+apply from: "../jdt2famix/release/build.gradle"
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'http://nexus.osoco.es/repository/maven-public'
+    }
+}
+
+ext.targetJavaVersion = JavaVersion.VERSION_1_8
+
+configurations {
+    checkerFrameworkAnnotatedJDK {
+        description = 'a copy of JDK classes with Checker Framework type qualifers inserted'
+    }
+    checkerFramework {
+        description = 'The Checker Framework: custom pluggable types for Java'
+    }
+}
+
+dependencies {
+    compile(
+
+        'com.amazonaws:aws-lambda-java-core:1.1.0',
+        'com.amazonaws:aws-lambda-java-events:2.2.4',
+        'com.amazonaws:aws-java-sdk-dynamodb:1.11.52',
+        'com.rabbitmq:amqp-client:3.6.5',
+        'org.projectlombok:lombok:1.16.12',
+        'com.xebia:jackson-lombok:1.1',
+        'redis.clients:jedis:2.8.0',
+        'org.elasticsearch.client:rest:5.1.2',
+        'org.apache.httpcomponents:httpcore:4.4.5',
+        'org.apache.httpcomponents:httpcore-nio:4.4.5',
+        'org.apache.httpcomponents:httpasyncclient:4.1.2',
+        'commons-validator:commons-validator:1.6',
+        'com.google.code.gson:gson:2.8.0',
+        "es.osoco.logging:java-logging:0.6",
+        'com.googlecode.libphonenumber:libphonenumber:8.8.8',
+        'commons-io:commons-io:2.6',
+    )
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.codehaus.groovy:groovy-all:2.4.4'
+    testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
+    testRuntime "org.slf4j:slf4j-api:1.7.10"
+    testCompile 'info.cukes:cucumber-groovy:1.2.5'
+    testCompile 'info.cukes:cucumber-junit:1.2.5'
+
+    testCompile 'info.cukes:cucumber-picocontainer:1.2.5'
+    testCompile 'org.picocontainer:picocontainer:2.14'
+    testCompile 'org.hamcrest:hamcrest-library:1.3'
+
+    testCompile 'cglib:cglib-nodep:3.2.4'
+    testCompile 'org.objenesis:objenesis:2.4'
+
+    ext.checkerFrameworkVersion = '2.1.6'
+    ext.jdkVersion = 'jdk8'
+    checkerFrameworkAnnotatedJDK "org.checkerframework:${jdkVersion}:${checkerFrameworkVersion}"
+
+    //    checkerFrameworkJavac "org.checkerframework:compiler:${checkerFrameworkVersion}"
+    checkerFramework "org.checkerframework:checker:${checkerFrameworkVersion}"
+    compile "org.checkerframework:checker-qual:${checkerFrameworkVersion}"
+
+    clover 'org.openclover:clover:4.2.0'
+}
+
+task buildZip(type: Zip) {
+    baseName = "bbva-ats-forms"
+    from compileJava
+    from processResources
+    into('lib') {
+        from configurations.runtime
+    }
+}
+
+build.dependsOn buildZip
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.5.1'
+}
+
+
+
+def Properties properties = new Properties()
+properties.load(project.rootProject.file('gradle-local.properties').newDataInputStream())
+def awsAccessKeyId = properties.getProperty('awsAccessKeyId')
+def awsSecretKey = properties.getProperty('awsSecretKey')
+def rabbitMqIp = properties.getProperty('rabbitMqIp')
+def rabbitMqPassword = properties.getProperty('rabbitMqPassword')
+
+tasks.withType(Test) {
+    reports.html.destination = file("${reporting.baseDir}/${name}")
+}
+
+task generateCukesDoc(type: JavaExec) {
+    classpath buildscript.configurations.classpath
+    main = 'com.github.cukedoctor.CukedoctorMain'
+    args = ['-o', 'build/cucumber/living-specs.adoc',
+            '-p', 'build/reports/cucumber/cucumber.json',
+            '-toc', 'left',
+            '-t', '\"BBVA-ATS-Forms Living Specs\"']
+}
+
+asciidoctor {
+    dependsOn generateCukesDoc
+    sourceDir = file('src/docs')
+    outputDir = file("${buildDir}/docs")
+    separateOutputDirs = true
+    options doctype: 'book'
+
+    System.setProperty("cukedoctor.disable.filter", "true")
+    System.setProperty("cukedoctor.disable.theme", "true")
+
+    backends = ['html5']
+    attributes 'source-highlighter': 'coderay',
+        'coderay-linenums-mode': 'table',
+        icon: 'font',
+        linkattrs: true,
+        encoding: 'utf-8'
+}
+
+asciidoctor.doFirst {
+    copy {
+        from "${buildDir}/cucumber"
+        into "src/docs"
+        include 'living-specs.adoc'
+    }
+}
+
+if (project.hasProperty('doc')) {
+    test.finalizedBy asciidoctor
+}
+
+// allprojects {
+//     tasks.withType(JavaCompile).all { JavaCompile compile ->
+//         compile.options.compilerArgs = [
+//                 '-processor', 'org.checkerframework.checker.nullness.NullnessChecker',
+//                 '-processorpath', "${configurations.checkerFramework.asPath}",
+//                 // uncomment to turn Checker Framework errors into warnings
+//                 '-Awarns',
+//                 '-AprintErrorStack',
+//                 "-Xbootclasspath/p:${configurations.checkerFrameworkAnnotatedJDK.asPath}"
+//         ]
+//     }
+// }
+
+test {
+    testLogging {
+        showStandardStreams = true
+        exceptionFormat = 'full'
+    }
+    systemProperties System.getProperties()
+    outputs.upToDateWhen { false }
+
+    def environmentVariables = [
+        "RABBITMQ_IP"                          : '127.0.0.1',
+        "RABBITMQ_USER_NAME"                   : "bbvaatsforms",
+        "RABBITMQ_PASSWORD"                    : 'secret',
+        "APPLICATION_SUBMITTED_EXCHANGE"       : "bbvaatsforms",
+        "APPLICATION_SUBMITTED_ROUTING_KEY"    : "application.submitted",
+        "ApplicationSubmittedEventAdapter"     : "es.osoco.bbva.ats.forms.adapter.RabbitMQApplicationSubmittedAdapter",
+        "NewRecoveryTokenGeneratedEventAdapter": "es.osoco.bbva.ats.forms.adapter.RabbitMQNewRecoveryTokenGeneratedAdapter",
+        "REDIS_TOKEN_TTL"                      : "3600"
+    ]
+    environment environmentVariables
+}
+
+
+task publishDocs(type: S3Sync) {
+    description = "Sync files from project'd documentation to S3 bucket"
+    accessKey awsAccessKeyId
+    secretKey awsSecretKey
+    configFile "jets3t.properties"
+    action = 'UP'
+    from "${buildDir}/docs/html5"
+    into "${project.name}-docs/${project.version}"
+}
+
+
+//check.dependsOn integrationTest
+/*
+integrationTest {
+    //dependsOn startQueuesContainer TODO fix run rabbitmq container
+    dependsOn runRedisContainer
+
+    //finalizedBy removeQueuesContainer
+    finalizedBy removeRedisContainer
+
+    mustRunAfter test
+}
+*/

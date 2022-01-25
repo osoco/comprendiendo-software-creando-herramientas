@@ -1,0 +1,55 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.bmuschko:gradle-clover-plugin:2.1.2'
+    }
+}
+
+apply plugin: 'com.bmuschko.clover'
+
+dependencies {
+    clover 'org.openclover:clover:4.2.0'
+}
+
+clover {
+    licenseLocation = File.createTempFile('clover', '.license').absolutePath
+
+    testIncludes = ['**/*Spec.groovy']
+    
+    report {
+        html = true
+        xml = true
+
+        // See Clover documentation for details of the values supported
+        historical {
+            enabled = true
+            historyIncludes = 'clover-*.xml.gz'
+            packageFilter = null
+            from = null
+            to = null
+
+            added {
+                range = 10
+                interval = '3 weeks'
+            }
+            mover {
+                threshold = 1
+                range = 10
+                interval = '3 weeks'
+            }
+            mover {
+                threshold = 1
+                range = 10
+                interval = '3 months'
+            }
+            mover {
+                threshold = 1
+                range = 10
+                interval = '1 year'
+            }
+        }
+        //TODO Add integration tests to 'Test code' Tab
+    }
+}

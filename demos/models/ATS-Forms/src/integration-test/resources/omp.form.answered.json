@@ -1,0 +1,365 @@
+{
+  "origin": "https://openmarketplace.bbva.com/",
+  "applicationKey": "Identity.com",
+  "submissionDate": "2019-04-03T20:07:07",
+  "entityId": null,
+  "formId": "52f5d1b1-4129-0d00-ad55-aa8b0f1d3b77",
+  "status": "DRAFT",
+  "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+  "aggregateRootVersion": 1,
+  "applicationId": "12d45c89-0742-0d00-9810-1ca700b12e3b",
+  "userInitiated": true,
+  "dateCreated": "2019-04-03T20:07:14+00:00",
+  "recoveryKey": "8c0db0fc-d1bd-4d64-b955-2ffdfc56c3f7",
+  "sections": [],
+  "answers": [
+    {
+      "questionId": "omp-3-12",
+      "choices": [
+        {
+          "label": "Fintech",
+          "id": "95b15c68-1937-0d00-aad0-f2d60f7a67d2"
+        },
+        {
+          "label": "Employees",
+          "id": "d504db19-b123-0d00-819e-e21e0e226b2c"
+        },
+        {
+          "label": "Retailers",
+          "id": "592cd019-b123-0d00-819a-91ed0e226b2c"
+        },
+        {
+          "label": "Unbanked People",
+          "id": "2397eb19-b123-0d00-81a4-1c770e226b2c"
+        },
+        {
+          "label": "Banks",
+          "id": "6f3fcb19-b123-0d00-8198-5c9e0e226b2c"
+        },
+        {
+          "label": "Corporates",
+          "id": "4161d519-b123-0d00-819c-27200e226b2c"
+        },
+        {
+          "label": "Individuals",
+          "id": "e847e019-b123-0d00-81a0-218a0e226b2c"
+        }
+      ]
+    },
+    {
+      "text": "Civic has been utilizing this technology for over a year, and have partnered with a variety of users. This has been user tested both internally and externally. ",
+      "questionId": "omp-4-10"
+    },
+    {
+      "text": "Phillip B Shoemaker",
+      "questionId": "omp-2-1-1"
+    },
+    {
+      "questionId": "omp-3-9",
+      "choices": [
+        {
+          "label": "Proof of Concept",
+          "id": "35e2be00-6550-4ca4-bbe6-a6985955a611"
+        },
+        {
+          "label": "Implementation",
+          "id": "99e7bdd5-46a2-4ebf-9362-3b5adbb2d4af"
+        }
+      ]
+    },
+    {
+      "text": "Identity.com",
+      "questionId": "omp-0-1"
+    },
+    {
+      "text": "recoverlastapp@omp.com",
+      "questionId": "omp-0-2"
+    },
+    {
+      "text": "Identity.com is an open source ecosystem providing access to on-demand, secure identity verification. Governed by a staking mechanism design",
+      "questionId": "omp-3-4"
+    },
+    {
+      "text": "2019-03-18T07:00:00.000Z",
+      "questionId": "omp-1-9"
+    },
+    {
+      "text": "For every validation or validation-reuse, Identity.com gets a percentage of the transaction. ",
+      "questionId": "omp-3-11"
+    },
+    {
+      "questionId": "omp-4-1",
+      "choices": [
+        {
+          "label": "Human Resources",
+          "id": "97818918-b123-0d00-8122-6e2b0e226b2c"
+        },
+        {
+          "label": "Open Innovation",
+          "id": "49418668-1937-0d00-aaec-03fe0f7a67d2"
+        },
+        {
+          "label": "Payments",
+          "id": "8fab7e18-b123-0d00-811e-fde00e226b2c"
+        },
+        {
+          "label": "Risk",
+          "id": "66298f18-b123-0d00-8124-f6680e226b2c"
+        },
+        {
+          "label": "Loans",
+          "id": "da608418-b123-0d00-8120-50ad0e226b2c"
+        },
+        {
+          "label": "Global Markets",
+          "id": "d1464c68-1937-0d00-aac9-c5e70f7a67d2"
+        },
+        {
+          "label": "Legal",
+          "id": "cff79e18-b123-0d00-812a-68770e226b2c"
+        },
+        {
+          "label": "Consumer Finance",
+          "id": "4702b255-1937-0d00-aabe-a8bc0f7a67d2"
+        },
+        {
+          "label": "Open Market (Open Banking)",
+          "id": "0ac2b468-1937-0d00-ab0b-2e160f7a67d2"
+        }
+      ]
+    },
+    {
+      "questionId": "omp-1-8",
+      "choices": [
+        {
+          "label": "United States",
+          "id": "f4aeb0d6-b37b-4145-9fb9-6f0e2dc6352e"
+        }
+      ]
+    },
+    {
+      "text": "phillip@identity.org",
+      "questionId": "omp-2-1-4"
+    },
+    {
+      "questionId": "omp-3-18",
+      "choices": [
+        {
+          "label": "300,000 - 500,000",
+          "id": "8cba5a2e-a841-4290-ba7d-2e3b94b64590"
+        }
+      ]
+    },
+    {
+      "questionId": "omp-3-3",
+      "choices": [
+        {
+          "label": "Global",
+          "id": "2da0c018-b123-0d00-8136-03280e226b2c"
+        }
+      ]
+    },
+    {
+      "questionId": "omp-3-8",
+      "choices": [
+        {
+          "label": "Yes",
+          "id": "976edf8e-8093-4107-b59a-a06ec64ee9bd"
+        }
+      ]
+    },
+    {
+      "questionId": "omp-3-19",
+      "choices": [
+        {
+          "label": "No",
+          "id": "2364a399-b1fb-4dd7-baeb-d6bf40292261"
+        }
+      ]
+    },
+    {
+      "text": "1000",
+      "questionId": "omp-3-16"
+    },
+    {
+      "text": "@pbsIdentity",
+      "questionId": "omp-1-5"
+    },
+    {
+      "text": "Phillip",
+      "questionId": "omp-2-1-2"
+    },
+    {
+      "questionId": "omp-4-3",
+      "choices": [
+        {
+          "label": "API",
+          "id": "28a3011a-b123-0d00-81ac-feef0e226b2c"
+        },
+        {
+          "label": "Software",
+          "id": "7f51441a-b123-0d00-81c4-e6c50e226b2c"
+        },
+        {
+          "label": "Blockchain",
+          "id": "2709121a-b123-0d00-81b2-bb780e226b2c"
+        }
+      ]
+    },
+    {
+      "text": "https://www.linkedin.com/in/shoemaker/",
+      "questionId": "omp-2-1-6"
+    },
+    {
+      "text": "true",
+      "questionId": "GDPR-checkbox"
+    },
+    {
+      "text": "14088358444",
+      "questionId": "omp-1-4"
+    },
+    {
+      "questionId": "omp-3-1",
+      "choices": [
+        {
+          "label": "Wallet",
+          "id": "3590c519-b123-0d00-8196-3eb30e226b2c"
+        },
+        {
+          "label": "Identity / Onboarding",
+          "id": "3e275e19-b123-0d00-8170-f6d80e226b2c"
+        },
+        {
+          "label": "API based Services / Products",
+          "id": "13266568-1937-0d00-aad6-b2c60f7a67d2"
+        }
+      ]
+    },
+    {
+      "text": "www.identity.com",
+      "questionId": "omp-4-11"
+    },
+    {
+      "text": "Identity.com provides the infrastructure and components necessary for digital identification, while allowing other digital identification platforms to join and help increase the reach and capabilities of this new identity economy. The infrastructure includes the following:\nMarketplace. The system where identity requesters can locate, compare and select from a wide range of validators (who verify identities). There are a variety of Smart Contracts for the marketplace including Pricing, Ontology, Validator Registry, Escrow, Tokens and more. \nCredentials Wallet Toolkit. The toolkit enabling developers to implement their own wallet to store the digital identification.\nIdentity Requester Toolkit. The toolkit enabling the ability to connect with the ecosystem and interact with validators and identity verifications.\nIdentity Validator Toolkit. The toolkit enabling the ability to connect with the ecosystem and interact with requesters and identity verifications. \nQR Code Library. The library that allows one to work with QR codes that trigger events within the ecosystem.\nSmart Contracts. Our selection of Smart Contracts, which handles the payment, registration and governance, include: CVC Tokens, Escrow, Identity Validator Registry, Ontology, Pricing and Upgradeable Proxies. ",
+      "questionId": "omp-3-5"
+    },
+    {
+      "text": "My startup Identity.com, operates in the API based Services / Products, Identity / Onboarding and Wallet sector, in the Global regions, has Unbanked People, Employees, Individuals, Banks, Corporates, Fintech and Retailers as a target audience, and offers a solution for the Consumer Finance, Global Markets, Legal, Open Innovation, Human Resources, Loans, Risk, Payments and Open Market (Open Banking) area in BBVA, using a Blockchain, API and Software technology.",
+      "questionId": "omp-summary"
+    },
+    {
+      "text": "https://www.linkedin.com/company/identity-com/",
+      "questionId": "omp-1-6"
+    },
+    {
+      "text": "Identity Technologies, Inc.",
+      "questionId": "omp-1-1"
+    },
+    {
+      "questionId": "omp-4-8",
+      "choices": [
+        {
+          "label": "Beta version",
+          "id": "b6283158-fa71-4b97-9c1c-e953c19110cd"
+        }
+      ]
+    },
+    {
+      "questionId": "omp-3-17",
+      "choices": [
+        {
+          "label": "less than 25,000",
+          "id": "974afeae-c53c-44cc-8b66-7558bcad6f95"
+        }
+      ]
+    },
+    {
+      "questionId": "omp-1-12",
+      "choices": [
+        {
+          "label": "1-5",
+          "id": "4c0f9d7f-6fd6-4ae4-9d18-3f04e7b11a4a"
+        }
+      ]
+    },
+    {
+      "questionId": "omp-3-7",
+      "choices": [
+        {
+          "label": "Early stage",
+          "id": "bc077508-838e-4a06-9dfe-2bf87f62fcf5"
+        }
+      ]
+    },
+    {
+      "text": "Sovrin",
+      "questionId": "omp-3-15"
+    },
+    {
+      "text": "www.identity.com",
+      "questionId": "omp-1-3"
+    },
+    {
+      "text": "Civic",
+      "questionId": "omp-3-10"
+    },
+    {
+      "questionId": "omp-1-11",
+      "choices": [
+        {
+          "label": "United States",
+          "id": "USA"
+        }
+      ]
+    },
+    {
+      "text": "An ecosystem for Validators and Requesters alike, to receive validation services for an agreed upon price. ",
+      "questionId": "omp-3-21"
+    },
+    {
+      "text": "false",
+      "questionId": "allow-data-recovery"
+    },
+    {
+      "questionId": "omp-2-1-5",
+      "choices": [
+        {
+          "label": "CEO",
+          "id": "c560d3ca-b851-496a-bd5f-c1b4966701d3"
+        }
+      ]
+    },
+    {
+      "text": "https://www.youtube.com/watch?v=l-W93g7yqfU",
+      "questionId": "omp-3-6"
+    },
+    {
+      "text": "San Francisco",
+      "questionId": "omp-1-7"
+    },
+    {
+      "text": "https://bbva-ats-opentalent-assets-pro.s3-eu-west-1.amazonaws.com/993110dd-96a8-4082-b7be-4eeb8949213e_identity.png",
+      "questionId": "omp-1-2"
+    },
+    {
+      "text": "Blockchain is utilized for attesting to the validity of a validation request. No PII is stored on the blockchain. ",
+      "questionId": "omp-4-5"
+    },
+    {
+      "questionId": "omp-5-2",
+      "choices": [
+        {
+          "label": "BBVA contact",
+          "id": "c1659736-697d-488d-93f1-c9e0124a43cc"
+        }
+      ]
+    }
+  ],
+  "delete": false,
+  "applicantId": "b2d35c89-0742-0d00-980f-34fa00b12e3b",
+  "version": 1,
+  "applicantKey": "phillip@identity.org",
+  "firstSubmissionDate": "2019-04-03T20:07:07",
+  "id": "b2d35c89-0742-0d00-980f-34fa00b12e3b",
+  "language": "EN"
+}

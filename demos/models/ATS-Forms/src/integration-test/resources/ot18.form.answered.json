@@ -1,0 +1,1206 @@
+{
+  "contestId": "2d19ed29-1d22-0d00-b9df-0ece09ca43f0",
+  "formId": "ot18-form-1",
+  "language": "en",
+  "sections": [
+    {
+      "sectionId": "ot18-1",
+      "text": "Your Company",
+      "questions": [
+        {
+          "id": "ot18-1-5",
+          "required": true,
+          "type": "phone",
+          "text": "Phone Number"
+        },
+        {
+          "id": "ot18-1-9",
+          "required": true,
+          "type": "country",
+          "text": "Country of legal formation *"
+        },
+        {
+          "id": "ot18-1-12",
+          "required": true,
+          "type": "select",
+          "text": "Number of employees *",
+          "choices": [
+            "6-15",
+            "1-5",
+            ">50",
+            "16-30",
+            "31-50"
+          ]
+        },
+        {
+          "id": "ot18-1-7",
+          "required": false,
+          "type": "link",
+          "text": "LinkedIn"
+        },
+        {
+          "id": "ot18-1-2",
+          "required": true,
+          "type": "file",
+          "text": "Upload image"
+        },
+        {
+          "id": "ot18-1-11",
+          "required": true,
+          "type": "country",
+          "text": "Select country"
+        },
+        {
+          "id": "ot18-1-4",
+          "required": true,
+          "type": "text",
+          "text": "Registered name *"
+        },
+        {
+          "id": "ot18-1-6",
+          "required": false,
+          "type": "text",
+          "text": "Twitter ID"
+        },
+        {
+          "id": "ot18-1-8",
+          "required": true,
+          "type": "text",
+          "text": "City of legal formation *"
+        },
+        {
+          "id": "ot18-1-3",
+          "required": true,
+          "type": "link",
+          "text": "Website *"
+        },
+        {
+          "id": "ot18-1-10",
+          "required": true,
+          "type": "date",
+          "text": "Date of legal formation *"
+        }
+      ]
+    },
+    {
+      "sectionId": "ot18-0",
+      "text": "Registration",
+      "questions": [
+        {
+          "id": "ot18-0-1",
+          "required": true,
+          "key": "APPLICATION_KEY",
+          "type": "text",
+          "text": "Company commercial brand name **"
+        },
+        {
+          "id": "ot18-0-2",
+          "required": true,
+          "key": "APPLICANT_KEY",
+          "type": "email",
+          "text": "Main contact email **"
+        },
+        {
+          "id": "ot18-summary",
+          "required": false,
+          "type": "longtext"
+        },
+        {
+          "id": "ot18-shareData",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "sectionId": "ot18-2",
+      "text": "Team member information",
+      "tabs": [
+        {
+          "text": "5",
+          "questions": [
+            {
+              "id": "ot18-2-5-5",
+              "required": false,
+              "type": "select",
+              "text": "Company role",
+              "choices": [
+                "Designer",
+                "COO",
+                "CMO",
+                "Data Scientist",
+                "CIO",
+                "Advisor",
+                "Developer",
+                "CEO",
+                "CTO",
+                "Other"
+              ]
+            },
+            {
+              "id": "ot18-2-5-6",
+              "required": false,
+              "type": "link",
+              "text": "LinkedIn"
+            },
+            {
+              "id": "ot18-2-5-2",
+              "required": false,
+              "type": "text",
+              "text": "Surname"
+            },
+            {
+              "id": "ot18-2-5-4",
+              "required": false,
+              "type": "email",
+              "text": "Contact email"
+            },
+            {
+              "id": "ot18-2-5-1",
+              "required": false,
+              "type": "text",
+              "text": "Name"
+            }
+          ]
+        },
+        {
+          "text": "2",
+          "questions": [
+            {
+              "id": "ot18-2-2-1",
+              "required": false,
+              "type": "text",
+              "text": "Name"
+            },
+            {
+              "id": "ot18-2-2-2",
+              "required": false,
+              "type": "text",
+              "text": "Surname"
+            },
+            {
+              "id": "ot18-2-2-4",
+              "required": false,
+              "type": "email",
+              "text": "Contact email"
+            },
+            {
+              "id": "ot18-2-2-5",
+              "required": false,
+              "type": "select",
+              "text": "Company role",
+              "choices": [
+                "Designer",
+                "COO",
+                "CMO",
+                "Data Scientist",
+                "CIO",
+                "Advisor",
+                "Developer",
+                "CEO",
+                "CTO",
+                "Other"
+              ]
+            },
+            {
+              "id": "ot18-2-2-6",
+              "required": false,
+              "type": "link",
+              "text": "LinkedIn"
+            }
+          ]
+        },
+        {
+          "text": "Main",
+          "questions": [
+            {
+              "id": "ot18-2-1-1",
+              "required": true,
+              "type": "text",
+              "text": "Name *"
+            },
+            {
+              "id": "ot18-2-1-3",
+              "required": true,
+              "type": "date",
+              "text": "Date of birth *"
+            },
+            {
+              "id": "ot18-2-1-5",
+              "required": true,
+              "type": "select",
+              "text": "Company role *",
+              "choices": [
+                "Designer",
+                "COO",
+                "CMO",
+                "Data Scientist",
+                "CIO",
+                "Advisor",
+                "Developer",
+                "CEO",
+                "CTO",
+                "Other"
+              ]
+            },
+            {
+              "id": "ot18-2-1-2",
+              "required": true,
+              "type": "text",
+              "text": "Surname *"
+            },
+            {
+              "id": "ot18-2-1-6",
+              "required": false,
+              "type": "link",
+              "text": "LinkedIn"
+            }
+          ]
+        },
+        {
+          "text": "3",
+          "questions": [
+            {
+              "id": "ot18-2-3-1",
+              "required": false,
+              "type": "text",
+              "text": "Name"
+            },
+            {
+              "id": "ot18-2-3-5",
+              "required": false,
+              "type": "select",
+              "text": "Company role",
+              "choices": [
+                "Designer",
+                "COO",
+                "CMO",
+                "Data Scientist",
+                "CIO",
+                "Advisor",
+                "Developer",
+                "CEO",
+                "CTO",
+                "Other"
+              ]
+            },
+            {
+              "id": "ot18-2-3-6",
+              "required": false,
+              "type": "link",
+              "text": "LinkedIn"
+            },
+            {
+              "id": "ot18-2-3-2",
+              "required": false,
+              "type": "text",
+              "text": "Surname"
+            },
+            {
+              "id": "ot18-2-3-4",
+              "required": false,
+              "type": "email",
+              "text": "Contact email"
+            }
+          ]
+        },
+        {
+          "text": "4",
+          "questions": [
+            {
+              "id": "ot18-2-4-5",
+              "required": false,
+              "type": "select",
+              "text": "Company role",
+              "choices": [
+                "Designer",
+                "COO",
+                "CMO",
+                "Data Scientist",
+                "CIO",
+                "Advisor",
+                "Developer",
+                "CEO",
+                "CTO",
+                "Other"
+              ]
+            },
+            {
+              "id": "ot18-2-4-6",
+              "required": false,
+              "type": "link",
+              "text": "LinkedIn"
+            },
+            {
+              "id": "ot18-2-4-1",
+              "required": false,
+              "type": "text",
+              "text": "Name"
+            },
+            {
+              "id": "ot18-2-4-2",
+              "required": false,
+              "type": "text",
+              "text": "Surname"
+            },
+            {
+              "id": "ot18-2-4-4",
+              "required": false,
+              "type": "email",
+              "text": "Contact email"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "ot18-4",
+      "text": "Your Product/Service",
+      "questions": [
+        {
+          "id": "ot18-4-5",
+          "required": true,
+          "type": "longtext",
+          "text": "Technology in depth"
+        },
+        {
+          "id": "ot18-4-9",
+          "required": true,
+          "type": "longtext",
+          "text": "Describe in depth"
+        },
+        {
+          "id": "ot18-4-6",
+          "required": true,
+          "type": "longtext",
+          "text": "Use of data"
+        },
+        {
+          "id": "ot18-4-3",
+          "required": true,
+          "type": "multiselect",
+          "text": "Choose one or more",
+          "choices": [
+            "Biometrics",
+            "Others",
+            "PaaS",
+            "Blockchain",
+            "SaaS",
+            "AI",
+            "IaaS",
+            "Wireless Communications",
+            "IoT",
+            "Graphical User Interface (GUI)",
+            "Cloud",
+            "BigData",
+            "API",
+            "Software"
+          ]
+        },
+        {
+          "id": "ot18-4-8",
+          "required": true,
+          "type": "longtext",
+          "text": "Describe in depth"
+        },
+        {
+          "id": "ot18-4-12",
+          "required": true,
+          "type": "longtext",
+          "text": "E2E practices implemented"
+        },
+        {
+          "id": "ot18-4-11",
+          "required": true,
+          "type": "link",
+          "text": "URL"
+        },
+        {
+          "id": "ot18-4-10",
+          "required": true,
+          "type": "longtext",
+          "text": "Describe in depth"
+        },
+        {
+          "id": "ot18-4-2",
+          "required": false,
+          "type": "text",
+          "text": "Others"
+        },
+        {
+          "id": "ot18-4-1",
+          "required": true,
+          "type": "multiselect",
+          "text": "Choose one or more",
+          "choices": [
+            "Physical (ATM, Branch)",
+            "Loans",
+            "Others",
+            "Investment Banking",
+            "Assets Management",
+            "Real Estate / PropTech",
+            "Insurance / InsurTech",
+            "Legal",
+            "Payments",
+            "Risk",
+            "Human Resources",
+            "Security",
+            "Marketing",
+            "Markets (FX, Trading...)",
+            "Compliance / RegTech",
+            "Wealth Management",
+            "Financial Inclusion",
+            "Digital Channels"
+          ]
+        },
+        {
+          "id": "ot18-4-4",
+          "required": false,
+          "type": "text",
+          "text": "Others"
+        },
+        {
+          "id": "ot18-4-7",
+          "required": true,
+          "type": "select",
+          "text": "Choose an option",
+          "choices": [
+            "Concept",
+            "Ready to scale",
+            "Prototype",
+            "Commercial version",
+            "Beta version"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "ot18-5",
+      "text": "Additional Information",
+      "questions": [
+        {
+          "id": "ot18-5-3",
+          "required": false,
+          "type": "file",
+          "text": "Upload document"
+        },
+        {
+          "id": "ot18-5-1",
+          "required": false,
+          "type": "longtext",
+          "text": "Milestones"
+        },
+        {
+          "id": "ot18-5-2",
+          "required": false,
+          "type": "link",
+          "text": "Any other video you would like to share?"
+        },
+        {
+          "id": "ot18-5-5",
+          "required": true,
+          "type": "select",
+          "text": "Choose an option",
+          "choices": [
+            "SouthSummit",
+            "Exec I/O",
+            "BBVA Open Space web",
+            "BBVA Open Talent web",
+            "FinTech Connect",
+            "Social Media",
+            "K(NO)W Identity",
+            "LendIT",
+            "Pioneers",
+            "Money 20/20",
+            "Alumni",
+            "Finnovista",
+            "MEDICI",
+            "Innovate Finance",
+            "Money Conf",
+            "BBVA",
+            "4YFN",
+            "BBVA Bancomer",
+            "Seedstars",
+            "Next Money",
+            "Other"
+          ]
+        },
+        {
+          "id": "ot18-5-4",
+          "required": false,
+          "type": "longtext",
+          "text": "Any other relevant information you would like to share?"
+        }
+      ]
+    },
+    {
+      "sectionId": "ot18-3",
+      "text": "Your Business",
+      "questions": [
+        {
+          "id": "ot18-3-9",
+          "required": false,
+          "type": "multiselect",
+          "text": "Choose one or more",
+          "choices": [
+            "Pilot",
+            "Proof of Concept",
+            "Servicing",
+            "Implementation"
+          ]
+        },
+        {
+          "id": "ot18-3-8",
+          "required": true,
+          "type": "select",
+          "text": "Choose an option",
+          "choices": [
+            "No",
+            "Yes"
+          ]
+        },
+        {
+          "id": "ot18-3-3",
+          "required": false,
+          "type": "multiselect",
+          "text": "Choose one or more",
+          "choices": [
+            "South America",
+            "Central America",
+            "Asia",
+            "Europe",
+            "Africa",
+            "North America",
+            "Global",
+            "Oceania"
+          ]
+        },
+        {
+          "id": "ot18-3-4",
+          "required": true,
+          "type": "longtext",
+          "text": "Tweet"
+        },
+        {
+          "id": "ot18-3-17",
+          "required": true,
+          "type": "select",
+          "text": "Choose an option",
+          "choices": [
+            "50,000 - 150,000",
+            "150,000 - 300,000",
+            "300,000 - 500,000",
+            "500,000 - 1M",
+            "<25,000",
+            ">3",
+            "25,000 - 50,000",
+            "1M - 3M"
+          ]
+        },
+        {
+          "id": "ot18-3-16",
+          "required": true,
+          "type": "number",
+          "text": "How many active users do you have? *"
+        },
+        {
+          "id": "ot18-3-15",
+          "required": true,
+          "type": "longtext",
+          "text": "Main competitors"
+        },
+        {
+          "id": "ot18-3-19",
+          "required": true,
+          "type": "select",
+          "text": "Does your startup seek investment? *",
+          "choices": [
+            "No",
+            "Yes"
+          ]
+        },
+        {
+          "id": "ot18-3-14",
+          "required": true,
+          "type": "longtext",
+          "text": "How do you reach new clients? *"
+        },
+        {
+          "id": "ot18-3-1",
+          "required": true,
+          "type": "multiselect",
+          "text": "Choose one or more",
+          "choices": [
+            "Education / Learning",
+            "EFM (Enterprise Finance Management)",
+            "Crowdfunding",
+            "Lending",
+            "Biling / Cards /Payment Methods",
+            "Data Encryption",
+            "Product / Service Aggregator",
+            "Anti Money Laundering",
+            "Peer 2 Peer Lending",
+            "Antifraud",
+            "Cryptocurrencies",
+            "Automatization",
+            "Trading & hedging",
+            "Microfinance",
+            "Alternative Lending",
+            "PFM (Personal Finance Management)",
+            "SDK",
+            "Solutions for PSD2",
+            "Trading / Hedge Algorithm",
+            "Others",
+            "Robo Advisor",
+            "Physical Bank",
+            "Wallet",
+            "Natural Language Processing",
+            "ChatBot",
+            "Antivirus",
+            "Trade Finance",
+            "Mobile Point of Sale",
+            "Gamification",
+            "Regtech",
+            "SME Service",
+            "Supply Chain Finance",
+            "Wealth Management",
+            "ICO",
+            "Commerce / ecommerce",
+            "Pricing / Product Broker",
+            "Non Fintech",
+            "Trade Life Cycle",
+            "Data Visualization",
+            "Loyalty",
+            "Mobile Apps",
+            "Identity / Onboarding",
+            "Neobank",
+            "Remittances",
+            "Risk Analysis / Scoring",
+            "Logistics"
+          ]
+        },
+        {
+          "id": "ot18-3-11",
+          "required": true,
+          "type": "longtext",
+          "text": "Business model"
+        },
+        {
+          "id": "ot18-3-13",
+          "required": false,
+          "type": "text",
+          "text": "Others"
+        },
+        {
+          "id": "ot18-3-18",
+          "required": true,
+          "type": "select",
+          "text": "Choose an option",
+          "choices": [
+            "50,000 - 150,000",
+            "150,000 - 300,000",
+            "300,000 - 500,000",
+            "500,000 - 1M",
+            "<25,000",
+            ">3",
+            "25,000 - 50,000",
+            "1M - 3M"
+          ]
+        },
+        {
+          "id": "ot18-3-12",
+          "required": true,
+          "type": "multiselect",
+          "text": "Choose one or more",
+          "choices": [
+            "Unbanked People",
+            "Others",
+            "Retailers",
+            "Banks",
+            "Millennials + Gen Z",
+            "Employees",
+            "Individuals",
+            "Unbanked SMEs",
+            "Corporates",
+            "Seniors",
+            "SMEs"
+          ]
+        },
+        {
+          "id": "ot18-3-5",
+          "required": true,
+          "type": "longtext",
+          "text": "Describe your business in depth *"
+        },
+        {
+          "id": "ot18-3-2",
+          "required": false,
+          "type": "text",
+          "text": "Others"
+        },
+        {
+          "id": "ot18-3-7",
+          "required": true,
+          "type": "select",
+          "text": "Choose an option",
+          "choices": [
+            "Mature business",
+            "Growth",
+            "Pre-seed",
+            "Seed",
+            "Early stage"
+          ]
+        },
+        {
+          "id": "ot18-3-20",
+          "required": false,
+          "type": "select",
+          "text": "What kind of investment do you seek?",
+          "choices": [
+            "Strategic investment",
+            "Seed",
+            "Business Angels",
+            "Series A"
+          ]
+        },
+        {
+          "id": "ot18-3-6",
+          "required": true,
+          "type": "link",
+          "text": "Link to online video"
+        },
+        {
+          "id": "ot18-3-10",
+          "required": false,
+          "type": "text",
+          "text": "Company names"
+        }
+      ]
+    }
+  ],
+  "answers": [
+    {
+      "questionId": "ot18-5-2",
+      "text": "https://vimeo.com/232123374"
+    },
+    {
+      "questionId": "ot18-1-11",
+      "choices": [
+        {
+          "id": "unitedstates",
+          "label": "United States"
+        }
+      ]
+    },
+    {
+      "questionId": "ot18-4-8",
+      "text": "We used UCD as basis for UX."
+    },
+    {
+      "questionId": "ot18-1-8",
+      "text": "Delaware"
+    },
+    {
+      "questionId": "ot18-summary",
+      "text": "My startup KASHIO, operates in the Microfinance, Biling / Cards /Payment Methods, Cryptocurrencies, Wallet, Others and SME Service sector, in the South America and Central America region, has Banks, Millennials + Gen Z, Unbanked People, Corporates, Individuals, SMEs, Unbanked SMEs and Retailers as a target audience, and offers a solution for the Digital Channels, Loans, Markets (FX, Trading...), Physical (ATM, Branch), Financial Inclusion and Payments area in BBVA, using a AI, BigData, Blockchain, IoT, SaaS, API, Cloud, IaaS, PaaS, Software, Graphical User Interface (GUI) and Wireless Communications technology."
+    },
+    {
+      "questionId": "ot18-0-2",
+      "text": "recoverlastapp@ot18.com"
+    },
+    {
+      "questionId": "ot18-4-12",
+      "text": "We use DevOps practices as well as BDD and using tools like Jenkins and Ansible for automation."
+    },
+    {
+      "questionId": "ot18-1-4",
+      "text": "www.kashio.net"
+    },
+    {
+      "questionId": "ot18-2-1-6",
+      "text": "https://www.linkedin.com/in/antonio-rolando"
+    },
+    {
+      "questionId": "ot18-3-7",
+      "choices": [
+        {
+          "id": "seed",
+          "label": "Seed"
+        }
+      ]
+    },
+    {
+      "questionId": "ot18-3-11",
+      "text": "KashIO is free for people, we charge a transaction fee to businesses and have forex revenues when converting currencies during transactions processing."
+    },
+    {
+      "questionId": "ot18-4-1",
+      "choices": [
+        {
+          "id": "physical",
+          "label": "Physical (ATM, Branch)"
+        },
+        {
+          "id": "loans",
+          "label": "Loans"
+        },
+        {
+          "id": "financialinclusion",
+          "label": "Financial Inclusion"
+        },
+        {
+          "id": "payments",
+          "label": "Payments"
+        },
+        {
+          "id": "digitalchannels",
+          "label": "Digital Channels"
+        },
+        {
+          "id": "markets",
+          "label": "Markets (FX, Trading...)"
+        }
+      ]
+    },
+    {
+      "questionId": "ot18-4-9",
+      "text": "Yes,we had MVP and Beta releases."
+    },
+    {
+      "questionId": "ot18-3-8",
+      "choices": [
+        {
+          "id": "yes",
+          "label": "Yes"
+        }
+      ]
+    },
+    {
+      "questionId": "ot18-5-5",
+      "choices": [
+        {
+          "id": "seedstars",
+          "label": "SeedStars"
+        }
+      ]
+    },
+    {
+      "questionId": "ot18-2-1-1",
+      "text": "ANTONIO J ROLANDO"
+    },
+    {
+      "questionId": "ot18-1-10",
+      "text": "2017-01-28T05:00:00.000Z"
+    },
+    {
+      "questionId": "ot18-2-1-5",
+      "choices": [
+        {
+          "id": "ceo",
+          "label": "CEO"
+        }
+      ]
+    },
+    {
+      "questionId": "ot18-4-3",
+      "choices": [
+        {
+          "id": "Graphical User Interface (GUI)",
+          "label": "Graphical User Interface (GUI)"
+        },
+        {
+          "id": "PaaS",
+          "label": "PaaS"
+        },
+        {
+          "id": "Blockchain",
+          "label": "Blockchain"
+        },
+        {
+          "id": "SaaS",
+          "label": "SaaS"
+        },
+        {
+          "id": "Cloud",
+          "label": "Cloud"
+        },
+        {
+          "id": "AI",
+          "label": "AI"
+        },
+        {
+          "id": "IaaS",
+          "label": "IaaS"
+        },
+        {
+          "id": "BigData",
+          "label": "BigData"
+        },
+        {
+          "id": "API",
+          "label": "API"
+        },
+        {
+          "id": "Software",
+          "label": "Software"
+        },
+        {
+          "id": "Wireless Communications",
+          "label": "Wireless Communications"
+        },
+        {
+          "id": "Iot",
+          "label": "IoT"
+        }
+      ]
+    },
+    {
+      "questionId": "ot18-3-9",
+      "choices": [
+        {
+          "id": "Pilot",
+          "label": "Pilot"
+        },
+        {
+          "id": "Proof of Concept",
+          "label": "Proof of Concept"
+        },
+        {
+          "id": "Servicing",
+          "label": "Servicing"
+        },
+        {
+          "id": "Implementation",
+          "label": "Implementation"
+        }
+      ]
+    },
+    {
+      "questionId": "ot18-1-3",
+      "text": "https://bbva-ats-opentalent-assets-pro.s3-eu-west-1.amazonaws.com/d87a614c-d31a-4ee6-9e6b-67c3d5f819f1_LogoKashioPNG.png"
+    },
+    {
+      "questionId": "ot18-3-15",
+      "text": "Most of existing solutions dont have TurnKey solutions, so they need technical integrations, we are in the SAAS arena for SMB."
+    },
+    {
+      "questionId": "ot18-3-18",
+      "choices": [
+        {
+          "id": "25000",
+          "label": "<25,000"
+        }
+      ]
+    },
+    {
+      "questionId": "ot18-2-1-2",
+      "text": "Mr"
+    },
+    {
+      "questionId": "ot18-3-5",
+      "text": "Cash in LATAM is still king.  There is not a single solution that have successfully replace the cash use in the region until now.  KashIO is a platform of digital services with solutions for business, institutions and people, to allow them to Send, Receive and Transfer money in a simple, secure and affortable way using technologies such AI to optimize money routing and Blockchain for security and offline scenarios."
+    },
+    {
+      "questionId": "ot18-3-6",
+      "text": "https://vimeo.com/232123374"
+    },
+    {
+      "questionId": "ot18-3-19",
+      "choices": [
+        {
+          "id": "yes",
+          "label": "Yes"
+        }
+      ]
+    },
+    {
+      "questionId": "ot18-1-2",
+      "text": "KASHIO INC"
+    },
+    {
+      "questionId": "ot18-4-10",
+      "text": "Yes, we run 3 months our first product with different users to identify issues and new requirements"
+    },
+    {
+      "questionId": "ot18-0-1",
+      "text": "KASHIO"
+    },
+    {
+      "questionId": "ot18-3-20",
+      "choices": [
+        {
+          "id": "seed",
+          "label": "Seed"
+        }
+      ]
+    },
+    {
+      "questionId": "ot18-3-17",
+      "choices": [
+        {
+          "id": "25000",
+          "label": "<25,000"
+        }
+      ]
+    },
+    {
+      "questionId": "ot18-5-3",
+      "text": "https://bbva-ats-opentalent-assets-pro.s3-eu-west-1.amazonaws.com/f107176d-6263-4081-be19-47377a74bee0_KashioProductPortfolio2018.pdf"
+    },
+    {
+      "questionId": "ot18-1-5",
+      "text": "+1 305-560-6666"
+    },
+    {
+      "questionId": "ot18-1-9",
+      "choices": [
+        {
+          "id": "unitedstates",
+          "label": "United States"
+        }
+      ]
+    },
+    {
+      "questionId": "ot18-4-6",
+      "text": "We plan to move all historic data to create credit history for unbanked. Transactional data and Mobile data will be used mainly for security purposes."
+    },
+    {
+      "questionId": "ot18-1-7",
+      "text": "https://www.linkedin.com/company/kashio"
+    },
+    {
+      "questionId": "ot18-3-3",
+      "choices": [
+        {
+          "id": "South America",
+          "label": "South America"
+        },
+        {
+          "id": "Central America",
+          "label": "Central America"
+        }
+      ]
+    },
+    {
+      "questionId": "ot18-4-7",
+      "choices": [
+        {
+          "id": "betaversion",
+          "label": "Beta version"
+        }
+      ]
+    },
+    {
+      "questionId": "ot18-4-11",
+      "text": "https://manager.kashio.net"
+    },
+    {
+      "questionId": "ot18-3-4",
+      "text": "KashIO is a real Cash Alternative for people and businesses in the  Digital World. "
+    },
+    {
+      "questionId": "ot18-shareData",
+      "text": "true"
+    },
+    {
+      "questionId": "ot18-2-1-3",
+      "text": "1970-11-05T05:00:00.000Z"
+    },
+    {
+      "questionId": "ot18-3-14",
+      "text": "Our first product is a B2B / B2C solution for SMB that automate their Account Receivable process; we have a sales & marketing strategy for onboarding them."
+    },
+    {
+      "questionId": "ot18-4-5",
+      "text": "We have developed a small version of a Core Banking capable to operate in different currencies and support multiple accounts for end users; we are able to manage different digital channel for end-users such mobile, web, sms.  The platform has been developed using Microservices Arquitecture, APIs REST/JSON, dockers and is deployed 100% in the cloud."
+    },
+    {
+      "questionId": "ot18-3-1",
+      "choices": [
+        {
+          "id": "SME Service",
+          "label": "SME Service"
+        },
+        {
+          "id": "Cryptocurrencies",
+          "label": "Cryptocurrencies"
+        },
+        {
+          "id": "Others",
+          "label": "Others"
+        },
+        {
+          "id": "Microfinance",
+          "label": "Microfinance"
+        },
+        {
+          "id": "Biling / Cards /Payment Methods",
+          "label": "Biling / Cards /Payment Methods"
+        },
+        {
+          "id": "Wallet",
+          "label": "Wallet"
+        }
+      ]
+    },
+    {
+      "questionId": "ot18-5-1",
+      "text": "1. Accepted by Singularity University Labs\n2. Raised US$115k seed capital\n3. More than 500 active users"
+    },
+    {
+      "questionId": "ot18-1-12",
+      "choices": [
+        {
+          "id": "1-5",
+          "label": "1-5"
+        }
+      ]
+    },
+    {
+      "questionId": "ot18-3-16",
+      "text": "506"
+    },
+    {
+      "questionId": "ot18-3-10",
+      "text": "Valora Corredores de Seguros SAC, Una Solutions, Mastergroup, TSP"
+    },
+    {
+      "questionId": "ot18-3-12",
+      "choices": [
+        {
+          "id": "Unbanked People",
+          "label": "Unbanked People"
+        },
+        {
+          "id": "Retailers",
+          "label": "Retailers"
+        },
+        {
+          "id": "Banks",
+          "label": "Banks"
+        },
+        {
+          "id": "Millennials + Gen Z",
+          "label": "Millennials + Gen Z"
+        },
+        {
+          "id": "Individuals",
+          "label": "Individuals"
+        },
+        {
+          "id": "Unbanked SMEs",
+          "label": "Unbanked SMEs"
+        },
+        {
+          "id": "Corporates",
+          "label": "Corporates"
+        },
+        {
+          "id": "SMEs",
+          "label": "SMEs"
+        }
+      ]
+    }
+  ],
+  "origin": "https://opentalent.bbva.com/en/register/"
+}

@@ -1,0 +1,337 @@
+{
+  "body": {
+    "formKey": "Open Challenge Regional",
+    "contestId": "9547f320-ca12-0d00-996f-e5670e29ea98",
+    "id": "41f1bf30-ca12-0d00-9971-99130e29ea98",
+    "accountId": "83eadc17-4cf1-4748-8d27-0b2f8452c277",
+    "contestKey": "Open Challenge Regional",
+    "sections": [
+      {
+        "i18n": [
+          {
+            "text": "Contact Information",
+            "lang": "EN"
+          },
+          {
+            "text": "Información de Contacto",
+            "lang": "ES"
+          }
+        ],
+        "id": "reg-contact",
+        "questions": [
+          {
+            "required": true,
+            "key": null,
+            "i18n": [
+              {
+                "text": "Name",
+                "lang": "EN"
+              },
+              {
+                "text": "Nombre",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-name",
+            "type": "TEXT"
+          },
+          {
+            "required": true,
+            "key": null,
+            "i18n": [
+              {
+                "text": "Family name",
+                "lang": "EN"
+              },
+              {
+                "text": "Apellido",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-family-name",
+            "type": "TEXT"
+          },
+          {
+            "required": true,
+            "key": "APPLICANT_KEY",
+            "i18n": [
+              {
+                "text": "Contact email",
+                "lang": "EN"
+              },
+              {
+                "text": "Email de contacto",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-email",
+            "type": "EMAIL"
+          },
+          {
+            "required": true,
+            "key": null,
+            "i18n": [
+              {
+                "text": "Phone number (with country code)",
+                "lang": "EN"
+              },
+              {
+                "text": "Número de teléfono (con el código de país)",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-phone",
+            "type": "TEXT"
+          }
+        ]
+      },
+      {
+        "i18n": [
+          {
+            "text": "Participant Information",
+            "lang": "EN"
+          },
+          {
+            "text": "Información del Participante",
+            "lang": "ES"
+          }
+        ],
+        "id": "reg-participant",
+        "questions": [
+          {
+            "required": true,
+            "key": null,
+            "i18n": [
+              {
+                "text": "Participation type",
+                "lang": "EN"
+              },
+              {
+                "text": "Tipo de participación",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-participation-type",
+            "type": "SELECT"
+          },
+          {
+            "required": true,
+            "key": null,
+            "i18n": [
+              {
+                "text": "Team name",
+                "lang": "EN"
+              },
+              {
+                "text": "Nombre del equipo",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-team-name",
+            "type": "TEXT"
+          },
+          {
+            "required": false,
+            "key": null,
+            "i18n": [
+              {
+                "text": "LinkedIn (team members)",
+                "lang": "EN"
+              },
+              {
+                "text": "LinkedIn (miembros del equipo)",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-linkedin",
+            "type": "LINK"
+          },
+          {
+            "required": false,
+            "key": null,
+            "i18n": [
+              {
+                "text": "Profile",
+                "lang": "EN"
+              },
+              {
+                "text": "Perfil",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-profile",
+            "type": "MULTISELECT"
+          },
+          {
+            "required": false,
+            "key": null,
+            "i18n": [
+              {
+                "text": "Sector",
+                "lang": "EN"
+              },
+              {
+                "text": "Sector",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-sector",
+            "type": "SELECT"
+          },
+          {
+            "required": true,
+            "key": null,
+            "i18n": [
+              {
+                "text": "Country",
+                "lang": "EN"
+              },
+              {
+                "text": "País",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-country",
+            "type": "COUNTRY"
+          },
+          {
+            "required": true,
+            "key": null,
+            "i18n": [
+              {
+                "text": "City",
+                "lang": "EN"
+              },
+              {
+                "text": "Ciudad",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-city",
+            "type": "TEXT"
+          },
+          {
+            "required": false,
+            "key": null,
+            "i18n": [
+              {
+                "text": "Age",
+                "lang": "EN"
+              },
+              {
+                "text": "Edad",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-age",
+            "type": "SELECT"
+          }
+        ]
+      },
+      {
+        "i18n": [
+          {
+            "text": "About Your Solution",
+            "lang": "EN"
+          },
+          {
+            "text": "Sobre to Solución",
+            "lang": "ES"
+          }
+        ],
+        "id": "reg-solution",
+        "questions": [
+          {
+            "required": true,
+            "key": "APPLICATION_KEY",
+            "i18n": [
+              {
+                "text": "Solution title",
+                "lang": "EN"
+              },
+              {
+                "text": "Título de la solución",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-title",
+            "type": "TEXT"
+          },
+          {
+            "i18n": [
+              {
+                "text": "Brief description",
+                "lang": "EN"
+              },
+              {
+                "text": "Breve descripción",
+                "lang": "ES"
+              }
+            ],
+            "required": true,
+            "id": "reg-description",
+            "type": "TEXT"
+          },
+          {
+            "required": true,
+            "key": null,
+            "i18n": [
+              {
+                "text": "Link to the project (uploaded in ...)",
+                "lang": "EN"
+              },
+              {
+                "text": "Link al proyecto (subido en ...)",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-link",
+            "type": "LINK"
+          },
+          {
+            "required": false,
+            "key": null,
+            "i18n": [
+              {
+                "text": "Any other document? (URL)",
+                "lang": "EN"
+              },
+              {
+                "text": "Documentación adicional (URL)",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-document",
+            "type": "LINK"
+          },
+          {
+            "required": false,
+            "key": null,
+            "i18n": [
+              {
+                "text": "Any other video? (URL)",
+                "lang": "EN"
+              },
+              {
+                "text": "Video adicional (URL)",
+                "lang": "ES"
+              }
+            ],
+            "id": "reg-video",
+            "type": "LINK"
+          }
+        ]
+      }
+    ],
+    "version": 1,
+    "dateCreated": "2017-08-10T16:11:48+00:00",
+    "aggregateRootVersion": 1
+  },
+  "meta": {
+    "version": 1,
+    "timestamp": "2017-08-10T16:11:48+00:00",
+    "id": "41b7c130-ca12-0d00-9972-e4250e29ea98",
+    "correlationId": "dce2087e-175b-43cb-a949-cc16f7990257",
+    "type": "FORM_CREATED"
+  }
+}

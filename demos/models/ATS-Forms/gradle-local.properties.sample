@@ -1,0 +1,7 @@
+awsAccessKeyId=
+awsSecretKey=
+rabbitMqIp=127.0.0.1
+rabbitMqPassword=secret
+nexusUsername=
+nexusPassword=
+nexusEmail=

@@ -1,0 +1,581 @@
+import com.bmuschko.gradle.docker.response.ResponseHandler
+import com.bmuschko.gradle.docker.response.container.InspectContainerResponseHandler
+import com.bmuschko.gradle.docker.tasks.container.DockerCreateContainer
+import com.bmuschko.gradle.docker.tasks.container.DockerInspectContainer
+import com.bmuschko.gradle.docker.tasks.container.DockerLogsContainer
+import com.bmuschko.gradle.docker.tasks.container.DockerRemoveContainer
+import com.bmuschko.gradle.docker.tasks.container.DockerStartContainer
+import com.bmuschko.gradle.docker.tasks.image.DockerInspectImage
+import com.bmuschko.gradle.docker.tasks.image.DockerPullImage
+import org.apache.tools.ant.taskdefs.condition.Os
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    // MUST be the same, and in the same order, as the dependencies in
+    // build.gradle. See https://github.com/bmuschko/gradle-docker-plugin/issues/248
+    dependencies {
+        classpath 'org.asciidoctor:asciidoctor-gradle-plugin:1.5.3'
+        classpath 'org.asciidoctor:asciidoctorj-pdf:1.5.0-alpha.9'
+        classpath 'com.github.cukedoctor:cukedoctor-main:1.0.6'
+        classpath "net.saliman:gradle-properties-plugin:1.4.5"
+        classpath "com.monochromeroad.gradle-plugins:gradle-aws-s3-sync:0.10"
+        classpath 'com.bmuschko:gradle-docker-plugin:3.0.3'
+        classpath 'com.bmuschko:gradle-clover-plugin:2.1.3'
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'groovy'
+apply plugin: 'com.bmuschko.docker-remote-api'
+
+sourceSets {
+    integrationTest {
+        java {
+            compileClasspath += main.output + test.output
+            runtimeClasspath += main.output + test.output
+            srcDirs = ['src/integration-test/java', 'src/test/java']
+        }
+        groovy {
+            compileClasspath += main.output + test.output
+            runtimeClasspath += main.output + test.output
+            srcDirs = ['src/integration-test/groovy']
+        }
+        resources.srcDirs = ['src/integration-test/resources']
+        output.resourcesDir = "build/resources/integration-test"
+    }
+}
+
+dependencies {
+    compile(
+        'com.amazonaws:aws-lambda-java-core:1.1.0',
+        'com.amazonaws:aws-lambda-java-events:1.1.0',
+        'com.rabbitmq:amqp-client:3.6.5',
+        "org.projectlombok:lombok:1.16.12",
+        'com.xebia:jackson-lombok:1.1',
+        'redis.clients:jedis:2.8.0',
+        'org.elasticsearch.client:rest:5.1.2',
+        'org.apache.httpcomponents:httpcore:4.4.5',
+        'org.apache.httpcomponents:httpcore-nio:4.4.5',
+        'org.apache.httpcomponents:httpasyncclient:4.1.2'
+    )
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.codehaus.groovy:groovy-all:2.4.4'
+    testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
+    testRuntime "org.slf4j:slf4j-api:1.7.10"
+    testCompile 'info.cukes:cucumber-groovy:1.2.5'
+    testCompile 'info.cukes:cucumber-junit:1.2.5'
+
+    testCompile 'info.cukes:cucumber-picocontainer:1.2.5'
+    testCompile 'org.picocontainer:picocontainer:2.14'
+    testCompile 'org.hamcrest:hamcrest-library:1.3'
+
+    testCompile 'cglib:cglib-nodep:3.2.4'
+    testCompile 'org.objenesis:objenesis:2.4'
+    ext.jdkVersion = 'jdk8'
+
+}
+
+configurations {
+    integrationTestCompile.extendsFrom testCompile
+    integrationTestRuntime.extendsFrom testRuntime
+}
+
+def checkMaxMapCount() {
+    boolean result
+    Process p = Runtime.getRuntime().exec("sysctl vm.max_map_count");
+    p.waitFor();
+    BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
+    String aux = reader.readLine().split("=")[1].trim();
+    result = (aux.toInteger() >= 262144)
+    if (!result) {
+        println ""
+        println "Integration tests disabled."
+        println "ElasticSearch needs a value for max_map_count equal or greater than 262144."
+        println "Currently it's set as ${aux}. Please retry after running:"
+        println "sudo sysctl -w vm.max_map_count=262144"
+        println ""
+
+    }
+    return result
+}
+
+def checkRedis() {
+    def result
+    try {
+        InetSocketAddress socketAddress = new InetSocketAddress(retrieveRedisIpAndPort.containerIp, retrieveRedisIpAndPort.ports[0])
+        Socket s = new Socket()
+        s.connect(socketAddress, 1)
+        InputStream is = s.getInputStream()
+        OutputStream os = s.getOutputStream()
+        PrintWriter out = new PrintWriter(os, true);
+        out.println("MONITOR")
+        out.flush()
+        BufferedReader input =
+            new BufferedReader(
+                new InputStreamReader(is))
+        String response = input.readLine()
+        if (response) {
+            result = true
+        }
+        out.println("QUIT")
+        out.flush()
+        input.close()
+        out.close()
+        os.close()
+        s.close()
+    } catch (Throwable e) {
+        result = false
+    }
+    return result
+}
+
+def waitForRedis() {
+    if (!checkRedis()) {
+        println "Waiting on Redis (${retrieveRedisIpAndPort.containerIp}) to accept connections on port ${retrieveRedisIpAndPort.ports[0]}"
+        Thread.sleep(1000)
+    }
+    while (!checkRedis()) {
+        Thread.sleep(5000)
+    }
+    return false
+}
+
+task integrationTest(type: Test) {
+    onlyIf { Os.isFamily(Os.FAMILY_MAC) || (Os.isFamily(Os.FAMILY_UNIX) && checkMaxMapCount()) }
+
+    testClassesDir = sourceSets.integrationTest.output.classesDir
+    classpath = sourceSets.integrationTest.runtimeClasspath
+    include '**/*Spec.*'
+    include '**/*Specification.*'
+    include '**/*Test.*'
+
+    testLogging.showStandardStreams = true
+
+    outputs.upToDateWhen { waitForRedis() }
+
+    def environmentVariables = [
+        "S3_CONVERT_CONTEST_URL"               : "file://${project.sourceSets.integrationTest.output.resourcesDir}/converters/",
+        "RABBITMQ_IP"                          : rabbitMqIp,
+        "RABBITMQ_USER_NAME"                   : "bbvaatsforms",
+        "RABBITMQ_PASSWORD"                    : rabbitMqPassword,
+        "APPLICATION_SUBMITTED_EXCHANGE"       : "bbvaatsforms",
+        "APPLICATION_SUBMITTED_ROUTING_KEY"    : "application.submitted",
+        "ApplicationSubmittedEventAdapter"     : "es.osoco.bbva.ats.forms.adapter.RabbitMQApplicationSubmittedAdapter",
+        "NewRecoveryTokenGeneratedEventAdapter": "es.osoco.bbva.ats.forms.adapter.RabbitMQNewRecoveryTokenGeneratedAdapter",
+        "REDIS_TOKEN_TTL"                      : "3600"
+    ]
+    environment environmentVariables
+
+    doFirst {
+        environmentVariables = [
+            "REDIS_HOST": retrieveRedisIpAndPort.containerIp,
+            "REDIS_PORT": '' + retrieveRedisIpAndPort.ports[0],
+        ]
+
+        environment environmentVariables
+    }
+}
+
+def containerPrefix = 'bbva-ats-forms'
+
+def lastExitCode = 0
+def failingContainerId
+
+String hostProjectDirPath = System.getProperty('HOST_PROJECTDIR')
+if (!hostProjectDirPath) {
+    hostProjectDirPath = System.getenv('HOST_PROJECTDIR')
+}
+File hostProjectDir = project.projectDir
+if (hostProjectDirPath) {
+    hostProjectDir = new File(hostProjectDirPath)
+}
+String hostHomeDirPath = System.getProperty('HOST_USERHOME')
+if (!hostHomeDirPath) {
+    hostHomeDirPath = System.getenv('HOST_USERHOME')
+}
+if (!hostHomeDirPath) {
+    hostHomeDirPath = System.getProperty('user.home')
+}
+File hostHomeDir = new File(hostHomeDirPath)
+
+String dockerHost = System.getProperty('DOCKER_HOST')
+if (!dockerHost) {
+    dockerHost = System.getenv('DOCKER_HOST')
+}
+if ((!dockerHost) && (Os.isFamily(Os.FAMILY_MAC))) {
+    dockerHost = 'tcp://localhost:2375'
+}
+
+if (!dockerHost) {
+    dockerHost = 'unix:///var/run/docker.sock'
+}
+
+String dockerApiVersion = System.getProperty('DOCKER_API_VERSION')
+if (!dockerApiVersion) {
+    dockerApiVersion = System.getenv('DOCKER_API_VERSION')
+}
+if (!dockerApiVersion) {
+    dockerApiVersion = '1.23'
+}
+
+ext {
+    dryRun = Boolean.valueOf(System.getenv('DRY_RUN'))
+
+    privateRepository = 'nexus.osoco.es'
+
+    redisTag = '3.0.7'
+    redisImageName = 'redis'
+    redisImage = "${privateRepository}/${redisImageName}:${redisTag}"
+    redisContainerName = "${containerPrefix}-redis"
+
+    rabbitMqTag = 'latest'
+    rabbitMqImageName = "${privateRepository}/osoco/bats-rabbitmq"
+    rabbitMqImage = "${rabbitMqImageName}:${rabbitMqTag}"
+    rabbitMqContainerName = "${containerPrefix}-rb"
+}
+
+
+
+docker {
+    url = "${dockerHost}"
+
+    apiVersion = "${dockerApiVersion}"
+
+    registryCredentials {
+        url = 'https://nexus.osoco.es'
+        username = nexusUsername
+        password = nexusPassword
+        email = nexusEmail
+    }
+}
+
+class ConditionallyCreateContainer extends DockerCreateContainer {
+
+    @TaskAction
+    @Override
+    void start() {
+        if (project.dryRun) {
+            containerId = 'none'
+        } else {
+            super.start()
+        }
+    }
+}
+
+class CheckDockerContainer
+    extends DockerInspectContainer {
+
+    boolean exists = false
+    boolean running = false
+
+    CheckDockerContainer() {
+        setResponseHandler(
+            new ResponseHandler<Void, Object>() {
+                @Override
+                Void handle(Object container) {
+                    exists = container?.state
+                    running = container?.state?.running
+                }
+            })
+    }
+
+    @Override
+    void start() {
+        try {
+            super.start()
+        } catch (Throwable error) {
+            if (error.class.name.endsWith("NotFoundException")) {
+                exists = false
+                running = false
+            }
+        }
+    }
+}
+
+class CheckIfDockerImageExists
+    extends DockerInspectImage {
+
+    boolean exists = false
+
+    CheckIfDockerImageExists() {
+        setResponseHandler(
+            new ResponseHandler<Void, Object>() {
+                @Override
+                Void handle(Object image) {
+                    exists = (image != null)
+                }
+            })
+    }
+
+    @Override
+    void start() {
+        try {
+            super.start()
+        } catch (Throwable error) {
+            if (error.class.name.endsWith("NotFoundException")) {
+                exists = false
+            }
+        }
+    }
+}
+
+class ConditionallyPullImage
+    extends DockerPullImage {
+
+    boolean unauthorized = false
+
+    @TaskAction
+    @Override
+    void start() {
+        try {
+            super.start()
+        } catch (Throwable error) {
+            if (error.message?.contains("unauthorized")) {
+                unauthorized = true
+                println "ERROR: Cannot pull images from ${privateRepository}"
+                println "Make sure your Nexus login settings are correct in gradle-local.properties"
+                throw new BuildCancelledException("Please check your Nexus login settings in gradle-local.properties", error)
+            }
+        }
+    }
+}
+
+class ConditionallyStartContainer
+    extends DockerStartContainer {
+
+    @TaskAction
+    @Override
+    void start() {
+        if (!project.dryRun) {
+            super.start()
+        }
+    }
+}
+
+class RetrieveContainerIpAndExposedPorts
+    extends DockerInspectContainer {
+
+    String containerIp
+    Integer[] ports
+
+    RetrieveContainerIpAndExposedPorts() {
+        setResponseHandler(
+            new InspectContainerResponseHandler() {
+                @Override
+                String handle(Object container) {
+                    if (Os.isFamily(Os.FAMILY_MAC)) {
+                        containerIp = "127.0.0.1"
+                    }
+                    if (Os.isFamily(Os.FAMILY_UNIX) && !Os.isFamily(Os.FAMILY_MAC)) {
+                        containerIp = container.networkSettings.ipAddress
+                    }
+                    ports = container.config.exposedPorts.collect { p -> p.port.toInteger() }
+                }
+            } as ResponseHandler<Void, Object>)
+    }
+}
+
+task stopIfLastContainerFailed(type: DockerLogsContainer) {
+
+    onlyIf {
+        lastExitCode != 0
+    }
+
+    targetContainerId { failingContainerId }
+}
+
+task cleanUpIfLastContainerFailed(type: DockerRemoveContainer) {
+    dependsOn stopIfLastContainerFailed
+
+    onlyIf {
+        lastExitCode != 0
+    }
+
+    targetContainerId { failingContainerId }
+}
+
+task exitIfLastContainerFailed {
+    dependsOn cleanUpIfLastContainerFailed
+
+    onlyIf {
+        lastExitCode != 0
+    }
+
+    doLast {
+        println "Please run this build using the following alias:"
+        println 'alias gradle-bbva-ats-forms=\'docker run -it --rm -e DOCKER_HOST="tcp://' + socatContainerName + ':2375" --link ' + socatContainerName + ':socat -e HOST_PROJECTDIR="${PWD}" -e HOST_USERHOME="${HOME}" -v ${PWD}:/work -v /var/run/docker.sock:/run/docker.sock --add-host nexus.osoco.es:10.3.0.41 -e DOCKER_API_VERSION=' + dockerApiVersion + '" nexus.osoco.es/osoco/gradle:${gradleTag}\''
+        throw new BuildCancelledException("<< Problem launching ${failingContainerId} >>")
+    }
+}
+
+// Redis container
+
+// Pull redis image if it doesn't exist
+task checkRedisImageExists(type: CheckIfDockerImageExists) {
+    imageId = "${redisImage}"
+}
+
+task pullRedisImageIfNeeded(type: ConditionallyPullImage) {
+    dependsOn checkRedisImageExists
+
+    onlyIf {
+        (lastExitCode == 0) && (!checkRedisImageExists.exists)
+    }
+
+    repository "${redisImage}"
+}
+
+task checkRedisContainer(type: CheckDockerContainer) {
+
+    targetContainerId { '/' + redisContainerName }
+}
+
+task removeRedisContainer(type: DockerRemoveContainer) {
+    dependsOn checkRedisContainer
+
+    onlyIf {
+        (lastExitCode == 0) && !checkRedisContainer.exists && !checkRedisContainer.running
+    }
+
+    removeVolumes = true
+    force = true
+    targetContainerId { '' + redisContainerName }
+}
+
+task createRedisContainer(type: DockerCreateContainer) {
+    dependsOn checkRedisContainer
+    dependsOn pullRedisImageIfNeeded
+
+    onlyIf {
+        (lastExitCode == 0) && (!checkRedisContainer.exists) && (!pullRedisImageIfNeeded.unauthorized)
+    }
+
+    imageId = "${redisImage}"
+    portBindings = ['6379:6379']
+    exposedPorts = [new DockerCreateContainer.ExposedPort('tcp', [6379])]
+    containerName = "${redisContainerName}"
+}
+
+task startExistingRedisContainer(type: DockerStartContainer) {
+    dependsOn checkRedisContainer
+
+    onlyIf {
+        (lastExitCode == 0) && checkRedisContainer.exists && (!checkRedisContainer.running)
+    }
+
+    targetContainerId { '' + redisContainerName }
+}
+
+task startNewRedisContainer(type: DockerStartContainer) {
+    dependsOn createRedisContainer
+
+    onlyIf {
+        (lastExitCode == 0) && (!checkRedisContainer.exists) && (!pullRedisImageIfNeeded.unauthorized)
+    }
+
+    targetContainerId { '' + redisContainerName }
+}
+
+task startRedisContainer() {
+    dependsOn startExistingRedisContainer
+    dependsOn startNewRedisContainer
+}
+
+task retrieveRedisIpAndPort(type: RetrieveContainerIpAndExposedPorts) {
+    dependsOn startRedisContainer
+
+    targetContainerId { '/' + redisContainerName }
+}
+
+task runRedisContainer() {
+    dependsOn retrieveRedisIpAndPort
+}
+
+startNewRedisContainer.dependsOn startExistingRedisContainer
+
+// RabbitMQ
+task checkRabbitMQImageExists(type: CheckIfDockerImageExists) {
+    imageId = "${rabbitMqImage}"
+}
+
+task pullRabbitMQImageIfNeeded(type: ConditionallyPullImage) {
+    dependsOn checkRabbitMQImageExists
+    onlyIf {
+        !checkRabbitMQImageExists.exists
+    }
+
+    repository "${rabbitMqImage}"
+}
+
+task checkQueuesContainer(type: CheckDockerContainer) {
+
+    targetContainerId { '' + rabbitMqContainerName }
+}
+
+task createQueuesContainer(type: ConditionallyCreateContainer) {
+    dependsOn pullRabbitMQImageIfNeeded
+    dependsOn checkQueuesContainer
+    onlyIf {
+        !checkQueuesContainer.exists
+    }
+
+    imageId = "${rabbitMqImage}"
+    portBindings = ['61613:61613', '5672:5672', '15672:15672']
+    exposedPorts = [new DockerCreateContainer.ExposedPort('tcp', [61613, 5672, 15672])]
+    containerName = "${rabbitMqContainerName}"
+    env = [
+        "ADMIN_PASSWORD=\"secret\"",
+        "BBVAATSBACKOFFICE_PASSWORD=\"secret\"",
+        "MONITORING_PASSWORD=\"secret\"",
+        "BBVAATSFORMS_PASSWORD=\"secret\"",
+        "BBVAATS_PASSWORD=\"secret\"",
+        "BBVAATSEVAAPP_PASSWORD=\"secret\"",
+        "OMPEXPORTER_PASSWORD=\"secret\"",
+        "OMPVALIDATION_PASSWORD=\"secret\"",
+    ]
+}
+
+task startNewQueuesContainer(type: ConditionallyStartContainer) {
+    dependsOn createQueuesContainer
+
+    onlyIf {
+        !checkQueuesContainer.exists
+    }
+
+    targetContainerId { '' + rabbitMqContainerName }
+}
+
+
+
+task startExistingQueuesContainer(type: ConditionallyStartContainer) {
+    dependsOn checkQueuesContainer
+    onlyIf {
+        checkQueuesContainer.exists && (!checkQueuesContainer.running)
+    }
+
+    targetContainerId { '' + rabbitMqContainerName }
+}
+
+task startQueuesContainer() {
+    dependsOn startExistingQueuesContainer
+    dependsOn startNewQueuesContainer
+}
+
+task removeQueuesContainer(type: DockerRemoveContainer) {
+    dependsOn checkQueuesContainer
+
+    onlyIf {
+        (lastExitCode == 0) && !checkQueuesContainer.exists && !checkQueuesContainer.running
+    }
+
+    removeVolumes = true
+    force = true
+    targetContainerId { '' + rabbitMqContainerName }
+}
+
+startQueuesContainer.doLast {
+    sleep( 30*1000 )
+}

@@ -1,0 +1,2880 @@
+{
+  "formId": "52f5d1b1-4129-0d00-ad55-aa8b0f1d3b77",
+  "contestId": "80cffcea-3f29-0d00-ac17-bbeb0f1d3b77",
+  "language": "en",
+  "contestName": "Open Marketplace",
+  "canSaveDraft": false,
+  "showAllowShareDataCheck": false,
+  "sendingDataMessage": "Sending data, wait a minute...",
+  "confirmationMessage": {
+    "header": "Done!",
+    "body": "You have just registered a new Startup in the Open Marketplace."
+  },
+  "timeoutErrorMessage": {
+    "header": "Connection error",
+    "body": "There was a connection error, please try again in a few minutes. If this error continues to occurs, please contact the platform administrators to help you resolve the problem."
+  },
+  "legalConditions": {
+    "link": [
+      {
+        "lang": "ES",
+        "text": "https://openmarketplace.bbva.com/es/terms"
+      },
+      {
+        "lang": "EN",
+        "text": "https://openmarketplace.bbva.com/en/terms"
+      }
+    ],
+    "text": "I have read and accept the",
+    "linkText": "legal terms & conditions"
+  },
+  "gdpr": {
+    "link": [
+      {
+        "lang": "ES",
+        "text": "https://opentalent.bbva.com/politica-de-privacidad/"
+      },
+      {
+        "lang": "EN",
+        "text": "https://opentalent.bbva.com/en/privacy-policy/"
+      }
+    ],
+    "text": "I have read and understand the",
+    "linkText": "Personal Data Treatment"
+  },
+  "summarySentence": [
+    {
+      "string": "My startup "
+    },
+    {
+      "questionId": "omp-0-1",
+      "string": ", operates in the "
+    },
+    {
+      "questionId": "omp-3-1",
+      "string": " sector, in the "
+    },
+    {
+      "questionId": "omp-3-3",
+      "string": " region, has "
+    },
+    {
+      "questionId": "omp-3-12",
+      "string": " as a target audience, and offers a solution for the "
+    },
+    {
+      "questionId": "omp-4-1",
+      "string": " area in BBVA, using a "
+    },
+    {
+      "questionId": "omp-4-3",
+      "string": " technology."
+    }
+  ],
+  "sections": [
+    {
+      "sectionId": "omp-0",
+      "text": "Registration",
+      "helpText": "The following information is needed to register your startup.",
+      "questions": [
+        {
+          "id": "omp-0-1",
+          "required": true,
+          "type": "text",
+          "text": "Company commercial brand name",
+          "key": "APPLICATION_KEY"
+        },
+        {
+          "id": "omp-0-2",
+          "required": true,
+          "type": "text",
+          "regex": "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,10}$",
+          "errorMsg": "enter a valid email address",
+          "text": "Main contact email",
+          "key": "APPLICANT_KEY",
+          "clonesTo": "omp-2-1-4"
+        },
+        {
+          "id": "omp-summary",
+          "required": false,
+          "type": "longtext",
+          "summary": true
+        },
+        {
+          "id": "omp-shareData",
+          "required": false,
+          "type": "text",
+          "shareData": true
+        }
+      ]
+    },
+    {
+      "sectionId": "omp-1",
+      "text": "Your Company",
+      "helpText": "Basic information about your company.",
+      "questions": [
+        {
+          "id": "omp-1-1",
+          "required": true,
+          "type": "text",
+          "text": "Registered name"
+        },
+        {
+          "id": "omp-1-2",
+          "required": true,
+          "type": "file",
+          "subType": "image",
+          "label": "Logo",
+          "text": "Upload image",
+          "helpText": "Upload image in JPEG or PNG format and a maximum size of 2MB",
+          "maxsize": 2097152,
+          "accept": [
+            "image/png",
+            "image/jpeg"
+          ]
+        },
+        {
+          "id": "omp-1-3",
+          "required": true,
+          "type": "link",
+          "subType": "web",
+          "helpText": "Your company's url",
+          "text": "Website"
+        },
+        {
+          "id": "omp-1-4",
+          "required": true,
+          "type": "text",
+          "regex": "^[0-9]+$",
+          "errorMsg": "enter a valid phone number",
+          "text": "Phone Number"
+        },
+        {
+          "id": "omp-1-5",
+          "required": true,
+          "type": "text",
+          "regex": "^@?(\\w){1,15}$",
+          "errorMsg": "enter a valid twitter ID",
+          "text": "Twitter ID",
+          "hint": "@twitter"
+        },
+        {
+          "id": "omp-1-6",
+          "required": false,
+          "type": "text",
+          "regex": "^https:\\/\\/[a-z]{2,3}\\.linkedin\\.com\\/.*$",
+          "errorMsg": "check it's a valid Linkedin link",
+          "text": "LinkedIn",
+          "helpText": "Add a link to the Linkedin profile"
+        },
+        {
+          "id": "omp-1-7",
+          "required": true,
+          "type": "text",
+          "text": "City of legal formation"
+        },
+        {
+          "id": "omp-1-8",
+          "required": true,
+          "type": "select",
+          "text": "Country of legal formation",
+          "choices": [
+            {
+              "key": "AFG",
+              "label": "Afghanistan"
+            },
+            {
+              "key": "ALB",
+              "label": "Albania"
+            },
+            {
+              "key": "DZA",
+              "label": "Algeria"
+            },
+            {
+              "key": "ASM",
+              "label": "American Samoa"
+            },
+            {
+              "key": "AND",
+              "label": "Andorra"
+            },
+            {
+              "key": "AGO",
+              "label": "Angola"
+            },
+            {
+              "key": "ATG",
+              "label": "Antigua And Barbuda"
+            },
+            {
+              "key": "ARG",
+              "label": "Argentina"
+            },
+            {
+              "key": "ARM",
+              "label": "Armenia"
+            },
+            {
+              "key": "ABW",
+              "label": "Aruba"
+            },
+            {
+              "key": "AUS",
+              "label": "Australia"
+            },
+            {
+              "key": "AUT",
+              "label": "Austria"
+            },
+            {
+              "key": "AZE",
+              "label": "Azerbaijan"
+            },
+            {
+              "key": "BHS",
+              "label": "Bahamas"
+            },
+            {
+              "key": "BHR",
+              "label": "Bahrain"
+            },
+            {
+              "key": "BGD",
+              "label": "Bangladesh"
+            },
+            {
+              "key": "BRB",
+              "label": "Barbados"
+            },
+            {
+              "key": "BLR",
+              "label": "Belarus"
+            },
+            {
+              "key": "BEL",
+              "label": "Belgium"
+            },
+            {
+              "key": "BLZ",
+              "label": "Belize"
+            },
+            {
+              "key": "BEN",
+              "label": "Benin"
+            },
+            {
+              "key": "BTN",
+              "label": "Bhutan"
+            },
+            {
+              "key": "BOL",
+              "label": "Bolivia"
+            },
+            {
+              "key": "BIH",
+              "label": "Bosnia And Herzegovina"
+            },
+            {
+              "key": "BWA",
+              "label": "Botswana"
+            },
+            {
+              "key": "BRA",
+              "label": "Brazil"
+            },
+            {
+              "key": "BRN",
+              "label": "Brunei Darussalam"
+            },
+            {
+              "key": "BGR",
+              "label": "Bulgaria"
+            },
+            {
+              "key": "BFA",
+              "label": "Burkina Faso"
+            },
+            {
+              "key": "BDI",
+              "label": "Burundi"
+            },
+            {
+              "key": "KHM",
+              "label": "Cambodia"
+            },
+            {
+              "key": "CMR",
+              "label": "Cameroon"
+            },
+            {
+              "key": "CAN",
+              "label": "Canada"
+            },
+            {
+              "key": "CPV",
+              "label": "Cape Verde"
+            },
+            {
+              "key": "CAF",
+              "label": "Central African Republic"
+            },
+            {
+              "key": "TCD",
+              "label": "Chad"
+            },
+            {
+              "key": "CHL",
+              "label": "Chile"
+            },
+            {
+              "key": "CHN",
+              "label": "China"
+            },
+            {
+              "key": "COL",
+              "label": "Colombia"
+            },
+            {
+              "key": "COM",
+              "label": "Comoros"
+            },
+            {
+              "key": "COG",
+              "label": "Congo, Republic Of (Brazzaville)"
+            },
+            {
+              "key": "CRI",
+              "label": "Costa Rica"
+            },
+            {
+              "key": "HRV",
+              "label": "Croatia"
+            },
+            {
+              "key": "CUW",
+              "label": "Curasao"
+            },
+            {
+              "key": "CYP",
+              "label": "Cyprus"
+            },
+            {
+              "key": "CZE",
+              "label": "Czech Republic"
+            },
+            {
+              "key": "COD",
+              "label": "Democratic Republic Of The Congo (Kinshasha)"
+            },
+            {
+              "key": "DNK",
+              "label": "Denmark"
+            },
+            {
+              "key": "DJI",
+              "label": "Djibouti"
+            },
+            {
+              "key": "DMA",
+              "label": "Dominica"
+            },
+            {
+              "key": "DOM",
+              "label": "Dominican Republic"
+            },
+            {
+              "key": "ECU",
+              "label": "Ecuador"
+            },
+            {
+              "key": "EGY",
+              "label": "Egypt"
+            },
+            {
+              "key": "SLV",
+              "label": "El Salvador"
+            },
+            {
+              "key": "GNQ",
+              "label": "Equatorial Guinea"
+            },
+            {
+              "key": "ERI",
+              "label": "Eritrea"
+            },
+            {
+              "key": "EST",
+              "label": "Estonia"
+            },
+            {
+              "key": "ETH",
+              "label": "Ethiopia"
+            },
+            {
+              "key": "FRO",
+              "label": "Faroe Islands"
+            },
+            {
+              "key": "FJI",
+              "label": "Fiji"
+            },
+            {
+              "key": "FIN",
+              "label": "Finland"
+            },
+            {
+              "key": "FRA",
+              "label": "France"
+            },
+            {
+              "key": "GUF",
+              "label": "French Guiana"
+            },
+            {
+              "key": "GAB",
+              "label": "Gabon"
+            },
+            {
+              "key": "GMB",
+              "label": "Gambia"
+            },
+            {
+              "key": "GEO",
+              "label": "Georgia"
+            },
+            {
+              "key": "DEU",
+              "label": "Germany"
+            },
+            {
+              "key": "GHA",
+              "label": "Ghana"
+            },
+            {
+              "key": "GRC",
+              "label": "Greece"
+            },
+            {
+              "key": "GRD",
+              "label": "Grenada"
+            },
+            {
+              "key": "GTM",
+              "label": "Guatemala"
+            },
+            {
+              "key": "GIN",
+              "label": "Guinea"
+            },
+            {
+              "key": "GNB",
+              "label": "Guinea-bissau"
+            },
+            {
+              "key": "GUY",
+              "label": "Guyana"
+            },
+            {
+              "key": "HTI",
+              "label": "Haiti"
+            },
+            {
+              "key": "HND",
+              "label": "Honduras"
+            },
+            {
+              "key": "HUN",
+              "label": "Hungary"
+            },
+            {
+              "key": "ISL",
+              "label": "Iceland"
+            },
+            {
+              "key": "IND",
+              "label": "India"
+            },
+            {
+              "key": "IDN",
+              "label": "Indonesia"
+            },
+            {
+              "key": "IRN",
+              "label": "Iran (Islamic Republic Of)"
+            },
+            {
+              "key": "IRQ",
+              "label": "Iraq"
+            },
+            {
+              "key": "IRL",
+              "label": "Ireland"
+            },
+            {
+              "key": "ISR",
+              "label": "Israel"
+            },
+            {
+              "key": "ITA",
+              "label": "Italy"
+            },
+            {
+              "key": "CIV",
+              "label": "Ivory Coast"
+            },
+            {
+              "key": "JAM",
+              "label": "Jamaica"
+            },
+            {
+              "key": "JPN",
+              "label": "Japan"
+            },
+            {
+              "key": "JOR",
+              "label": "Jordan"
+            },
+            {
+              "key": "KAZ",
+              "label": "Kazakhstan"
+            },
+            {
+              "key": "KEN",
+              "label": "Kenya"
+            },
+            {
+              "key": "KIR",
+              "label": "Kiribati"
+            },
+            {
+              "key": "PRK",
+              "label": "Korea, Democratic People's Rep. (North Korea)"
+            },
+            {
+              "key": "KOR",
+              "label": "Korea, Republic Of (South Korea)"
+            },
+            {
+              "key": "KWT",
+              "label": "Kuwait"
+            },
+            {
+              "key": "KGZ",
+              "label": "Kyrgyzstan"
+            },
+            {
+              "key": "LAO",
+              "label": "Lao, People's Democratic Republic"
+            },
+            {
+              "key": "LVA",
+              "label": "Latvia"
+            },
+            {
+              "key": "LBN",
+              "label": "Lebanon"
+            },
+            {
+              "key": "LSO",
+              "label": "Lesotho"
+            },
+            {
+              "key": "LBR",
+              "label": "Liberia"
+            },
+            {
+              "key": "LBY",
+              "label": "Libya"
+            },
+            {
+              "key": "LIE",
+              "label": "Liechtenstein"
+            },
+            {
+              "key": "LTU",
+              "label": "Lithuania"
+            },
+            {
+              "key": "LUX",
+              "label": "Luxembourg"
+            },
+            {
+              "key": "MKD",
+              "label": "Macedonia, Rep. Of"
+            },
+            {
+              "key": "MDG",
+              "label": "Madagascar"
+            },
+            {
+              "key": "MWI",
+              "label": "Malawi"
+            },
+            {
+              "key": "MYS",
+              "label": "Malaysia"
+            },
+            {
+              "key": "MDV",
+              "label": "Maldives"
+            },
+            {
+              "key": "MLI",
+              "label": "Mali"
+            },
+            {
+              "key": "MLT",
+              "label": "Malta"
+            },
+            {
+              "key": "MHL",
+              "label": "Marshall Islands"
+            },
+            {
+              "key": "MTQ",
+              "label": "Martinique"
+            },
+            {
+              "key": "MRT",
+              "label": "Mauritania"
+            },
+            {
+              "key": "MUS",
+              "label": "Mauritius"
+            },
+            {
+              "key": "MEX",
+              "label": "Mexico"
+            },
+            {
+              "key": "FSM",
+              "label": "Micronesia, Federal States Of"
+            },
+            {
+              "key": "MDA",
+              "label": "Moldova, Republic Of"
+            },
+            {
+              "key": "MCO",
+              "label": "Monaco"
+            },
+            {
+              "key": "MNG",
+              "label": "Mongolia"
+            },
+            {
+              "key": "MNE",
+              "label": "Montenegro"
+            },
+            {
+              "key": "MAR",
+              "label": "Morocco"
+            },
+            {
+              "key": "MOZ",
+              "label": "Mozambique"
+            },
+            {
+              "key": "MMR",
+              "label": "Myanmar, Burma"
+            },
+            {
+              "key": "NAM",
+              "label": "Namibia"
+            },
+            {
+              "key": "NRU",
+              "label": "Nauru"
+            },
+            {
+              "key": "NPL",
+              "label": "Nepal"
+            },
+            {
+              "key": "NLD",
+              "label": "Netherlands"
+            },
+            {
+              "key": "ANT",
+              "label": "Netherlands Antilles"
+            },
+            {
+              "key": "NZL",
+              "label": "New Zealand"
+            },
+            {
+              "key": "NIC",
+              "label": "Nicaragua"
+            },
+            {
+              "key": "NER",
+              "label": "Niger"
+            },
+            {
+              "key": "NGA",
+              "label": "Nigeria"
+            },
+            {
+              "key": "NOR",
+              "label": "Norway"
+            },
+            {
+              "key": "OMN",
+              "label": "Oman"
+            },
+            {
+              "key": "PAK",
+              "label": "Pakistan"
+            },
+            {
+              "key": "PLW",
+              "label": "Palau"
+            },
+            {
+              "key": "PSE",
+              "label": "Palestina"
+            },
+            {
+              "key": "PAN",
+              "label": "Panama"
+            },
+            {
+              "key": "PNG",
+              "label": "Papua New Guinea"
+            },
+            {
+              "key": "PRY",
+              "label": "Paraguay"
+            },
+            {
+              "key": "PER",
+              "label": "Peru"
+            },
+            {
+              "key": "PHL",
+              "label": "Philippines"
+            },
+            {
+              "key": "POL",
+              "label": "Poland"
+            },
+            {
+              "key": "PRT",
+              "label": "Portugal"
+            },
+            {
+              "key": "PRI",
+              "label": "Puerto Rico"
+            },
+            {
+              "key": "QAT",
+              "label": "Qatar"
+            },
+            {
+              "key": "ROU",
+              "label": "Romania"
+            },
+            {
+              "key": "RUS",
+              "label": "Russia"
+            },
+            {
+              "key": "RWA",
+              "label": "Rwanda"
+            },
+            {
+              "key": "KNA",
+              "label": "Saint Kitts And Nevis"
+            },
+            {
+              "key": "LCA",
+              "label": "Saint Lucia"
+            },
+            {
+              "key": "VCT",
+              "label": "Saint Vincent And The Grenadines"
+            },
+            {
+              "key": "WSM",
+              "label": "Samoa"
+            },
+            {
+              "key": "SMR",
+              "label": "San Marino"
+            },
+            {
+              "key": "STP",
+              "label": "SaoTome And Principe"
+            },
+            {
+              "key": "SAU",
+              "label": "Saudi Arabia"
+            },
+            {
+              "key": "SEN",
+              "label": "Senegal"
+            },
+            {
+              "key": "SRB",
+              "label": "Serbia"
+            },
+            {
+              "key": "SYC",
+              "label": "Seychelles"
+            },
+            {
+              "key": "SLE",
+              "label": "Sierra Leone"
+            },
+            {
+              "key": "SGP",
+              "label": "Singapore"
+            },
+            {
+              "key": "SVK",
+              "label": "Slovakia (Slovak Republic)"
+            },
+            {
+              "key": "SVN",
+              "label": "Slovenia"
+            },
+            {
+              "key": "SLB",
+              "label": "Solomon Islands"
+            },
+            {
+              "key": "SOM",
+              "label": "Somalia"
+            },
+            {
+              "key": "ZAF",
+              "label": "South Africa"
+            },
+            {
+              "key": "SSD",
+              "label": "South Sudan"
+            },
+            {
+              "key": "ESP",
+              "label": "Spain"
+            },
+            {
+              "key": "LKA",
+              "label": "Sri Lanka"
+            },
+            {
+              "key": "SDN",
+              "label": "Sudan"
+            },
+            {
+              "key": "SUR",
+              "label": "Suriname"
+            },
+            {
+              "key": "SWZ",
+              "label": "Swaziland"
+            },
+            {
+              "key": "SWE",
+              "label": "Sweden"
+            },
+            {
+              "key": "CHE",
+              "label": "Switzerland"
+            },
+            {
+              "key": "SYR",
+              "label": "Syria, Syrian Arab Republic"
+            },
+            {
+              "key": "TJK",
+              "label": "Tajikistan"
+            },
+            {
+              "key": "TZA",
+              "label": "Tanzania"
+            },
+            {
+              "key": "THA",
+              "label": "Thailand"
+            },
+            {
+              "key": "TLS",
+              "label": "Timor-leste (East Timor)"
+            },
+            {
+              "key": "TGO",
+              "label": "Togo"
+            },
+            {
+              "key": "TON",
+              "label": "Tonga"
+            },
+            {
+              "key": "TTO",
+              "label": "Trinidad And Tobago"
+            },
+            {
+              "key": "TUN",
+              "label": "Tunisia"
+            },
+            {
+              "key": "TUR",
+              "label": "Turkey"
+            },
+            {
+              "key": "TKM",
+              "label": "Turkmenistan"
+            },
+            {
+              "key": "TUV",
+              "label": "Tuvalu"
+            },
+            {
+              "key": "UGA",
+              "label": "Uganda"
+            },
+            {
+              "key": "UKR",
+              "label": "Ukraine"
+            },
+            {
+              "key": "ARE",
+              "label": "United Arab Emirates"
+            },
+            {
+              "key": "GBR",
+              "label": "United Kingdom"
+            },
+            {
+              "key": "USA",
+              "label": "United States"
+            },
+            {
+              "key": "URY",
+              "label": "Uruguay"
+            },
+            {
+              "key": "VUT",
+              "label": "Vanuatu"
+            },
+            {
+              "key": "VAT",
+              "label": "Vatican City State (Holy See)"
+            },
+            {
+              "key": "VEN",
+              "label": "Venezuela"
+            },
+            {
+              "key": "VNM",
+              "label": "Vietnam"
+            },
+            {
+              "key": "YEM",
+              "label": "Yemen"
+            },
+            {
+              "key": "ZMB",
+              "label": "Zambia"
+            },
+            {
+              "key": "ZWE",
+              "label": "Zimbabwe"
+            }
+          ]
+        },
+        {
+          "id": "omp-1-9",
+          "required": true,
+          "type": "date",
+          "text": "Date of legal formation"
+        },
+        {
+          "id": "omp-1-11",
+          "required": true,
+          "type": "select",
+          "label": "In which country does the company have its headquarters?",
+          "text": "Select country",
+          "helpText": "From where the company usually operates",
+          "choices": [
+            {
+              "key": "AFG",
+              "label": "Afghanistan"
+            },
+            {
+              "key": "ALB",
+              "label": "Albania"
+            },
+            {
+              "key": "DZA",
+              "label": "Algeria"
+            },
+            {
+              "key": "ASM",
+              "label": "American Samoa"
+            },
+            {
+              "key": "AND",
+              "label": "Andorra"
+            },
+            {
+              "key": "AGO",
+              "label": "Angola"
+            },
+            {
+              "key": "ATG",
+              "label": "Antigua And Barbuda"
+            },
+            {
+              "key": "ARG",
+              "label": "Argentina"
+            },
+            {
+              "key": "ARM",
+              "label": "Armenia"
+            },
+            {
+              "key": "ABW",
+              "label": "Aruba"
+            },
+            {
+              "key": "AUS",
+              "label": "Australia"
+            },
+            {
+              "key": "AUT",
+              "label": "Austria"
+            },
+            {
+              "key": "AZE",
+              "label": "Azerbaijan"
+            },
+            {
+              "key": "BHS",
+              "label": "Bahamas"
+            },
+            {
+              "key": "BHR",
+              "label": "Bahrain"
+            },
+            {
+              "key": "BGD",
+              "label": "Bangladesh"
+            },
+            {
+              "key": "BRB",
+              "label": "Barbados"
+            },
+            {
+              "key": "BLR",
+              "label": "Belarus"
+            },
+            {
+              "key": "BEL",
+              "label": "Belgium"
+            },
+            {
+              "key": "BLZ",
+              "label": "Belize"
+            },
+            {
+              "key": "BEN",
+              "label": "Benin"
+            },
+            {
+              "key": "BTN",
+              "label": "Bhutan"
+            },
+            {
+              "key": "BOL",
+              "label": "Bolivia"
+            },
+            {
+              "key": "BIH",
+              "label": "Bosnia And Herzegovina"
+            },
+            {
+              "key": "BWA",
+              "label": "Botswana"
+            },
+            {
+              "key": "BRA",
+              "label": "Brazil"
+            },
+            {
+              "key": "BRN",
+              "label": "Brunei Darussalam"
+            },
+            {
+              "key": "BGR",
+              "label": "Bulgaria"
+            },
+            {
+              "key": "BFA",
+              "label": "Burkina Faso"
+            },
+            {
+              "key": "BDI",
+              "label": "Burundi"
+            },
+            {
+              "key": "KHM",
+              "label": "Cambodia"
+            },
+            {
+              "key": "CMR",
+              "label": "Cameroon"
+            },
+            {
+              "key": "CAN",
+              "label": "Canada"
+            },
+            {
+              "key": "CPV",
+              "label": "Cape Verde"
+            },
+            {
+              "key": "CAF",
+              "label": "Central African Republic"
+            },
+            {
+              "key": "TCD",
+              "label": "Chad"
+            },
+            {
+              "key": "CHL",
+              "label": "Chile"
+            },
+            {
+              "key": "CHN",
+              "label": "China"
+            },
+            {
+              "key": "COL",
+              "label": "Colombia"
+            },
+            {
+              "key": "COM",
+              "label": "Comoros"
+            },
+            {
+              "key": "COG",
+              "label": "Congo, Republic Of (Brazzaville)"
+            },
+            {
+              "key": "CRI",
+              "label": "Costa Rica"
+            },
+            {
+              "key": "HRV",
+              "label": "Croatia"
+            },
+            {
+              "key": "CUW",
+              "label": "Curasao"
+            },
+            {
+              "key": "CYP",
+              "label": "Cyprus"
+            },
+            {
+              "key": "CZE",
+              "label": "Czech Republic"
+            },
+            {
+              "key": "COD",
+              "label": "Democratic Republic Of The Congo (Kinshasha)"
+            },
+            {
+              "key": "DNK",
+              "label": "Denmark"
+            },
+            {
+              "key": "DJI",
+              "label": "Djibouti"
+            },
+            {
+              "key": "DMA",
+              "label": "Dominica"
+            },
+            {
+              "key": "DOM",
+              "label": "Dominican Republic"
+            },
+            {
+              "key": "ECU",
+              "label": "Ecuador"
+            },
+            {
+              "key": "EGY",
+              "label": "Egypt"
+            },
+            {
+              "key": "SLV",
+              "label": "El Salvador"
+            },
+            {
+              "key": "GNQ",
+              "label": "Equatorial Guinea"
+            },
+            {
+              "key": "ERI",
+              "label": "Eritrea"
+            },
+            {
+              "key": "EST",
+              "label": "Estonia"
+            },
+            {
+              "key": "ETH",
+              "label": "Ethiopia"
+            },
+            {
+              "key": "FRO",
+              "label": "Faroe Islands"
+            },
+            {
+              "key": "FJI",
+              "label": "Fiji"
+            },
+            {
+              "key": "FIN",
+              "label": "Finland"
+            },
+            {
+              "key": "FRA",
+              "label": "France"
+            },
+            {
+              "key": "GUF",
+              "label": "French Guiana"
+            },
+            {
+              "key": "GAB",
+              "label": "Gabon"
+            },
+            {
+              "key": "GMB",
+              "label": "Gambia"
+            },
+            {
+              "key": "GEO",
+              "label": "Georgia"
+            },
+            {
+              "key": "DEU",
+              "label": "Germany"
+            },
+            {
+              "key": "GHA",
+              "label": "Ghana"
+            },
+            {
+              "key": "GRC",
+              "label": "Greece"
+            },
+            {
+              "key": "GRD",
+              "label": "Grenada"
+            },
+            {
+              "key": "GTM",
+              "label": "Guatemala"
+            },
+            {
+              "key": "GIN",
+              "label": "Guinea"
+            },
+            {
+              "key": "GNB",
+              "label": "Guinea-bissau"
+            },
+            {
+              "key": "GUY",
+              "label": "Guyana"
+            },
+            {
+              "key": "HTI",
+              "label": "Haiti"
+            },
+            {
+              "key": "HND",
+              "label": "Honduras"
+            },
+            {
+              "key": "HUN",
+              "label": "Hungary"
+            },
+            {
+              "key": "ISL",
+              "label": "Iceland"
+            },
+            {
+              "key": "IND",
+              "label": "India"
+            },
+            {
+              "key": "IDN",
+              "label": "Indonesia"
+            },
+            {
+              "key": "IRN",
+              "label": "Iran (Islamic Republic Of)"
+            },
+            {
+              "key": "IRQ",
+              "label": "Iraq"
+            },
+            {
+              "key": "IRL",
+              "label": "Ireland"
+            },
+            {
+              "key": "ISR",
+              "label": "Israel"
+            },
+            {
+              "key": "ITA",
+              "label": "Italy"
+            },
+            {
+              "key": "CIV",
+              "label": "Ivory Coast"
+            },
+            {
+              "key": "JAM",
+              "label": "Jamaica"
+            },
+            {
+              "key": "JPN",
+              "label": "Japan"
+            },
+            {
+              "key": "JOR",
+              "label": "Jordan"
+            },
+            {
+              "key": "KAZ",
+              "label": "Kazakhstan"
+            },
+            {
+              "key": "KEN",
+              "label": "Kenya"
+            },
+            {
+              "key": "KIR",
+              "label": "Kiribati"
+            },
+            {
+              "key": "PRK",
+              "label": "Korea, Democratic People's Rep. (North Korea)"
+            },
+            {
+              "key": "KOR",
+              "label": "Korea, Republic Of (South Korea)"
+            },
+            {
+              "key": "KWT",
+              "label": "Kuwait"
+            },
+            {
+              "key": "KGZ",
+              "label": "Kyrgyzstan"
+            },
+            {
+              "key": "LAO",
+              "label": "Lao, People's Democratic Republic"
+            },
+            {
+              "key": "LVA",
+              "label": "Latvia"
+            },
+            {
+              "key": "LBN",
+              "label": "Lebanon"
+            },
+            {
+              "key": "LSO",
+              "label": "Lesotho"
+            },
+            {
+              "key": "LBR",
+              "label": "Liberia"
+            },
+            {
+              "key": "LBY",
+              "label": "Libya"
+            },
+            {
+              "key": "LIE",
+              "label": "Liechtenstein"
+            },
+            {
+              "key": "LTU",
+              "label": "Lithuania"
+            },
+            {
+              "key": "LUX",
+              "label": "Luxembourg"
+            },
+            {
+              "key": "MKD",
+              "label": "Macedonia, Rep. Of"
+            },
+            {
+              "key": "MDG",
+              "label": "Madagascar"
+            },
+            {
+              "key": "MWI",
+              "label": "Malawi"
+            },
+            {
+              "key": "MYS",
+              "label": "Malaysia"
+            },
+            {
+              "key": "MDV",
+              "label": "Maldives"
+            },
+            {
+              "key": "MLI",
+              "label": "Mali"
+            },
+            {
+              "key": "MLT",
+              "label": "Malta"
+            },
+            {
+              "key": "MHL",
+              "label": "Marshall Islands"
+            },
+            {
+              "key": "MTQ",
+              "label": "Martinique"
+            },
+            {
+              "key": "MRT",
+              "label": "Mauritania"
+            },
+            {
+              "key": "MUS",
+              "label": "Mauritius"
+            },
+            {
+              "key": "MEX",
+              "label": "Mexico"
+            },
+            {
+              "key": "FSM",
+              "label": "Micronesia, Federal States Of"
+            },
+            {
+              "key": "MDA",
+              "label": "Moldova, Republic Of"
+            },
+            {
+              "key": "MCO",
+              "label": "Monaco"
+            },
+            {
+              "key": "MNG",
+              "label": "Mongolia"
+            },
+            {
+              "key": "MNE",
+              "label": "Montenegro"
+            },
+            {
+              "key": "MAR",
+              "label": "Morocco"
+            },
+            {
+              "key": "MOZ",
+              "label": "Mozambique"
+            },
+            {
+              "key": "MMR",
+              "label": "Myanmar, Burma"
+            },
+            {
+              "key": "NAM",
+              "label": "Namibia"
+            },
+            {
+              "key": "NRU",
+              "label": "Nauru"
+            },
+            {
+              "key": "NPL",
+              "label": "Nepal"
+            },
+            {
+              "key": "NLD",
+              "label": "Netherlands"
+            },
+            {
+              "key": "ANT",
+              "label": "Netherlands Antilles"
+            },
+            {
+              "key": "NZL",
+              "label": "New Zealand"
+            },
+            {
+              "key": "NIC",
+              "label": "Nicaragua"
+            },
+            {
+              "key": "NER",
+              "label": "Niger"
+            },
+            {
+              "key": "NGA",
+              "label": "Nigeria"
+            },
+            {
+              "key": "NOR",
+              "label": "Norway"
+            },
+            {
+              "key": "OMN",
+              "label": "Oman"
+            },
+            {
+              "key": "PAK",
+              "label": "Pakistan"
+            },
+            {
+              "key": "PLW",
+              "label": "Palau"
+            },
+            {
+              "key": "PSE",
+              "label": "Palestina"
+            },
+            {
+              "key": "PAN",
+              "label": "Panama"
+            },
+            {
+              "key": "PNG",
+              "label": "Papua New Guinea"
+            },
+            {
+              "key": "PRY",
+              "label": "Paraguay"
+            },
+            {
+              "key": "PER",
+              "label": "Peru"
+            },
+            {
+              "key": "PHL",
+              "label": "Philippines"
+            },
+            {
+              "key": "POL",
+              "label": "Poland"
+            },
+            {
+              "key": "PRT",
+              "label": "Portugal"
+            },
+            {
+              "key": "PRI",
+              "label": "Puerto Rico"
+            },
+            {
+              "key": "QAT",
+              "label": "Qatar"
+            },
+            {
+              "key": "ROU",
+              "label": "Romania"
+            },
+            {
+              "key": "RUS",
+              "label": "Russia"
+            },
+            {
+              "key": "RWA",
+              "label": "Rwanda"
+            },
+            {
+              "key": "KNA",
+              "label": "Saint Kitts And Nevis"
+            },
+            {
+              "key": "LCA",
+              "label": "Saint Lucia"
+            },
+            {
+              "key": "VCT",
+              "label": "Saint Vincent And The Grenadines"
+            },
+            {
+              "key": "WSM",
+              "label": "Samoa"
+            },
+            {
+              "key": "SMR",
+              "label": "San Marino"
+            },
+            {
+              "key": "STP",
+              "label": "SaoTome And Principe"
+            },
+            {
+              "key": "SAU",
+              "label": "Saudi Arabia"
+            },
+            {
+              "key": "SEN",
+              "label": "Senegal"
+            },
+            {
+              "key": "SRB",
+              "label": "Serbia"
+            },
+            {
+              "key": "SYC",
+              "label": "Seychelles"
+            },
+            {
+              "key": "SLE",
+              "label": "Sierra Leone"
+            },
+            {
+              "key": "SGP",
+              "label": "Singapore"
+            },
+            {
+              "key": "SVK",
+              "label": "Slovakia (Slovak Republic)"
+            },
+            {
+              "key": "SVN",
+              "label": "Slovenia"
+            },
+            {
+              "key": "SLB",
+              "label": "Solomon Islands"
+            },
+            {
+              "key": "SOM",
+              "label": "Somalia"
+            },
+            {
+              "key": "ZAF",
+              "label": "South Africa"
+            },
+            {
+              "key": "SSD",
+              "label": "South Sudan"
+            },
+            {
+              "key": "ESP",
+              "label": "Spain"
+            },
+            {
+              "key": "LKA",
+              "label": "Sri Lanka"
+            },
+            {
+              "key": "SDN",
+              "label": "Sudan"
+            },
+            {
+              "key": "SUR",
+              "label": "Suriname"
+            },
+            {
+              "key": "SWZ",
+              "label": "Swaziland"
+            },
+            {
+              "key": "SWE",
+              "label": "Sweden"
+            },
+            {
+              "key": "CHE",
+              "label": "Switzerland"
+            },
+            {
+              "key": "SYR",
+              "label": "Syria, Syrian Arab Republic"
+            },
+            {
+              "key": "TJK",
+              "label": "Tajikistan"
+            },
+            {
+              "key": "TZA",
+              "label": "Tanzania"
+            },
+            {
+              "key": "THA",
+              "label": "Thailand"
+            },
+            {
+              "key": "TLS",
+              "label": "Timor-leste (East Timor)"
+            },
+            {
+              "key": "TGO",
+              "label": "Togo"
+            },
+            {
+              "key": "TON",
+              "label": "Tonga"
+            },
+            {
+              "key": "TTO",
+              "label": "Trinidad And Tobago"
+            },
+            {
+              "key": "TUN",
+              "label": "Tunisia"
+            },
+            {
+              "key": "TUR",
+              "label": "Turkey"
+            },
+            {
+              "key": "TKM",
+              "label": "Turkmenistan"
+            },
+            {
+              "key": "TUV",
+              "label": "Tuvalu"
+            },
+            {
+              "key": "UGA",
+              "label": "Uganda"
+            },
+            {
+              "key": "UKR",
+              "label": "Ukraine"
+            },
+            {
+              "key": "ARE",
+              "label": "United Arab Emirates"
+            },
+            {
+              "key": "GBR",
+              "label": "United Kingdom"
+            },
+            {
+              "key": "USA",
+              "label": "United States"
+            },
+            {
+              "key": "URY",
+              "label": "Uruguay"
+            },
+            {
+              "key": "VUT",
+              "label": "Vanuatu"
+            },
+            {
+              "key": "VAT",
+              "label": "Vatican City State (Holy See)"
+            },
+            {
+              "key": "VEN",
+              "label": "Venezuela"
+            },
+            {
+              "key": "VNM",
+              "label": "Vietnam"
+            },
+            {
+              "key": "YEM",
+              "label": "Yemen"
+            },
+            {
+              "key": "ZMB",
+              "label": "Zambia"
+            },
+            {
+              "key": "ZWE",
+              "label": "Zimbabwe"
+            }
+          ]
+        },
+        {
+          "id": "omp-1-12",
+          "required": true,
+          "type": "select",
+          "text": "Number of employees",
+          "choices": [
+            {
+              "key": "1-5",
+              "label": "1-5"
+            },
+            {
+              "key": "6-15",
+              "label": "6-15"
+            },
+            {
+              "key": "16-30",
+              "label": "16-30"
+            },
+            {
+              "key": "31-50",
+              "label": "31-50"
+            },
+            {
+              "key": "+50",
+              "label": "more than 50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "omp-2",
+      "text": "Team member information",
+      "helpText": "Add information about the team members. Only the main contact is mandatory.",
+      "type": "multitab",
+      "tabs": [
+        {
+          "text": "Main",
+          "questions": [
+            {
+              "id": "omp-2-1-1",
+              "required": true,
+              "type": "text",
+              "text": "Name"
+            },
+            {
+              "id": "omp-2-1-2",
+              "required": true,
+              "type": "text",
+              "text": "Surname"
+            },
+            {
+              "id": "omp-2-1-4",
+              "type": "text",
+              "regex": "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,10}$",
+              "errorMsg": "enter a valid email address",
+              "required": false,
+              "text": "Contact email",
+              "hint": "example@email.com",
+              "disabled": true
+            },
+            {
+              "id": "omp-2-1-3",
+              "required": true,
+              "type": "date",
+              "text": "Date of birth",
+              "helpText": "We will only use it to verify that you are of legal age"
+            },
+            {
+              "id": "omp-2-1-5",
+              "required": true,
+              "type": "select",
+              "text": "Company role",
+              "choices": [
+                {
+                  "key": "ceo",
+                  "label": "CEO"
+                },
+                {
+                  "key": "cto",
+                  "label": "CTO"
+                },
+                {
+                  "key": "coo",
+                  "label": "COO"
+                },
+                {
+                  "key": "cmo",
+                  "label": "CMO"
+                },
+                {
+                  "key": "cio",
+                  "label": "CIO"
+                },
+                {
+                  "key": "data_scientist",
+                  "label": "Data Scientist"
+                },
+                {
+                  "key": "designer",
+                  "label": "Designer"
+                },
+                {
+                  "key": "advisor",
+                  "label": "Advisor"
+                },
+                {
+                  "key": "developer",
+                  "label": "Developer"
+                }
+              ]
+            },
+            {
+              "id": "omp-2-1-6",
+              "required": false,
+              "type": "text",
+              "regex": "^https:\\/\\/[a-z]{2,3}\\.linkedin\\.com\\/.*$",
+              "errorMsg": "check it's a valid Linkedin link",
+              "text": "LinkedIn",
+              "helpText": "Add the link to their LinkedIn"
+            }
+          ]
+        },
+        {
+          "text": "2",
+          "questions": [
+            {
+              "id": "omp-2-2-1",
+              "type": "text",
+              "required": false,
+              "text": "Name"
+            },
+            {
+              "id": "omp-2-2-2",
+              "type": "text",
+              "required": false,
+              "text": "Surname"
+            },
+            {
+              "id": "omp-2-2-4",
+              "type": "text",
+              "regex": "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,10}$",
+              "errorMsg": "enter a valid email address",
+              "required": false,
+              "text": "Contact email",
+              "hint": "example@email.com"
+            }
+          ]
+        },
+        {
+          "text": "3",
+          "questions": [
+            {
+              "id": "omp-2-3-1",
+              "type": "text",
+              "required": false,
+              "text": "Name"
+            },
+            {
+              "id": "omp-2-3-2",
+              "type": "text",
+              "required": false,
+              "text": "Surname"
+            },
+            {
+              "id": "omp-2-3-4",
+              "type": "text",
+              "regex": "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,10}$",
+              "errorMsg": "enter a valid email address",
+              "required": false,
+              "text": "Contact email",
+              "hint": "example@email.com"
+            }
+          ]
+        },
+        {
+          "text": "4",
+          "questions": [
+            {
+              "id": "omp-2-4-1",
+              "type": "text",
+              "required": false,
+              "text": "Name"
+            },
+            {
+              "id": "omp-2-4-2",
+              "type": "text",
+              "required": false,
+              "text": "Surname"
+            },
+            {
+              "id": "omp-2-4-4",
+              "type": "text",
+              "regex": "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,10}$",
+              "errorMsg": "enter a valid email address",
+              "required": false,
+              "text": "Contact email",
+              "hint": "example@email.com"
+            }
+          ]
+        },
+        {
+          "text": "5",
+          "questions": [
+            {
+              "id": "omp-2-5-1",
+              "type": "text",
+              "required": false,
+              "text": "Name"
+            },
+            {
+              "id": "omp-2-5-2",
+              "type": "text",
+              "required": false,
+              "text": "Surname"
+            },
+            {
+              "id": "omp-2-5-4",
+              "type": "text",
+              "regex": "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,10}$",
+              "errorMsg": "enter a valid email address",
+              "required": false,
+              "text": "Contact email",
+              "hint": "example@email.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "omp-3",
+      "text": "Your Business",
+      "helpText": "The information you provide will be essential in the evaluation of your startup by our Business experts.",
+      "questions": [
+        {
+          "id": "omp-3-1",
+          "required": true,
+          "type": "multiselect",
+          "showExpanded": false,
+          "label": "Define your product/service depending on the following list",
+          "text": "Choose one or more",
+          "choices": [
+            {
+              "key": "solution.account_services_and_collections",
+              "label": "Account Services and Collections"
+            },
+            {
+              "key": "solution.alternative_lending",
+              "label": "Alternative Lending"
+            },
+            {
+              "key": "solution.anti_money_laundering",
+              "label": "Anti Money Laundering"
+            },
+            {
+              "key": "solution.antifraud",
+              "label": "Antifraud"
+            },
+            {
+              "key": "solution.antivirus",
+              "label": "Antivirus"
+            },
+            {
+              "key": "solution.automatization",
+              "label": "Automatization"
+            },
+            {
+              "key": "solution.biling_cards_payment_methods",
+              "label": "Biling / Cards / Payment Methods"
+            },
+            {
+              "key": "solution.chatbot",
+              "label": "ChatBot"
+            },
+            {
+              "key": "solution.commerce_ecommerce",
+              "label": "Commerce / ecommerce"
+            },
+            {
+              "key": "solution.crowdfunding",
+              "label": "Crowdfunding"
+            },
+            {
+              "key": "solution.cryptocurrencies",
+              "label": "Cryptocurrencies"
+            },
+            {
+              "key": "solution.data_encryption",
+              "label": "Data Encryption"
+            },
+            {
+              "key": "solution.data_visualization",
+              "label": "Data Visualization"
+            },
+            {
+              "key": "solution.education_learning",
+              "label": "Education / Learning"
+            },
+            {
+              "key": "solution.efm",
+              "label": "EFM(Enterprise Finance Management)"
+            },
+            {
+              "key": "solution.gamification",
+              "label": "Gamification"
+            },
+            {
+              "key": "solution.ico",
+              "label": "ICO"
+            },
+            {
+              "key": "solution.identity_onboarding",
+              "label": "Identity / Onboarding"
+            },
+            {
+              "key": "solution.lending",
+              "label": "Lending"
+            },
+            {
+              "key": "solution.logistics",
+              "label": "Logistics"
+            },
+            {
+              "key": "solution.loyalty",
+              "label": "Loyalty"
+            },
+            {
+              "key": "solution.microfinance",
+              "label": "Microfinance"
+            },
+            {
+              "key": "solution.mobile_apps",
+              "label": "Mobile Apps"
+            },
+            {
+              "key": "solution.mobile_point_of_sale",
+              "label": "Mobile Point of Sale"
+            },
+            {
+              "key": "solution.natural_language_processing",
+              "label": "Natural Language Processing"
+            },
+            {
+              "key": "solution.neobank",
+              "label": "Neobank"
+            },
+            {
+              "key": "solution.non_fintech",
+              "label": "Non Fintech"
+            },
+            {
+              "key": "solution.peer_2_peer_lending",
+              "label": "Peer 2 Peer Lending"
+            },
+            {
+              "key": "solution.pfm",
+              "label": "PFM(Personal Finance Management)"
+            },
+            {
+              "key": "solution.physical_bank",
+              "label": "Physical Bank"
+            },
+            {
+              "key": "solution.pricing_product_broker",
+              "label": "Pricing / Product Broker"
+            },
+            {
+              "key": "solution.product_service_aggregator",
+              "label": "Product / Service Aggregator"
+            },
+            {
+              "key": "solution.regtech",
+              "label": "Regtech"
+            },
+            {
+              "key": "solution.remittances",
+              "label": "Remittances"
+            },
+            {
+              "key": "solution.reporting",
+              "label": "Reporting"
+            },
+            {
+              "key": "solution.risk_analysis_scoring",
+              "label": "Risk Analysis / Scoring"
+            },
+            {
+              "key": "solution.robo_advisor",
+              "label": "Robo Advisor"
+            },
+            {
+              "key": "solution.sdk",
+              "label": "SDK"
+            },
+            {
+              "key": "solution.sme_service",
+              "label": "SME Service"
+            },
+            {
+              "key": "solution.solutions_for_psd2",
+              "label": "Solutions for PSD2"
+            },
+            {
+              "key": "solution.supply_chain_finance",
+              "label": "Supply Chain Finance"
+            },
+            {
+              "key": "solution.trade_finance",
+              "label": "Trade Finance"
+            },
+            {
+              "key": "solution.trade_life_cycle",
+              "label": "Trade Life Cycle"
+            },
+            {
+              "key": "solution.trading_&_hedging",
+              "label": "Trading & hedging"
+            },
+            {
+              "key": "solution.trading_hedge_algorithm",
+              "label": "Trading / Hedge Algorithm"
+            },
+            {
+              "key": "solution.wallet",
+              "label": "Wallet"
+            },
+            {
+              "key": "solution.wealth_management",
+              "label": "Wealth Management"
+            }
+          ]
+        },
+        {
+          "id": "omp-3-2",
+          "required": false,
+          "type": "text",
+          "label": "If you chose \"Others\", indicate which ones",
+          "text": "Others",
+          "helpText": "Write any other TAGs not listed above, separated by a comma"
+        },
+        {
+          "id": "omp-3-3",
+          "required": false,
+          "type": "select",
+          "label": "Region where your company currently operates",
+          "text": "Choose an option",
+          "choices": [
+            {
+              "key": "region.africa",
+              "label": "Africa"
+            },
+            {
+              "key": "region.asia",
+              "label": "Asia"
+            },
+            {
+              "key": "region.central_america",
+              "label": "Central America"
+            },
+            {
+              "key": "region.europe",
+              "label": "Europe"
+            },
+            {
+              "key": "region.global",
+              "label": "Global"
+            },
+            {
+              "key": "region.north_america",
+              "label": "North America"
+            },
+            {
+              "key": "region.oceania",
+              "label": "Oceania"
+            },
+            {
+              "key": "region.south_america",
+              "label": "South America"
+            }
+          ]
+        },
+        {
+          "id": "omp-3-4",
+          "required": true,
+          "type": "longtext",
+          "maxLength": 140,
+          "label": "Describe your business in 140 characters",
+          "text": "Tweet"
+        },
+        {
+          "id": "omp-3-5",
+          "required": true,
+          "type": "longtext",
+          "text": "Describe your business in depth"
+        },
+        {
+          "id": "omp-3-6",
+          "required": true,
+          "type": "link",
+          "subType": "video",
+          "regex": "^(http(s)?:\\/\\/)?((w){3}.)?((youtu(be|.be)?)|(vimeo))?(.com)?\\/.+",
+          "label": "Explain your business in a 1 minute video (Elevator pitch)",
+          "text": "Link to online video",
+          "helpText": "It's very important so that the BBVA Business Units can evaluate your project. The online video should be YouTube or Vimeo, and public."
+        },
+        {
+          "id": "omp-3-7",
+          "required": true,
+          "type": "select",
+          "label": "What's your company’s development stage?",
+          "text": "Choose an option",
+          "helpText": "Pre-Seed (idea) / Seed (working on product) / Early Stage (close to market or already launched) / Growth stage (raised money and scaling) / Mature business (Established company with revenues)",
+          "choices": [
+            {
+              "key": "pre_seed",
+              "label": "Pre-seed"
+            },
+            {
+              "key": "seed",
+              "label": "Seed"
+            },
+            {
+              "key": "early_stage",
+              "label": "Early stage"
+            },
+            {
+              "key": "growth",
+              "label": "Growth"
+            },
+            {
+              "key": "mature_business",
+              "label": "Mature business"
+            }
+          ]
+        },
+        {
+          "id": "omp-3-8",
+          "required": true,
+          "type": "select",
+          "label": "Has your startup worked or given service to any company?",
+          "text": "Choose an option",
+          "choices": [
+            {
+              "key": "yes",
+              "label": "Yes"
+            },
+            {
+              "key": "no",
+              "label": "No"
+            }
+          ]
+        },
+        {
+          "id": "omp-3-9",
+          "required": false,
+          "type": "multiselect",
+          "showExpanded": false,
+          "label": "What type of collaborations have you carried out with other companies?",
+          "text": "Choose one or more",
+          "helpText": "Please, make sure that all the information you share is not confidential.",
+          "choices": [
+            {
+              "key": "proof_of_concept",
+              "label": "Proof of Concept"
+            },
+            {
+              "key": "pilot",
+              "label": "Pilot"
+            },
+            {
+              "key": "implementation",
+              "label": "Implementation"
+            },
+            {
+              "key": "servicing",
+              "label": "Servicing"
+            }
+          ]
+        },
+        {
+          "id": "omp-3-10",
+          "required": false,
+          "type": "text",
+          "label": "Please, indicate the names of the companies with which you have collaborated",
+          "text": "Company names",
+          "helpText": "Make sure you have the relevant authorizations to use here the trade names/brands of these companies."
+        },
+        {
+          "id": "omp-3-11",
+          "required": true,
+          "type": "longtext",
+          "label": "How do you make money? Explain your business model",
+          "text": "Business model"
+        },
+        {
+          "id": "omp-3-12",
+          "required": true,
+          "type": "multiselect",
+          "showExpanded": false,
+          "label": "What's the market target group of your solution?",
+          "text": "Choose one or more",
+          "choices": [
+            {
+              "key": "target.banks",
+              "label": "Banks"
+            },
+            {
+              "key": "target.corporates",
+              "label": "Corporates"
+            },
+            {
+              "key": "target.employees",
+              "label": "Employees"
+            },
+            {
+              "key": "target.individuals",
+              "label": "Individuals"
+            },
+            {
+              "key": "target.millennials_+_gen_z",
+              "label": "Millennials + Gen Z"
+            },
+            {
+              "key": "target.retailers",
+              "label": "Retailers"
+            },
+            {
+              "key": "target.seniors",
+              "label": "Seniors"
+            },
+            {
+              "key": "target.smes",
+              "label": "SMEs"
+            },
+            {
+              "key": "target.unbanked_people",
+              "label": "Unbanked People"
+            },
+            {
+              "key": "target.unbanked_smes",
+              "label": "Unbanked SMEs"
+            }
+          ]
+        },
+        {
+          "id": "omp-3-13",
+          "required": false,
+          "type": "text",
+          "label": "If you chose \"Others\", indicate which ones",
+          "text": "Others",
+          "helpText": "Write any other TAGs not listed above, separated by a comma"
+        },
+        {
+          "id": "omp-3-15",
+          "required": true,
+          "type": "longtext",
+          "label": "Who are your main competitors?",
+          "text": "Main competitors"
+        },
+        {
+          "id": "omp-3-16",
+          "required": true,
+          "type": "number",
+          "text": "How many active users do you have?",
+          "helpText": "Enter the number of active users"
+        },
+        {
+          "id": "omp-3-17",
+          "required": true,
+          "type": "select",
+          "label": "What was your revenue in 2017?",
+          "text": "Choose an option",
+          "choices": [
+            {
+              "key": "0-24999",
+              "label": "less than 25,000"
+            },
+            {
+              "key": "25000-49999",
+              "label": "25,000 - 50,000"
+            },
+            {
+              "key": "50000-149999",
+              "label": "50,000 - 150,000"
+            },
+            {
+              "key": "150000-299999",
+              "label": "150,000 - 300,000"
+            },
+            {
+              "key": "300000-499999",
+              "label": "300,000 - 500,000"
+            },
+            {
+              "key": "500000-999999",
+              "label": "500,000 - 1M"
+            },
+            {
+              "key": "1000000-2999999",
+              "label": "1M - 3M"
+            },
+            {
+              "key": ">3000000",
+              "label": "more than 3M"
+            }
+          ]
+        },
+        {
+          "id": "omp-3-18",
+          "required": true,
+          "type": "select",
+          "label": "What has been the accumulated financing since inception?",
+          "text": "Choose an option",
+          "choices": [
+            {
+              "key": "0-24999",
+              "label": "less than 25,000"
+            },
+            {
+              "key": "25000-49999",
+              "label": "25,000 - 50,000"
+            },
+            {
+              "key": "50000-149999",
+              "label": "50,000 - 150,000"
+            },
+            {
+              "key": "150000-299999",
+              "label": "150,000 - 300,000"
+            },
+            {
+              "key": "300000-499999",
+              "label": "300,000 - 500,000"
+            },
+            {
+              "key": "500000-999999",
+              "label": "500,000 - 1M"
+            },
+            {
+              "key": "1000000-2999999",
+              "label": "1M - 3M"
+            },
+            {
+              "key": ">3000000",
+              "label": "more than 3M"
+            }
+          ]
+        },
+        {
+          "id": "omp-3-19",
+          "required": true,
+          "type": "select",
+          "text": "Does your startup seek investment?",
+          "choices": [
+            {
+              "key": "yes",
+              "label": "Yes"
+            },
+            {
+              "key": "no",
+              "label": "No"
+            }
+          ]
+        },
+        {
+          "id": "omp-3-20",
+          "required": false,
+          "type": "select",
+          "text": "What kind of investment do you seek?",
+          "choices": [
+            {
+              "key": "family_friends_fools",
+              "label": "3Fs (Family, Friends & Fools)"
+            },
+            {
+              "key": "business_angels",
+              "label": "Business Angels"
+            },
+            {
+              "key": "family_office",
+              "label": "Family Office"
+            },
+            {
+              "key": "venture_capital",
+              "label": "Venture Capital"
+            }
+          ]
+        },
+        {
+          "id": "omp-3-21",
+          "required": false,
+          "type": "longtext",
+          "maxLength": 140,
+          "label": "Describe your product/solution in 140 characters",
+          "text": "Short description"
+        }
+      ]
+    },
+    {
+      "sectionId": "omp-4",
+      "text": "Your Product/Service",
+      "helpText": "The information you provide will be essential in the evaluation of your startup by experts from Data, Experience and Technology.",
+      "questions": [
+        {
+          "id": "omp-4-1",
+          "required": true,
+          "type": "multiselect",
+          "showExpanded": false,
+          "label": "Which sectors or areas is your solution focused on?",
+          "text": "Choose one or more",
+          "choices": [
+            {
+              "key": "area.assets_management",
+              "label": "Assets Management"
+            },
+            {
+              "key": "area.compliance_regtech",
+              "label": "Compliance / RegTech"
+            },
+            {
+              "key": "area.digital_channels",
+              "label": "Digital Channels"
+            },
+            {
+              "key": "area.financial_inclusion",
+              "label": "Financial Inclusion"
+            },
+            {
+              "key": "area.human_resources",
+              "label": "Human Resources"
+            },
+            {
+              "key": "area.insurance_insurtech",
+              "label": "Insurance / InsurTech"
+            },
+            {
+              "key": "area.investment_banking",
+              "label": "Investment Banking"
+            },
+            {
+              "key": "area.legal",
+              "label": "Legal"
+            },
+            {
+              "key": "area.loans",
+              "label": "Loans"
+            },
+            {
+              "key": "area.marketing",
+              "label": "Marketing"
+            },
+            {
+              "key": "area.markets",
+              "label": "Markets(FX - Trading ...)"
+            },
+            {
+              "key": "area.payments",
+              "label": "Payments"
+            },
+            {
+              "key": "area.physical",
+              "label": "Physical(ATM - Branch)"
+            },
+            {
+              "key": "area.real_estate_proptech",
+              "label": "Real Estate / PropTech"
+            },
+            {
+              "key": "area.risk",
+              "label": "Risk"
+            },
+            {
+              "key": "area.security",
+              "label": "Security"
+            },
+            {
+              "key": "area.wealth_management",
+              "label": "Wealth Management"
+            }
+          ]
+        },
+        {
+          "id": "omp-4-2",
+          "required": false,
+          "type": "text",
+          "label": "If you chose \"Others\", indicate which ones",
+          "text": "Others",
+          "helpText": "Write any other TAGs not listed above, separated by a comma"
+        },
+        {
+          "id": "omp-4-3",
+          "required": true,
+          "type": "multiselect",
+          "showExpanded": false,
+          "label": "What technology does your product use?",
+          "text": "Choose one or more",
+          "choices": [
+            {
+              "key": "technology.ai",
+              "label": "AI"
+            },
+            {
+              "key": "technology.api",
+              "label": "API"
+            },
+            {
+              "key": "technology.bigdata",
+              "label": "BigData"
+            },
+            {
+              "key": "technology.biometrics",
+              "label": "Biometrics"
+            },
+            {
+              "key": "technology.blockchain",
+              "label": "Blockchain"
+            },
+            {
+              "key": "technology.cloud",
+              "label": "Cloud"
+            },
+            {
+              "key": "technology.graphical_user_interface",
+              "label": "Graphical User Interface(GUI)"
+            },
+            {
+              "key": "technology.iaas",
+              "label": "Iaas"
+            },
+            {
+              "key": "technology.iot",
+              "label": "IoT"
+            },
+            {
+              "key": "technology.paas",
+              "label": "Paas"
+            },
+            {
+              "key": "technology.saas",
+              "label": "SaaS"
+            },
+            {
+              "key": "technology.software",
+              "label": "Software"
+            },
+            {
+              "key": "technology.wireless_communications",
+              "label": "Wireless Communications"
+            }
+          ]
+        },
+        {
+          "id": "omp-4-4",
+          "required": false,
+          "type": "text",
+          "label": "If you chose \"Others\", indicate which ones",
+          "text": "Others",
+          "helpText": "Write any other TAGs not listed above, separated by a comma"
+        },
+        {
+          "id": "omp-4-5",
+          "required": true,
+          "type": "longtext",
+          "label": "Describe your product/technology in depth",
+          "text": "Technology in depth",
+          "helpText": "Describe in detail infrastructure, tools, platforms, each of its layers and communication between them and third parties, security mechanisms as well as algorithmic techniques."
+        },
+        {
+          "id": "omp-4-6",
+          "required": true,
+          "type": "longtext",
+          "label": "Which algorithm technique is the product based on? Any concise information describing the data transformation and analytical modelling pipeline is useful for evaluation.",
+          "text": "Algorithm technique"
+        },
+        {
+          "id": "omp-4-7",
+          "required": true,
+          "type": "longtext",
+          "label": "Which metrics are used for measuring algorithmic performance?",
+          "text": "Metrics"
+        },
+        {
+          "id": "omp-4-8",
+          "required": true,
+          "type": "select",
+          "label": "What is your product development stage?",
+          "text": "Choose an option",
+          "choices": [
+            {
+              "key": "concept",
+              "label": "Concept"
+            },
+            {
+              "key": "prototype",
+              "label": "Prototype"
+            },
+            {
+              "key": "beta_version",
+              "label": "Beta version"
+            },
+            {
+              "key": "commercial_version",
+              "label": "Commercial version"
+            },
+            {
+              "key": "ready_to_scale",
+              "label": "Ready to scale"
+            }
+          ]
+        },
+        {
+          "id": "omp-4-9",
+          "required": true,
+          "type": "longtext",
+          "label": "Have you run any tests on the prototypes of your product or service with users?",
+          "text": "Describe in depth",
+          "helpText": "Explain if you have created and tested a prototype"
+        },
+        {
+          "id": "omp-4-10",
+          "required": true,
+          "type": "longtext",
+          "label": "Have you run any user testing of your product?",
+          "text": "Describe in depth",
+          "helpText": "Explain if you have run any test of your product with users."
+        },
+        {
+          "id": "omp-4-11",
+          "required": true,
+          "type": "link",
+          "subType": "web",
+          "label": "Product web, product app, product demo etc.",
+          "text": "URL"
+        },
+        {
+          "id": "omp-4-13",
+          "required": false,
+          "type": "longtext",
+          "label": "Data volume",
+          "text": "What is the data volume?"
+        },
+        {
+          "id": "omp-4-14",
+          "required": false,
+          "type": "longtext",
+          "label": "Describe how data is captured and consumed in terms of data architecture",
+          "text": "Technology used"
+        },
+        {
+          "id": "omp-4-15",
+          "required": false,
+          "type": "longtext",
+          "label": "Describe your infrastructure scalability",
+          "text": "Infrastructure scalability"
+        }
+      ]
+    },
+    {
+      "sectionId": "omp-5",
+      "text": "Additional Information",
+      "helpText": "Anything else you would like to tell us about your company?",
+      "questions": [
+        {
+          "id": "omp-5-1",
+          "required": false,
+          "type": "longtext",
+          "label": "What have been the most significant milestones (awards, number of users, validations, funding round...)?",
+          "text": "Milestones"
+        }
+      ]
+    }
+  ]
+}
